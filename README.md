@@ -17,13 +17,14 @@
 
 モッドパック内の Mod を走査した結果です（`en_us` を持つ名前空間 218 個）。数値は英語キー数の目安。
 
-- ✅ **このパックで翻訳**：19／📦 **Mod同梱で対応済み**：70／🧩 **パック側 kubejs で対応済み**：3／❌ **未対応（翻訳候補）**：87（ほかにライブラリ・未使用など 39 は対象外）
+- ✅ **このパックで翻訳**：23／📦 **Mod同梱で対応済み**：69／🧩 **パック側 kubejs で対応済み**：3／❌ **未対応（翻訳候補）**：84（ほかにライブラリ・未使用など 39 は対象外）
 
 ### ✅ このパックで翻訳
 
 | 名前空間 | 内容 | キー数 |
 |------|------|-------:|
 | `dfc` | DecoFirmaCraft（TFC装飾ブロック大量追加） | 3,062 |
+| `nuclearcraft` | NuclearCraft（原子力Mod。Mod同梱ja_jpの欠落分649=加速器・粒子物理・標的チェンバー・クーゲルブリッツ等を補完） | 2,851 |
 | `immersivegeology` | Immersive Geology（地質・鉱石加工） | 2,120 |
 | `mcw_tfc_aio` | Macaw's 家具（TFC統合版） | 2,033 |
 | `integrateddynamics` | Integrated Dynamics 本体（本・アイテム・オペレーター・アスペクト・実績） | 1,754 |
@@ -37,12 +38,15 @@
 | `framedblocks` | FramedBlocks（カモフラージュ装飾。幾何形状ブロック・設定・ツールチップ） | 346 |
 | `ftbchunks` | FTB Chunks（チャンク取得・地図・ミニマップ・ウェイポイント） | 282 |
 | `integratedterminals` | Integrated Terminals（ストレージ端末） | 176 |
+| `alekiships` | aleki's Nifty Ships（帆船Mod。ボート/スループ・区画・大砲・実績） | 120 |
 | `integratedcrafting` | Integrated Crafting（自動クラフト） | 110 |
 | `ftblibrary` | FTB Library（FTB系共通UI・GUI部品） | 99 |
 | `patchouli` | Patchouli 本ビューアUI（全Patchouli本共通） | 90 |
 | `ftbteams` | FTB Teams（チーム・パーティ管理） | 89 |
 | `advancedperipherals` | Advanced Peripherals（アイテム・Patchouli本） | 88 |
-| **合計** | 19名前空間 ＋ Patchouli本26ファイル | **15,261** |
+| `create_tweaked_controllers` | Create: Tweaked Controllers（ゲームパッド対応コントローラー） | 85 |
+| `drivebywire` | Drive By Wire（VS2船のケーブルネットワーク） | 29 |
+| **合計** | 23名前空間 ＋ Patchouli本26ファイル | **18,346** |
 
 ### 🧩 パック側 kubejs で対応済み
 
@@ -52,15 +56,14 @@
 | `gtceu` | gtceu | 5,921 |
 | `create` | create | 3,646 |
 
-### 📦 Mod同梱で対応済み（70）
+### 📦 Mod同梱で対応済み（69）
 
 各 Mod が自前で `ja_jp` を同梱しており、そのまま日本語表示されます。
 
-<details><summary>一覧を開く（70）</summary>
+<details><summary>一覧を開く（69）</summary>
 
 | 名前空間 | Mod | キー数 |
 |------|------|-------:|
-| `nuclearcraft` | NuclearCraft | 2,851 |
 | `immersiveengineering` | ImmersiveEngineering | 1,405 |
 | `iceandfire` | iceandfire | 1,322 |
 | `railways` | Steam_Rails | 1,293 |
@@ -133,11 +136,11 @@
 
 </details>
 
-### ❌ 未対応・翻訳候補（87）
+### ❌ 未対応・翻訳候補（84）
 
 プレイに関わる未翻訳 Mod（キー数の多い順）。
 
-<details><summary>一覧を開く（87）</summary>
+<details><summary>一覧を開く（84）</summary>
 
 | 名前空間 | Mod | キー数 |
 |------|------|-------:|
@@ -158,7 +161,6 @@
 | `attributeslib` | ApothicAttributes | 130 |
 | `gregitas_core` | gregitas-core | 129 |
 | `fluxnetworks` | FluxNetworks | 123 |
-| `alekiships` | alekiNiftyShips | 120 |
 | `workers` | workers | 114 |
 | `buildinggadgets2` | buildinggadgets2 | 111 |
 | `megacells` | megacells | 108 |
@@ -166,7 +168,6 @@
 | `smallships` | smallships | 95 |
 | `laserio` | laserio | 90 |
 | `sfcr` | sfcr | 88 |
-| `create_tweaked_controllers` | create_tweaked_controllers | 85 |
 | `mininggadgets` | mininggadgets | 85 |
 | `projectred_transmission` | ProjectRed | 71 |
 | `precisionprospecting` | precisionprospecting | 70 |
@@ -198,7 +199,6 @@
 | `blazemap` | BlazeMap | 32 |
 | `cccbridge` | cccbridge | 32 |
 | `trashcans` | trashcans | 32 |
-| `drivebywire` | drivebywire | 29 |
 | `create_factory_logistics` | create_factory_logistics | 27 |
 | `woodencog` | woodencog | 27 |
 | `ae2netanalyser` | AE2NetworkAnalyzer | 24 |

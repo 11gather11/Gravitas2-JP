@@ -6,6 +6,17 @@
 
 ## [Unreleased]
 
+## [0.10.0] - 2026-07-07
+
+### Added
+
+- **Mod 4種を翻訳**（計883キー）。
+  - **NuclearCraft（加速器ほか）**（649）：Mod同梱 ja_jp の欠落分をリソースパックの lang 上書きで補完（キー単位でマージ）。加速器（線形加速器・標的チェンバー・粒子ビーム）、粒子物理（クォーク/レプトン/中間子/バリオン133）、クーゲルブリッツ（ブラックホール）チェンバー、同位体・スポレーション廃棄物、実績、Ponder建築ガイド、機械UI・レポートを翻訳。
+  - **alekiships（aleki's Nifty Ships）**（120）：帆船Mod。ボート/スループ・区画・大砲・実績（木材はバニラ準拠）。
+  - **create_tweaked_controllers（Create: Tweaked Controllers）**（85）：ゲームパッド対応リンクコントローラー。Create書式の `_強調_` マーカーを保持。
+  - **drivebywire（Drive By Wire）**（29）：VS2船のケーブルネットワーク（Ponder含む）。
+  - キー一致・プレースホルダ整合を検証済み（未訳0）。
+
 ## [0.9.0] - 2026-07-07
 
 ### Added
@@ -112,7 +123,8 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.9.0...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.10.0...HEAD
+[0.10.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.9.0...v0.10.0
 [0.9.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.8.0...v0.9.0
 [0.8.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.7.0...v0.8.0
 [0.7.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.6.0...v0.7.0
