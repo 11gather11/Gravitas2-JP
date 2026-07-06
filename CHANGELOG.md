@@ -6,6 +6,13 @@
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-07-06
+
+### Added
+
+- **vintage（Create: Vintage）** を翻訳（481キー）。Create アドオン（Vintage: Improvements の非公式移植）。
+  金属×加工品（棒/ワイヤー/スプリング/板）はキーから合成生成（金属名はパック内の既訳と統一）、機械名・Ponder（世界内ガイド）・JEI・GUI・実績・トリム素材を翻訳。曲げヘッドのASCIIアートは保持。プレースホルダ整合を検証済み（未訳0）。
+
 ## [0.4.0] - 2026-07-06
 
 ### Added
@@ -67,7 +74,8 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.4.0...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.5.0...HEAD
+[0.5.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.1.2...v0.2.0
