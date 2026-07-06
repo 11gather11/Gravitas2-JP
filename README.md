@@ -15,9 +15,9 @@
 
 ## 翻訳状況
 
-このモッドパックの Mod を走査した結果です（`en_us` を持つ名前空間 218 個）。日本語化の状態は次の通り。数値は英語キー数の目安です。
+モッドパック内の Mod を走査した結果です（`en_us` を持つ名前空間 218 個）。数値は英語キー数の目安。
 
-- ✅ **このパックで翻訳**：9／📦 **Mod同梱で対応済み**：70／🧩 **パック側 kubejs で対応済み**：3／❌ **未対応（翻訳候補）**：98（ほかにライブラリ等 38 は対象外）
+- ✅ **このパックで翻訳**：9／📦 **Mod同梱で対応済み**：70／🧩 **パック側 kubejs で対応済み**：3／❌ **未対応（翻訳候補）**：97（ほかにライブラリ・未使用など 39 は対象外）
 
 ### ✅ このパックで翻訳
 
@@ -34,37 +34,254 @@
 | `advancedperipherals` | Advanced Peripherals（アイテム・Patchouli本） | 88 |
 | **合計** | 10名前空間 ＋ Patchouli本26ファイル | **9,920** |
 
-### 📦 元から日本語対応（Mod同梱・kubejs）
+### 🧩 パック側 kubejs で対応済み
 
-多くの Mod は自前で `ja_jp` を同梱しており、そのまま日本語表示されます。パック側 kubejs でも一部提供されています。
+| 名前空間 | Mod | キー数 |
+|------|------|-------:|
+| `tfc` | TerraFirmaCraft | 8,481 |
+| `gtceu` | gtceu | 5,921 |
+| `create` | create | 3,646 |
 
-<details><summary>🧩 パック側 kubejs（3）</summary>
+### 📦 Mod同梱で対応済み（70）
 
-`tfc`(8,481) / `gtceu`(5,921) / `create`(3,646)
+各 Mod が自前で `ja_jp` を同梱しており、そのまま日本語表示されます。
+
+<details><summary>一覧を開く（70）</summary>
+
+| 名前空間 | Mod | キー数 |
+|------|------|-------:|
+| `nuclearcraft` | NuclearCraft | 2,851 |
+| `immersiveengineering` | ImmersiveEngineering | 1,405 |
+| `iceandfire` | iceandfire | 1,322 |
+| `railways` | Steam_Rails | 1,293 |
+| `railcraft` | railcraft-reborn | 1,025 |
+| `apotheosis` | Apotheosis | 1,014 |
+| `firmalife` | Firmalife | 1,013 |
+| `ae2` | appliedenergistics2 | 999 |
+| `everycomp` | everycomp | 962 |
+| `createbigcannons` | createbigcannons | 744 |
+| `powergrid` | powergrid | 663 |
+| `sgjourney` | Stargate Journey | 661 |
+| `xaerominimap` | Xaeros_Minimap | 611 |
+| `enderio` | EnderIO | 553 |
+| `inventoryprofilesnext` | InventoryProfilesNext | 519 |
+| `recruits` | recruits | 519 |
+| `createdeco` | createdeco | 418 |
+| `alltheores` | alltheores | 333 |
+| `farmersdelight` | FarmersDelight | 323 |
+| `create_connected` | create_connected | 307 |
+| `createdieselgenerators` | createdieselgenerators | 286 |
+| `allthemodium` | allthemodium | 282 |
+| `jade` | Jade | 280 |
+| `sophisticatedcore` | sophisticatedcore | 276 |
+| `createaddition` | createaddition | 255 |
+| `computercraft` | cc-tweaked | 233 |
+| `sophisticatedbackpacks` | sophisticatedbackpacks | 228 |
+| `voicechat` | voicechat | 228 |
+| `waystones` | waystones | 199 |
+| `enchdesc` | EnchantmentDescriptions | 183 |
+| `gcyr` | gcyr | 183 |
+| `expatternprovider` | ExtendedAE | 172 |
+| `advanced_ae` | AdvancedAE | 167 |
+| `repurposed_structures` | repurposed_structures | 161 |
+| `modernfix` | modernfix | 137 |
+| `storagedrawers` | StorageDrawers | 133 |
+| `jei` | jei | 132 |
+| `nochatreports` | NoChatReports | 129 |
+| `immersive_aircraft` | immersive_aircraft | 123 |
+| `petrolpark` | petrolpark | 81 |
+| `xaerobetterpvp` | Xaeros_Minimap | 77 |
+| `comforts` | comforts | 77 |
+| `iris` | oculus | 72 |
+| `copycats` | copycats | 67 |
+| `chalk` | chalk | 64 |
+| `simpleradio` | simpleradio | 55 |
+| `trackwork` | trackwork | 55 |
+| `valkyrienskies` | valkyrienskies-120 | 55 |
+| `projectred_core` | ProjectRed | 54 |
+| `lootr` | lootr | 51 |
+| `cloth-config2` | cloth-config | 49 |
+| `curios` | curios | 48 |
+| `immersive_machinery` | immersive_machinery | 40 |
+| `tfcagedalcohol` | TFCAgedAlcohol | 38 |
+| `bellsandwhistles` | bellsandwhistles | 38 |
+| `sodiumdynamiclights` | sodiumdynamiclights | 34 |
+| `bookshelf` | Bookshelf | 32 |
+| `enderchests` | enderchests | 28 |
+| `allthetweaks` | allthetweaks | 26 |
+| `minecraft` | TerraFirmaCraft | 21 |
+| `ae2ct` | ae2ct | 19 |
+| `waterflasks` | waterflasks | 17 |
+| `tfcgroomer` | tfcgroomer | 16 |
+| `astikorcarts` | astikorcarts | 15 |
+| `controlling` | Controlling | 12 |
+| `moonlight` | moonlight | 9 |
+| `aeinfinitybooster` | AEInfinityBooster | 3 |
+| `pccard` | Programmed Circuit Card | 1 |
+| `searchables` | Searchables | 1 |
+| `endertanks` | endertanks | 0 |
 
 </details>
 
-<details><summary>📦 Mod 同梱（70）</summary>
+### ❌ 未対応・翻訳候補（97）
 
-`nuclearcraft`(2,851) / `immersiveengineering`(1,405) / `iceandfire`(1,322) / `railways`(1,293) / `railcraft`(1,025) / `apotheosis`(1,014) / `firmalife`(1,013) / `ae2`(999) / `everycomp`(962) / `createbigcannons`(744) / `powergrid`(663) / `sgjourney`(661) / `xaerominimap`(611) / `enderio`(553) / `inventoryprofilesnext`(519) / `recruits`(519) / `createdeco`(418) / `alltheores`(333) / `farmersdelight`(323) / `create_connected`(307) / `createdieselgenerators`(286) / `allthemodium`(282) / `jade`(280) / `sophisticatedcore`(276) / `createaddition`(255) / `computercraft`(233) / `sophisticatedbackpacks`(228) / `voicechat`(228) / `waystones`(199) / `enchdesc`(183) / `gcyr`(183) / `expatternprovider`(172) / `advanced_ae`(167) / `repurposed_structures`(161) / `modernfix`(137) / `storagedrawers`(133) / `jei`(132) / `nochatreports`(129) / `immersive_aircraft`(123) / `petrolpark`(81) / `xaerobetterpvp`(77) / `comforts`(77) / `iris`(72) / `copycats`(67) / `chalk`(64) / `simpleradio`(55) / `trackwork`(55) / `valkyrienskies`(55) / `projectred_core`(54) / `lootr`(51) / `cloth-config2`(49) / `curios`(48) / `immersive_machinery`(40) / `tfcagedalcohol`(38) / `bellsandwhistles`(38) / `sodiumdynamiclights`(34) / `bookshelf`(32) / `enderchests`(28) / `allthetweaks`(26) / `minecraft`(21) / `ae2ct`(19) / `waterflasks`(17) / `tfcgroomer`(16) / `astikorcarts`(15) / `controlling`(12) / `moonlight`(9) / `aeinfinitybooster`(3) / `pccard`(1) / `searchables`(1) / `endertanks`(0)
+プレイに関わる未翻訳 Mod（キー数の多い順）。
+
+<details><summary>一覧を開く（97）</summary>
+
+| 名前空間 | Mod | キー数 |
+|------|------|-------:|
+| `tombstone` | tombstone | 1,112 |
+| `scguns` | ScorchedGuns | 971 |
+| `tfcastikorcarts` | TFCAstikorCarts | 928 |
+| `ftbquests` | ftb-quests | 572 |
+| `vintage` | vintage | 481 |
+| `tfc_ie_addon` | TFC-IE-Crossover | 461 |
+| `vs_clockwork` | clockwork | 458 |
+| `thoriumreactors` | thoriumreactors | 369 |
+| `framedblocks` | FramedBlocks | 346 |
+| `ftbchunks` | ftb-chunks | 282 |
+| `xaeroworldmap` | XaerosWorldMap | 272 |
+| `beneath` | beneath | 268 |
+| `sfm` | Super Factory Manager (SFM) | 255 |
+| `firmaciv` | FirmaCivilization | 239 |
+| `potionsmaster` | potionsmaster | 237 |
+| `integrateddynamicscompat` | IntegratedDynamics | 214 |
+| `tfcgenviewer` | tfcgenviewer | 177 |
+| `projectred_fabrication` | ProjectRed | 174 |
+| `bits_n_bobs` | bits_n_bobs | 174 |
+| `projectred_illumination` | ProjectRed | 162 |
+| `hostilenetworks` | HostileNeuralNetworks | 160 |
+| `create_new_age` | create-new-age | 158 |
+| `attributeslib` | ApothicAttributes | 130 |
+| `gregitas_core` | gregitas-core | 129 |
+| `fluxnetworks` | FluxNetworks | 123 |
+| `alekiships` | alekiNiftyShips | 120 |
+| `workers` | workers | 114 |
+| `buildinggadgets2` | buildinggadgets2 | 111 |
+| `megacells` | megacells | 108 |
+| `simpleplanes` | simpleplanes | 108 |
+| `ftblibrary` | ftb-library | 99 |
+| `smallships` | smallships | 95 |
+| `laserio` | laserio | 90 |
+| `ftbteams` | ftb-teams | 89 |
+| `sfcr` | sfcr | 88 |
+| `create_tweaked_controllers` | create_tweaked_controllers | 85 |
+| `mininggadgets` | mininggadgets | 85 |
+| `projectred_transmission` | ProjectRed | 71 |
+| `precisionprospecting` | precisionprospecting | 70 |
+| `petrolsparts` | petrolsparts | 69 |
+| `tfc_textile` | tfc_textile | 69 |
+| `freecam` | freecam | 65 |
+| `tfships` | tfships | 63 |
+| `tfccaffeinated` | tfccaffeinated | 61 |
+| `extremesoundmuffler` | ExtremeSoundMuffler | 56 |
+| `survivorsdelight` | survivorsdelight | 56 |
+| `deathpunishment` | TFC_punishment_for_death | 53 |
+| `tfclunchbox` | tfclunchbox | 49 |
+| `betterp2p` | betterp2p | 47 |
+| `ezvcsurvival` | Voiceless Survival | 44 |
+| `advancedtfctech` | AdvancedTFCTech | 43 |
+| `zume` | zume | 42 |
+| `tfceureka` | tfceureka | 41 |
+| `vs_eureka` | eureka-1201 | 40 |
+| `fallingtrees` | fallingtrees | 40 |
+| `tfcthermaldeposits` | TFCVolcanoes | 39 |
+| `tfcambiental` | tfcambiental | 38 |
+| `tfcchannelcasting` | tfcchannelcasting | 38 |
+| `jadeaddons` | JadeAddons | 36 |
+| `projectred_integration` | ProjectRed | 35 |
+| `ae2wtlib` | ae2wtlib | 35 |
+| `siegemachines` | 1.20.1]-Siege-Machines | 34 |
+| `createmoredrillheads` | createmoredrillheads | 34 |
+| `workerstfc` | workerstfc | 33 |
+| `blazemap` | BlazeMap | 32 |
+| `cccbridge` | cccbridge | 32 |
+| `trashcans` | trashcans | 32 |
+| `drivebywire` | drivebywire | 29 |
+| `create_factory_logistics` | create_factory_logistics | 27 |
+| `woodencog` | woodencog | 27 |
+| `ae2netanalyser` | AE2NetworkAnalyzer | 24 |
+| `wirelessredstone` | wirelessredstone | 24 |
+| `merequester` | merequester | 23 |
+| `tfcseedsoftime` | tfcseedsoftime | 23 |
+| `wirelesschargers` | wirelesschargers | 23 |
+| `createhorsepower` | createhorsepower | 21 |
+| `cartography` | Cartography | 15 |
+| `ae2things` | AE2-Things | 12 |
+| `integratedterminalscompat` | IntegratedTerminals | 12 |
+| `jade_vs` | Jade-VS | 10 |
+| `coldsgrappler` | ColdGrapplerAndRopes(Forge1.20.1)vs1.0.0 | 8 |
+| `survivorsabilities` | survivorsabilities | 7 |
+| `castirongrill` | CastIronGrill | 6 |
+| `hangglider` | HangGlider | 5 |
+| `create_hp_ts` | create_hp_ts | 5 |
+| `createimmersiveunnecessaryshaft` | createimmersiveunnecessaryshaft | 5 |
+| `eyesoficeandfire` | eyesoficeandfire | 5 |
+| `tfc_support_indicator` | tfc_support_indicator | 5 |
+| `tfcea` | tfcea | 5 |
+| `findme` | findme | 4 |
+| `tfccanes` | tfccanes | 4 |
+| `easynametags` | EasyNameTags | 3 |
+| `headlight` | Headlight | 3 |
+| `showcaseitem` | showcaseitem | 2 |
+| `auroras` | Auroras | 1 |
+| `justenoughprofessions` | JustEnoughProfessions | 1 |
+| `waves` | Waves | 1 |
 
 </details>
 
-### ❌ 未対応（翻訳候補）
+### ⚪ 対象外（39）
 
-プレイに関わる主な未翻訳 Mod（キー数の多い順）。
+ライブラリ・軽量化・API・設定・未使用など、翻訳しても表示に影響しない Mod。
 
-<details><summary>翻訳候補（98）</summary>
+<details><summary>一覧を開く（39）</summary>
 
-`emi`(2,129) / `tombstone`(1,112) / `scguns`(971) / `tfcastikorcarts`(928) / `ftbquests`(572) / `vintage`(481) / `tfc_ie_addon`(461) / `vs_clockwork`(458) / `thoriumreactors`(369) / `framedblocks`(346) / `ftbchunks`(282) / `xaeroworldmap`(272) / `beneath`(268) / `sfm`(255) / `firmaciv`(239) / `potionsmaster`(237) / `integrateddynamicscompat`(214) / `tfcgenviewer`(177) / `projectred_fabrication`(174) / `bits_n_bobs`(174) / `projectred_illumination`(162) / `hostilenetworks`(160) / `create_new_age`(158) / `attributeslib`(130) / `gregitas_core`(129) / `fluxnetworks`(123) / `alekiships`(120) / `workers`(114) / `buildinggadgets2`(111) / `megacells`(108) / `simpleplanes`(108) / `ftblibrary`(99) / `smallships`(95) / `laserio`(90) / `ftbteams`(89) / `sfcr`(88) / `create_tweaked_controllers`(85) / `mininggadgets`(85) / `projectred_transmission`(71) / `precisionprospecting`(70) / `petrolsparts`(69) / `tfc_textile`(69) / `freecam`(65) / `tfships`(63) / `tfccaffeinated`(61) / `extremesoundmuffler`(56) / `survivorsdelight`(56) / `deathpunishment`(53) / `tfclunchbox`(49) / `betterp2p`(47) / `ezvcsurvival`(44) / `advancedtfctech`(43) / `zume`(42) / `tfceureka`(41) / `vs_eureka`(40) / `fallingtrees`(40) / `tfcthermaldeposits`(39) / `tfcambiental`(38) / `tfcchannelcasting`(38) / `jadeaddons`(36) / `projectred_integration`(35) / `ae2wtlib`(35) / `siegemachines`(34) / `createmoredrillheads`(34) / `workerstfc`(33) / `blazemap`(32) / `cccbridge`(32) / `trashcans`(32) / `drivebywire`(29) / `create_factory_logistics`(27) / `woodencog`(27) / `ae2netanalyser`(24) / `wirelessredstone`(24) / `merequester`(23) / `tfcseedsoftime`(23) / `wirelesschargers`(23) / `createhorsepower`(21) / `cartography`(15) / `ae2things`(12) / `integratedterminalscompat`(12) / `jade_vs`(10) / `coldsgrappler`(8) / `survivorsabilities`(7) / `castirongrill`(6) / `hangglider`(5) / `create_hp_ts`(5) / `createimmersiveunnecessaryshaft`(5) / `eyesoficeandfire`(5) / `tfc_support_indicator`(5) / `tfcea`(5) / `findme`(4) / `tfccanes`(4) / `easynametags`(3) / `headlight`(3) / `showcaseitem`(2) / `auroras`(1) / `justenoughprofessions`(1) / `waves`(1)
+| 名前空間 | Mod | キー数 |
+|------|------|-------:|
+| `emi` | NuclearCraft | 2,129 |
+| `distanthorizons` | DistantHorizons | 466 |
+| `chloride` | chloride | 154 |
+| `sodium` | embeddium | 65 |
+| `configured` | configured | 62 |
+| `titanium` | titanium | 48 |
+| `creativecore` | CreativeCore | 44 |
+| `cyclopscore` | CyclopsCore | 42 |
+| `itemfilters` | item-filters | 41 |
+| `configuration` | configuration | 40 |
+| `guideme` | guideme | 36 |
+| `balm` | balm | 35 |
+| `observable` | observable | 33 |
+| `geckolib` | geckolib | 31 |
+| `libipn` | libIPN | 28 |
+| `citadel` | citadel | 24 |
+| `fastload` | Fastload-Reforged | 21 |
+| `colorwheel` | colorwheel | 21 |
+| `codechickenlib` | CodeChickenLib | 18 |
+| `cb_microblock` | CBMultipart | 17 |
+| `smoothboot` | smoothboot(reloaded) | 14 |
+| `commoncapabilities` | CommonCapabilities | 10 |
+| `measurements` | Measurements | 8 |
+| `fusion` | fusion | 8 |
+| `treetap` | treetap | 8 |
+| `embeddium` | embeddium | 7 |
+| `placebo` | Placebo | 6 |
+| `almostunified` | almostunified | 6 |
+| `packmenu` | PackMenu | 5 |
+| `crashutilities` | crashutilities | 4 |
+| `entityculling` | entityculling | 3 |
+| `bcc` | BetterCompatibilityChecker | 2 |
+| `betterfpsdist` | betterfpsdist | 2 |
+| `jeimultiblocks` | jeimultiblocks | 2 |
+| `framework` | framework | 1 |
+| `pandalib` | pandalib | 1 |
+| `drivebywire_recipes` | drivebywire_recipes | 0 |
+| `ftbxmodcompat` | ftb-xmod-compat | 0 |
+| `shetiphiancore` | shetiphiancore | 0 |
 
 </details>
 
-<details><summary>対象外：ライブラリ・軽量化・API・設定など（38）</summary>
-
-`distanthorizons`(466) / `chloride`(154) / `sodium`(65) / `configured`(62) / `titanium`(48) / `creativecore`(44) / `cyclopscore`(42) / `itemfilters`(41) / `configuration`(40) / `guideme`(36) / `balm`(35) / `observable`(33) / `geckolib`(31) / `libipn`(28) / `citadel`(24) / `fastload`(21) / `colorwheel`(21) / `codechickenlib`(18) / `cb_microblock`(17) / `smoothboot`(14) / `commoncapabilities`(10) / `measurements`(8) / `fusion`(8) / `treetap`(8) / `embeddium`(7) / `placebo`(6) / `almostunified`(6) / `packmenu`(5) / `crashutilities`(4) / `entityculling`(3) / `bcc`(2) / `betterfpsdist`(2) / `jeimultiblocks`(2) / `framework`(1) / `pandalib`(1) / `drivebywire_recipes`(0) / `ftbxmodcompat`(0) / `shetiphiancore`(0)
-
-</details>
+> `emi` は EMI 用のタグ表示名だが、本パックは JEI を使い EMI 未導入のため対象外。
 
 > この一覧は `python tools/scan_status.py "<インスタンスのパス>"` で再生成できます。
 
