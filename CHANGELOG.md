@@ -6,6 +6,11 @@
 
 ## [Unreleased]
 
+### Added
+
+- README に「翻訳カバレッジ」と「未翻訳（翻訳候補）」の節を追加。
+- `tools/scan_status.py` を追加：各 Mod の日本語化状況（このパック／kubejs／Mod同梱／未翻訳）を走査して一覧表示する。
+
 ## [0.3.0] - 2026-07-06
 
 ### Added

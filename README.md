@@ -18,8 +18,34 @@
 | `immersivegeology` | Immersive Geology（地質・鉱石加工。鉱物名/機械/実績/マニュアル） | 2,120 |
 | `advancedperipherals` | アイテム名・ツールチップ・ガイドブック（Patchouli） | 88 + 本26ファイル |
 | `patchouli` | 本ビューアのUI（Categories / Chapters など、全Patchouli本共通） | 90 |
+| **合計** | 10名前空間 ＋ Patchouli本 | **約11,700** |
 
-※ Create / GregTech CEu / TerraFirmaCraft 本体は、パック側（kubejs）で日本語が提供されています。
+## 翻訳カバレッジ
+
+このモッドパックには 255 個の Mod（en_us を持つ名前空間は 221）が含まれます。翻訳の状態は3つに分かれます。
+
+- ✅ **このパックで翻訳**：上表の10名前空間。
+- 📦 **Mod本体／パック側で提供済み**：多くの Mod は自前で `ja_jp` を同梱しており、そのまま日本語で表示されます。
+  例：TerraFirmaCraft・Create・GregTech CEu（パック側 kubejs）、Immersive Engineering・NuclearCraft・Ice and Fire・AE2・Apotheosis・Create Railways など（Mod同梱）。
+- ❌ **未翻訳**：下記「未翻訳（翻訳候補）」を参照。
+
+> 状態は各 jar の `assets/<ns>/lang/` を走査して判定しています（ライブラリ・軽量化・設定系の Mod は対象外）。
+>
+> 最新状況は次で再生成できます：`python tools/scan_status.py "<インスタンスのパス>"`
+
+## 未翻訳（翻訳候補）
+
+プレイに関わる主な未翻訳 Mod（キー数の多い順・抜粋）。ライブラリや軽量化 Mod（DistantHorizons, Embeddium, Configured, CyclopsCore など）は対象外です。
+
+| 分類 | Mod（名前空間 / 概算キー数） |
+|------|------|
+| 大型 | NuclearCraft の EMI 情報 `emi`(2,129) / `tombstone`(1,112) / Scorched Guns `scguns`(971) / TFC 荷馬車 `tfcastikorcarts`(928) / FTB Quests UI `ftbquests`(572) / `framedblocks`(346) |
+| 乗り物・兵器 | `vs_clockwork`(458) / `alekiships`(120) / `simpleplanes`(108) / `smallships`(95) / `sfcr`(88) / `petrolsparts`(69) / `siegemachines`(34) |
+| AE2 拡張 | `megacells`(108) / `betterp2p`(47) / `ae2wtlib`(35) / `ae2netanalyser`(24) / `merequester`(23) |
+| Create 拡張 | `create_new_age`(158) / `create_tweaked_controllers`(85) / `createmoredrillheads`(34) / `cccbridge`(32) / `create_factory_logistics`(27) |
+| TFC 系アドオン | `tfc_ie_addon`(461) / `firmaciv`(239) / `tfcgenviewer`(177) / `tfships`(63) / `tfc_textile`(69) / `tfccaffeinated`(61) / `advancedtfctech`(43) ほか |
+| 便利・UI | `xaeroworldmap`(272) / `ftbchunks`(282) / `sfm`(255) / `ftblibrary`(99) / `ftbteams`(89) / `laserio`(90) / `buildinggadgets2`(111) / `mininggadgets`(85) / `jadeaddons`(36) |
+| その他 | `vintage`(481) / `thoriumreactors`(369) / `beneath`(268) / `potionsmaster`(237) / `hostilenetworks`(160) / ProjectRed 各種 / `fluxnetworks`(123) ほか |
 
 ## ディレクトリ構成
 
