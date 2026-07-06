@@ -6,6 +6,15 @@
 
 ## [Unreleased]
 
+## [0.9.0] - 2026-07-07
+
+### Added
+
+- **TFC系アドオン2種を翻訳**（計1,389キー）。
+  - **tfcastikorcarts（TFC Astikor Carts）**（928）：木材×荷車の合成命名（補給/動物カート・鋤・ポスティリオン・車輪）。木材103種を辞書で合成。
+  - **tfc_ie_addon（TFC-IE Crossover）**（461）：TFC×Immersive Engineering。鉱石ブロック（グレード×岩石×鉱石）はTFC規則で合成、金属加工品・鉱物・工具ヘッド・鉱脈名を翻訳。
+  - キー一致・プレースホルダ整合を検証済み（未訳0）。
+
 ### Changed
 
 - `build.py` を `tools/build.py` へ移動し、`tools/scan_status.py` と場所を統一。CI/リリースワークフローとドキュメントの参照を更新（`python tools/build.py ...`）。
@@ -103,7 +112,8 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.8.0...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.9.0...HEAD
+[0.9.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.8.0...v0.9.0
 [0.8.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.7.0...v0.8.0
 [0.7.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.5.0...v0.6.0
