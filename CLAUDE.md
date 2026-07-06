@@ -10,8 +10,9 @@ Gravitas2-JP/
 │  ├─ pack.mcmeta                 pack_format 15（説明文はビルド時にバージョン注入）
 │  ├─ pack.png                    アイコン（64x64）
 │  └─ assets/<ns>/lang/ja_jp.json 各Modの翻訳。Patchouli本は assets/<ns>/patchouli_books/...
-├─ build.py                       pack/ を zip 化＋全JSON検証＋インスタンスへ配置
-├─ tools/scan_status.py           各Modの日本語化状況を走査
+├─ tools/
+│  ├─ build.py                    pack/ を zip 化＋全JSON検証＋インスタンスへ配置
+│  └─ scan_status.py              各Modの日本語化状況を走査
 ├─ CHANGELOG.md                   Keep a Changelog 形式
 ├─ CLAUDE.md / README.md / LICENSE
 ├─ .gitattributes                 テキスト=LF（CRLF の \r 化け防止）
@@ -21,13 +22,13 @@ Gravitas2-JP/
 ## ビルド
 
 ```bash
-python build.py            # dist/Gravitas2-JP.zip を生成し、インスタンスの resourcepacks へも配置
-python build.py --no-copy  # dist/ に出力するだけ（CI で使用）
+python tools/build.py            # dist/Gravitas2-JP.zip を生成し、インスタンスの resourcepacks へも配置
+python tools/build.py --no-copy  # dist/ に出力するだけ（CI で使用）
 ```
 
 - ビルド時に `pack/` 内の全 `*.json` と `pack.mcmeta` の妥当性を検証（不正なら中断）。
 - pack.mcmeta の `description` 1行目に `§8<version>` を注入（ソースは書き換えず zip 内のみ差し替え）。バージョンは `--version` 引数 → `git describe --tags` → `dev` の順で決定。
-- 配置先はインスタンスの `resourcepacks/` フォルダ。環境に合わせて `build.py` 冒頭の `INSTANCE_RESOURCEPACKS` を変更する（例: `F:\Games\Minecraft\CurseForge\Instances\All The Mods - Gravitas\resourcepacks`）。
+- 配置先はインスタンスの `resourcepacks/` フォルダ。環境に合わせて `tools/build.py` 冒頭の `INSTANCE_RESOURCEPACKS` を変更する（例: `F:\Games\Minecraft\CurseForge\Instances\All The Mods - Gravitas\resourcepacks`）。
 - **ゲーム起動中は有効なパックの zip がロックされ、インスタンスへのコピーが失敗する**。その場合はゲームを閉じてから再ビルドする。
 
 ## バージョニングとリリース

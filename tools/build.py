@@ -5,16 +5,16 @@ pack/ 以下（pack.mcmeta + assets/）を zip 化してリソースパックを
 - dist/Gravitas2-JP.zip を出力
 - INSTANCE_RESOURCEPACKS が存在すれば、そこにもコピー（ゲームですぐ使える）
 
-使い方:
-    python build.py            # ビルドしてインスタンスにも配置
-    python build.py --no-copy  # dist/ に出力するだけ
+使い方（リポジトリのルートから実行）:
+    python tools/build.py            # ビルドしてインスタンスにも配置
+    python tools/build.py --no-copy  # dist/ に出力するだけ
 """
 import os
 import sys
 import json
 import zipfile
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # リポジトリのルート（tools/ の親）
 PACK = os.path.join(ROOT, "pack")
 DIST = os.path.join(ROOT, "dist")
 ZIP_NAME = "Gravitas2-JP.zip"

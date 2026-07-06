@@ -18,4 +18,4 @@ jobs:
       # 全 ja_jp.json / Patchouli 本 JSON の妥当性を検証し、ビルドが通るか確認する
       # （build.py は JSON エラーがあれば非ゼロ終了する）
       - name: Validate & build resource pack
-        run: python build.py --no-copy
+        run: python tools/build.py --no-copy

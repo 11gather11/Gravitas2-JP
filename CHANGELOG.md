@@ -6,6 +6,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+- `build.py` を `tools/build.py` へ移動し、`tools/scan_status.py` と場所を統一。CI/リリースワークフローとドキュメントの参照を更新（`python tools/build.py ...`）。
+
 ## [0.8.0] - 2026-07-06
 
 ### Added

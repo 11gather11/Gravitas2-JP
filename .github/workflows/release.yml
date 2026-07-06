@@ -20,7 +20,7 @@ jobs:
           python-version: "3.x"
 
       - name: Build resource pack
-        run: python build.py --no-copy --version "${GITHUB_REF_NAME}"
+        run: python tools/build.py --no-copy --version "${GITHUB_REF_NAME}"
 
       - name: Rename artifact with version
         run: cp dist/Gravitas2-JP.zip "Gravitas2-JP-${GITHUB_REF_NAME}.zip"
