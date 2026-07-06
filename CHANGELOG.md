@@ -6,6 +6,10 @@
 
 ## [Unreleased]
 
+### Removed
+
+- Advanced Peripherals ガイド本の**表紙紹介文（landing_text）**はリソースパックでは翻訳できないため（Patchouli の `book.json` はデータパック `data/` 側にあり、`assets/` の上書きは無視される）、無効だった `assets/advancedperipherals/patchouli_books/manual/book.json` を削除。表紙の1文のみ英語のまま（本文ページ・UIは日本語）。
+
 ### Fixed
 
 - `pack.mcmeta` の description に生の改行が含まれ不正なJSONだった問題を修正（リソースパック一覧で説明が「□」に化ける不具合）。
