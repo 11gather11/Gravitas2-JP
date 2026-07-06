@@ -14,6 +14,7 @@
 | `integratedcrafting` | 自動クラフト | 109 |
 | `integratedterminals` | ストレージ端末 | 175 |
 | `mcw_tfc_aio` | Macaw's 家具（TFC統合版） | 2,033 |
+| `dfc` | DecoFirmaCraft（TFC装飾ブロック大量追加） | 3,062 |
 | `advancedperipherals` | アイテム名・ツールチップ・ガイドブック（Patchouli） | 88 + 本26ファイル |
 | `patchouli` | 本ビューアのUI（Categories / Chapters など、全Patchouli本共通） | 90 |
 

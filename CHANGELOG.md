@@ -6,6 +6,14 @@
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-07-06
+
+### Added
+
+- **dfc（DecoFirmaCraft）** を翻訳（3,062キー）。TFC の装飾ブロックを大量追加するMod。
+  岩石・鉱石・金属・色の用語は TFC 本体の日本語に合わせ、命名規則（`低純度の花崗岩の自然銅` / `滑らかな花崗岩のハーフブロック` / `花崗岩のレンガの階段`）も TFC と統一。
+  英語名が TFC の ja_jp に一致するものは直接流用（286件）、残り（2,768件）は語彙辞書で合成（未知語0）。
+
 ## [0.1.2] - 2026-07-06
 
 ### Added
@@ -37,7 +45,8 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.1.2...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.1.2...v0.2.0
 [0.1.2]: https://github.com/11gather11/Gravitas2-JP/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/11gather11/Gravitas2-JP/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/11gather11/Gravitas2-JP/releases/tag/v0.1.0
