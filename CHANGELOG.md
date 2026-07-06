@@ -6,6 +6,8 @@
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-07-06
+
 ### Removed
 
 - Advanced Peripherals ガイド本の**表紙紹介文（landing_text）**はリソースパックでは翻訳できないため（Patchouli の `book.json` はデータパック `data/` 側にあり、`assets/` の上書きは無視される）、無効だった `assets/advancedperipherals/patchouli_books/manual/book.json` を削除。表紙の1文のみ英語のまま（本文ページ・UIは日本語）。
@@ -29,5 +31,6 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/11gather11/Gravitas2-JP/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/11gather11/Gravitas2-JP/releases/tag/v0.1.0
