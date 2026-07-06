@@ -1,0 +1,30 @@
+{
+  "name": "コロニーインテグレーター",
+  "icon": "advancedperipherals:colony_integrator",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "コロニーインテグレーターは MineColonies のコロニーとやり取りできます。$(p)詳しい説明は $(9)$(l:https://docs.intelligence-modding.de/peripherals/colony_integrator/)公式Wikiページ$(/l)$() を参照してください！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:colony_integrator"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:colony_integrator"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "コロニーインテグレーターを、村の範囲内でコンピュータに接続して使いましょう！"
+    }
+  ]
+}

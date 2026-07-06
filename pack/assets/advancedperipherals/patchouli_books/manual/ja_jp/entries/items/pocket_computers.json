@@ -1,0 +1,15 @@
+{
+  "name": "ポケットコンピュータ用アドオン",
+  "icon": "computercraft:pocket_computer_advanced",
+  "category": "advancedperipherals:items",
+  "pages": [
+    {
+      "type": "text",
+      "text": "次の周辺機器用のポケットコンピュータ用アップグレードを提供しています：$(li)$(9)$(l:peripherals/environment_detector)環境検知器$(/l)$()$(li)$(9)$(l:peripherals/player_detector)プレイヤー検知器$(/l)$()$(li)$(9)$(l:peripherals/chat_box)チャットボックス$(/l)$()$(p)詳しい説明は $(9)$(l:https://docs.intelligence-modding.de/items/pocket_computer/)公式Wikiページ$(/l)$() を参照してください！"
+    },
+    {
+      "type": "text",
+      "text": "これらをポケットコンピュータと組み合わせるだけで、その周辺機器を追加できます。ただし、対応するイベントは使えないことに注意してください。"
+    }
+  ]
+}

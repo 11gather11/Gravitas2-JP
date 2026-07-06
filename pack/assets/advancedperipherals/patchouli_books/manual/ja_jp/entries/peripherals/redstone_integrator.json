@@ -1,0 +1,30 @@
+{
+  "name": "レッドストーンインテグレーター",
+  "icon": "advancedperipherals:redstone_integrator",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "レッドストーンインテグレーターはレッドストーンとやり取りできます。コンピュータで使うのと同じコードをレッドストーンインテグレーターで使えます。$(p)通常のコンピュータが持つ以上の面にレッドストーン信号を出力する必要がある場合に、この周辺機器が必要になることがあります。$(p)詳しい説明は $(9)$(l:https://docs.intelligence-modding.de/peripherals/redstone_integrator/)公式Wikiページ$(/l)$() を参照してください！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:redstone_integrator"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:redstone_integrator"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "レッドストーンインテグレーターをコンピュータに接続して使いましょう！"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ジオスキャナー",
+  "icon": "advancedperipherals:geo_scanner",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "ジオスキャナーは、周囲のブロックと、スキャナーのあるチャンクに関する情報を提供します。ジオスキャナーはスキャンの間に遅延があるので、その点に備えてください。$(p)詳しい説明は $(9)$(l:https://docs.intelligence-modding.de/peripherals/geo_scanner/)公式Wikiページ$(/l)$() を参照してください！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:geo_scanner"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:geo_scanner"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "ジオスキャナーをコンピュータに接続して使いましょう！"
+    }
+  ]
+}

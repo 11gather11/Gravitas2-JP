@@ -1,0 +1,30 @@
+{
+  "name": "プレイヤー検知器",
+  "icon": "advancedperipherals:player_detector",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "プレイヤー検知器は一定範囲内のプレイヤーを認識できます。加えて、自分をクリックしたプレイヤーも認識します。$(p)詳しい説明は $(9)$(l:https://docs.intelligence-modding.de/peripherals/player_detector/)公式Wikiページ$(/l)$() を参照してください！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:player_detector"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:player_detector"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "プレイヤー検知器をコンピュータに接続して使いましょう！"
+    }
+  ]
+}

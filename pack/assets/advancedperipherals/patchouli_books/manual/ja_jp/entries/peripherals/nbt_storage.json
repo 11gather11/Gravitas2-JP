@@ -1,0 +1,30 @@
+{
+  "name": "NBTストレージ",
+  "icon": "advancedperipherals:nbt_storage",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "NBTストレージは、ブロックにカスタムデータを入出力できるカスタムブロックです。主に ID（Integrated Dynamics）対応のために提供されています。$(p)詳しい説明は $(9)$(l:https://docs.intelligence-modding.de/peripherals/nbt_storage/)公式Wikiページ$(/l)$() を参照してください！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:nbt_storage"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:nbt_storage"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "NBTストレージをコンピュータに接続して使いましょう！"
+    }
+  ]
+}

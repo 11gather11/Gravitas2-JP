@@ -1,0 +1,30 @@
+{
+  "name": "RSブリッジ",
+  "icon": "advancedperipherals:rs_bridge",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "RSブリッジは Refined Storage とやり取りできます。アイテムの取り出し、アイテムのクラフト、全アイテムの一覧取得などができます。$(p)詳しい説明は $(9)$(l:https://docs.intelligence-modding.de/peripherals/rs_bridge/)公式Wikiページ$(/l)$() を参照してください！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:rs_bridge"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:rs_bridge"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "RSブリッジをコンピュータに接続して使いましょう！"
+    }
+  ]
+}

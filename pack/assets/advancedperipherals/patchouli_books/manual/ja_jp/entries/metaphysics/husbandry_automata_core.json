@@ -1,0 +1,20 @@
+{
+  "name": "畜産オートマタコア",
+  "icon": "advancedperipherals:husbandry_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "advancement": "advancedperipherals:weak_automata_core",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "畜産オートマタコア",
+      "item": "advancedperipherals:husbandry_automata_core",
+      "text": "ニワトリ3羽、ウシ3頭、ヒツジ3匹を消費すると、弱いオートマタコアが畜産オートマタコアに変化します！$(p)より強力な弱いオートマタコアの派生であることに加え、この魂は動物とやり取りする能力も与えるようです！"
+    },
+    {
+      "type": "link",
+      "text": "弱いオートマタコアの能力に加え、このコアは動物とやり取りしたり、動物を中に収容したりできます！$(p)ただし注意、収容した動物はタートルが壊されると失われます。",
+      "url": "https://docs.intelligence-modding.de/metaphysics/husbandry_automata/",
+      "link_text": "API documentation"
+    }
+  ]
+}

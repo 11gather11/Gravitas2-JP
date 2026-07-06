@@ -1,0 +1,30 @@
+{
+  "name": "エネルギー検知器",
+  "icon": "advancedperipherals:energy_detector",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "エネルギー検知器はエネルギーの流れを検知し、抵抗器としても機能します。最大流量を定義して抵抗器として使えます。$(p)詳しい説明は $(9)$(l:https://docs.intelligence-modding.de/peripherals/energy_detector/)公式Wikiページ$(/l)$() を参照してください！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:energy_detector"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:energy_detector"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "エネルギー検知器をコンピュータに接続して使いましょう！"
+    }
+  ]
+}

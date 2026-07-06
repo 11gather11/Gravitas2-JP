@@ -1,0 +1,15 @@
+{
+  "name": "チャンクコントローラー",
+  "icon": "advancedperipherals:chunk_controller",
+  "category": "advancedperipherals:items",
+  "pages": [
+    {
+      "type": "text",
+      "text": "チャンクコントローラーは Chunky Turtle のクラフト材料です。$(p)タートルまたはアドバンストタートルと組み合わせると、チャンクロード機能を持たせられます！$(p)詳しい説明は $(9)$(l:https://docs.intelligence-modding.de/items/chunk_controller/)公式Wikiページ$(/l)$() を参照してください！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:chunk_controller"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "ブロックリーダー",
+  "icon": "advancedperipherals:block_reader",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "このブロックは、目の前のブロックやタイルエンティティのデータを読み取れます。$(p)詳しい説明は $(9)$(l:https://docs.intelligence-modding.de/peripherals/block_reader/)公式Wikiページ$(/l)$() を参照してください！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:block_reader"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:block_reader",
+          "T": "minecraft:dirt"
+        },
+        "pattern": [
+          [
+            "0PT"
+          ]
+        ]
+      },
+      "text": "ブロックリーダーをコンピュータと対象ブロックに接続して使いましょう！"
+    }
+  ]
+}

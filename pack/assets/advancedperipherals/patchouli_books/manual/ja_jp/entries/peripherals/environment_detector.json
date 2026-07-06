@@ -1,0 +1,30 @@
+{
+  "name": "環境検知器",
+  "icon": "advancedperipherals:environment_detector",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "環境検知器は、現在時刻、現在の月相、ブロックの光レベルなど、環境から多くの情報を受け取れます。$(p)詳しい説明は $(9)$(l:https://docs.intelligence-modding.de/peripherals/environment_detector/)公式Wikiページ$(/l)$() を参照してください！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:environment_detector"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:environment_detector"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "環境検知器をコンピュータに接続して使いましょう！"
+    }
+  ]
+}

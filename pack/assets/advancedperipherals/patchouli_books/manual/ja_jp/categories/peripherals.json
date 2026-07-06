@@ -1,0 +1,5 @@
+{
+  "name": "周辺機器（ペリフェラル）",
+  "description": "このModが追加するすべての周辺機器。$(p)他のMod、プレイヤー、ワールド、ゲーム内チャットとやり取りするのに使います。",
+  "icon": "advancedperipherals:chat_box"
+}

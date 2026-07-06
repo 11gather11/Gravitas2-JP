@@ -1,0 +1,30 @@
+{
+  "name": "チャットボックス",
+  "icon": "advancedperipherals:chat_box",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "チャットボックス周辺機器を使うと、メッセージの送受信によってゲーム内チャットとやり取りできます。$(p)メッセージを `$` で始めると、チャットボックスにだけ見えるメッセージを送ることもできます。$(p)詳しい説明は $(9)$(l:https://docs.intelligence-modding.de/peripherals/chat_box/)公式Wikiページ$(/l)$() を参照してください！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:chat_box"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:chat_box"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "チャットボックスをコンピュータに接続して使いましょう！"
+    }
+  ]
+}

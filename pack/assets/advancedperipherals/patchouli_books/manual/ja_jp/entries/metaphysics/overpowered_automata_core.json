@@ -1,0 +1,25 @@
+{
+  "name": "オーバーパワードオートマタコア",
+  "icon": "advancedperipherals:overpowered_weak_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "advancement": "advancedperipherals:weak_automata_core",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "オーバーパワード弱オートマタコア",
+      "item": "advancedperipherals:overpowered_weak_automata_core",
+      "text": "これは形而上学の法則を回避しようとするあなたの最初の試みです。まあ、期待したほど成功しませんでしたが。$(p)いずれかのオートマタコアとネザースターの安易な組み合わせは、ある結果をもたらします…"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:overpowered_weak_automata_core",
+      "recipe2": "advancedperipherals:overpowered_end_automata_core"
+    },
+    {
+      "type": "link",
+      "text": "オートマタコアのオーバーパワード版は、使用時にアイテムの耐久値を消費しません。$(p)ですが、すべてには代償があります。燃料が足りない状態でこのコアで操作を実行しようとすると、アップグレードは即座に壊れます。",
+      "url": "https://docs.intelligence-modding.de/metaphysics/overpowered_automata/",
+      "link_text": "API documentation"
+    }
+  ]
+}

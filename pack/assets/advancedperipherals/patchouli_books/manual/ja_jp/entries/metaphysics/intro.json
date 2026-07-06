@@ -1,0 +1,12 @@
+{
+  "name": "はじめに",
+  "icon": "advancedperipherals:weak_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "この世界はあなたに多くの秘密を隠しています。単純なタートルでさえ、現実を制御する強力な道具になり得ると感じます。ただ、中に何か「実体のあるもの」を入れる必要があるのです。もっと…魂のようなもの？"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "MEブリッジ",
+  "icon": "advancedperipherals:me_bridge",
+  "category": "advancedperipherals:peripherals",
+  "pages": [
+    {
+      "type": "text",
+      "text": "MEブリッジは Applied Energistics 2 とやり取りできます。アイテムの取り出し、アイテムのクラフト、全アイテムの一覧取得などができます。MEブリッジはチャンネルを1つ使います。$(p)詳しい説明は $(9)$(l:https://docs.intelligence-modding.de/peripherals/me_bridge/)公式Wikiページ$(/l)$() を参照してください！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "advancedperipherals:me_bridge"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "mapping": {
+          "0": "computercraft:computer_advanced",
+          "P": "advancedperipherals:me_bridge"
+        },
+        "pattern": [
+          [
+            "0P"
+          ]
+        ]
+      },
+      "text": "MEブリッジをコンピュータに接続して使いましょう！"
+    }
+  ]
+}

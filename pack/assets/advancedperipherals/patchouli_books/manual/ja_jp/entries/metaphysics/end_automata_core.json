@@ -1,0 +1,20 @@
+{
+  "name": "エンドオートマタコア",
+  "icon": "advancedperipherals:end_automata_core",
+  "category": "advancedperipherals:metaphysics",
+  "advancement": "advancedperipherals:weak_automata_core",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "エンドオートマタコア",
+      "item": "advancedperipherals:end_automata_core",
+      "text": "エンダーマンを10体消費すると、弱いオートマタコアがエンドオートマタコアに変化します！$(p)より強力な弱いオートマタコアの派生であることに加え、この魂はタートル自身に限定的なテレポート能力も与えるようです。"
+    },
+    {
+      "type": "link",
+      "text": "弱いオートマタコアの能力に加え、この魂は限定的なワールド内テレポートを可能にします。座標を保存してから、そこへテレポートする必要があるようです！$(p)ただし注意、保存した座標はタートルが壊されると失われます。",
+      "url": "https://docs.intelligence-modding.de/metaphysics/end_automata/",
+      "link_text": "API documentation"
+    }
+  ]
+}
