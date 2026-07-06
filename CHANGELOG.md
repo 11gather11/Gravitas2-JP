@@ -6,6 +6,17 @@
 
 ## [Unreleased]
 
+## [0.8.0] - 2026-07-06
+
+### Added
+
+- **FTB系UIをまとめて翻訳**（計1,042キー）。
+  - **ftbquests（FTB Quests）**（572）：クエストシステムのUI・エディタ・タスク・報酬・コマンド。
+  - **ftbchunks（FTB Chunks）**（282）：チャンク取得・地図・ミニマップ・ウェイポイント・チーム保護設定。
+  - **ftblibrary（FTB Library）**（99）：FTB系共通のGUI部品・サイドバー。
+  - **ftbteams（FTB Teams）**（89）：チーム・パーティ管理のUIとメッセージ。
+  - `%s`/`%d`/`%%`・改行を保持し、キー一致とプレースホルダ整合を検証済み（未訳0）。
+
 ## [0.7.0] - 2026-07-06
 
 ### Added
@@ -88,7 +99,8 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.7.0...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.8.0...HEAD
+[0.8.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.7.0...v0.8.0
 [0.7.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.4.0...v0.5.0

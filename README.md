@@ -17,7 +17,7 @@
 
 モッドパック内の Mod を走査した結果です（`en_us` を持つ名前空間 218 個）。数値は英語キー数の目安。
 
-- ✅ **このパックで翻訳**：13／📦 **Mod同梱で対応済み**：70／🧩 **パック側 kubejs で対応済み**：3／❌ **未対応（翻訳候補）**：93（ほかにライブラリ・未使用など 39 は対象外）
+- ✅ **このパックで翻訳**：17／📦 **Mod同梱で対応済み**：70／🧩 **パック側 kubejs で対応済み**：3／❌ **未対応（翻訳候補）**：89（ほかにライブラリ・未使用など 39 は対象外）
 
 ### ✅ このパックで翻訳
 
@@ -29,14 +29,18 @@
 | `integrateddynamics` | Integrated Dynamics 本体（本・アイテム・オペレーター・アスペクト・実績） | 1,754 |
 | `tombstone` | Corail Tombstone（墓・死亡管理。アイテム・実績・メッセージ・コンペンディウム） | 1,112 |
 | `scguns` | Scorched Guns（銃Mod。銃/弾薬/防具・実績・エンチャント・タレット・GUI） | 971 |
+| `ftbquests` | FTB Quests（クエストシステムのUI・エディタ・タスク・報酬） | 572 |
 | `integratedtunnels` | Integrated Tunnels（転送） | 487 |
 | `vintage` | Create: Vintage（Createアドオン。金属加工品・機械・Ponder・JEI） | 481 |
 | `framedblocks` | FramedBlocks（カモフラージュ装飾。幾何形状ブロック・設定・ツールチップ） | 346 |
+| `ftbchunks` | FTB Chunks（チャンク取得・地図・ミニマップ・ウェイポイント） | 282 |
 | `integratedterminals` | Integrated Terminals（ストレージ端末） | 176 |
 | `integratedcrafting` | Integrated Crafting（自動クラフト） | 110 |
+| `ftblibrary` | FTB Library（FTB系共通UI・GUI部品） | 99 |
 | `patchouli` | Patchouli 本ビューアUI（全Patchouli本共通） | 90 |
+| `ftbteams` | FTB Teams（チーム・パーティ管理） | 89 |
 | `advancedperipherals` | Advanced Peripherals（アイテム・Patchouli本） | 88 |
-| **合計** | 13名前空間 ＋ Patchouli本26ファイル | **12,830** |
+| **合計** | 17名前空間 ＋ Patchouli本26ファイル | **13,872** |
 
 ### 🧩 パック側 kubejs で対応済み
 
@@ -127,20 +131,18 @@
 
 </details>
 
-### ❌ 未対応・翻訳候補（93）
+### ❌ 未対応・翻訳候補（89）
 
 プレイに関わる未翻訳 Mod（キー数の多い順）。
 
-<details><summary>一覧を開く（93）</summary>
+<details><summary>一覧を開く（89）</summary>
 
 | 名前空間 | Mod | キー数 |
 |------|------|-------:|
 | `tfcastikorcarts` | TFCAstikorCarts | 928 |
-| `ftbquests` | ftb-quests | 572 |
 | `tfc_ie_addon` | TFC-IE-Crossover | 461 |
 | `vs_clockwork` | clockwork | 458 |
 | `thoriumreactors` | thoriumreactors | 369 |
-| `ftbchunks` | ftb-chunks | 282 |
 | `xaeroworldmap` | XaerosWorldMap | 272 |
 | `beneath` | beneath | 268 |
 | `sfm` | Super Factory Manager (SFM) | 255 |
@@ -161,10 +163,8 @@
 | `buildinggadgets2` | buildinggadgets2 | 111 |
 | `megacells` | megacells | 108 |
 | `simpleplanes` | simpleplanes | 108 |
-| `ftblibrary` | ftb-library | 99 |
 | `smallships` | smallships | 95 |
 | `laserio` | laserio | 90 |
-| `ftbteams` | ftb-teams | 89 |
 | `sfcr` | sfcr | 88 |
 | `create_tweaked_controllers` | create_tweaked_controllers | 85 |
 | `mininggadgets` | mininggadgets | 85 |
