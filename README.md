@@ -17,7 +17,7 @@
 
 モッドパック内の Mod を走査した結果です（`en_us` を持つ名前空間 218 個）。数値は英語キー数の目安。
 
-- ✅ **このパックで翻訳**：9／📦 **Mod同梱で対応済み**：70／🧩 **パック側 kubejs で対応済み**：3／❌ **未対応（翻訳候補）**：97（ほかにライブラリ・未使用など 39 は対象外）
+- ✅ **このパックで翻訳**：10／📦 **Mod同梱で対応済み**：70／🧩 **パック側 kubejs で対応済み**：3／❌ **未対応（翻訳候補）**：96（ほかにライブラリ・未使用など 39 は対象外）
 
 ### ✅ このパックで翻訳
 
@@ -27,12 +27,13 @@
 | `immersivegeology` | Immersive Geology（地質・鉱石加工） | 2,120 |
 | `mcw_tfc_aio` | Macaw's 家具（TFC統合版） | 2,033 |
 | `integrateddynamics` | Integrated Dynamics 本体（本・アイテム・オペレーター・アスペクト・実績） | 1,754 |
+| `tombstone` | Corail Tombstone（墓・死亡管理。アイテム・実績・メッセージ・コンペンディウム） | 1,112 |
 | `integratedtunnels` | Integrated Tunnels（転送） | 487 |
 | `integratedterminals` | Integrated Terminals（ストレージ端末） | 176 |
 | `integratedcrafting` | Integrated Crafting（自動クラフト） | 110 |
 | `patchouli` | Patchouli 本ビューアUI（全Patchouli本共通） | 90 |
 | `advancedperipherals` | Advanced Peripherals（アイテム・Patchouli本） | 88 |
-| **合計** | 10名前空間 ＋ Patchouli本26ファイル | **9,920** |
+| **合計** | 10名前空間 ＋ Patchouli本26ファイル | **11,032** |
 
 ### 🧩 パック側 kubejs で対応済み
 
@@ -123,15 +124,14 @@
 
 </details>
 
-### ❌ 未対応・翻訳候補（97）
+### ❌ 未対応・翻訳候補（96）
 
 プレイに関わる未翻訳 Mod（キー数の多い順）。
 
-<details><summary>一覧を開く（97）</summary>
+<details><summary>一覧を開く（96）</summary>
 
 | 名前空間 | Mod | キー数 |
 |------|------|-------:|
-| `tombstone` | tombstone | 1,112 |
 | `scguns` | ScorchedGuns | 971 |
 | `tfcastikorcarts` | TFCAstikorCarts | 928 |
 | `ftbquests` | ftb-quests | 572 |

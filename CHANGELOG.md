@@ -6,8 +6,12 @@
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-07-06
+
 ### Added
 
+- **tombstone（Corail Tombstone）** を翻訳（1,112キー）。死亡時に墓を生成しアイテムを保護する定番Mod。
+  アイテム名・説明、エンチャント・効果・特典、実績（149ペア）、ゲーム内メッセージ、コマンド、コンペンディウム（ガイド本）、設定を翻訳。`%s`/`%d`/`%%`・改行を保持し、キー一致とプレースホルダ整合を検証済み（未訳0）。
 - `tools/scan_status.py`：各 Mod の日本語化状況（このパック／kubejs／Mod同梱／未翻訳）を走査して一覧表示。
 - `CLAUDE.md`：ビルド・リリース手順・翻訳規約などの開発情報を集約。
 
@@ -63,7 +67,8 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.3.0...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.4.0...HEAD
+[0.4.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.1.2...v0.2.0
 [0.1.2]: https://github.com/11gather11/Gravitas2-JP/compare/v0.1.1...v0.1.2
