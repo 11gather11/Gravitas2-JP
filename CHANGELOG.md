@@ -6,6 +6,13 @@
 
 ## [Unreleased]
 
+## [0.6.0] - 2026-07-06
+
+### Added
+
+- **framedblocks（FramedBlocks）** を翻訳（346キー）。他ブロックの見た目を纏えるカモフラージュ装飾Mod。
+  幾何形状ブロック203種は語彙辞書で合成生成（`フレーム＋形状`）、設定・ツールチップ・メッセージ・アイテム（設計図/ハンマー/レンチ等）を翻訳。プレースホルダ整合を検証済み（未訳0）。
+
 ## [0.5.0] - 2026-07-06
 
 ### Added
@@ -74,7 +81,8 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.5.0...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.6.0...HEAD
+[0.6.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.2.0...v0.3.0

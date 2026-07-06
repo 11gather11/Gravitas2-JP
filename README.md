@@ -17,7 +17,7 @@
 
 モッドパック内の Mod を走査した結果です（`en_us` を持つ名前空間 218 個）。数値は英語キー数の目安。
 
-- ✅ **このパックで翻訳**：11／📦 **Mod同梱で対応済み**：70／🧩 **パック側 kubejs で対応済み**：3／❌ **未対応（翻訳候補）**：95（ほかにライブラリ・未使用など 39 は対象外）
+- ✅ **このパックで翻訳**：12／📦 **Mod同梱で対応済み**：70／🧩 **パック側 kubejs で対応済み**：3／❌ **未対応（翻訳候補）**：94（ほかにライブラリ・未使用など 39 は対象外）
 
 ### ✅ このパックで翻訳
 
@@ -30,11 +30,12 @@
 | `tombstone` | Corail Tombstone（墓・死亡管理。アイテム・実績・メッセージ・コンペンディウム） | 1,112 |
 | `integratedtunnels` | Integrated Tunnels（転送） | 487 |
 | `vintage` | Create: Vintage（Createアドオン。金属加工品・機械・Ponder・JEI） | 481 |
+| `framedblocks` | FramedBlocks（カモフラージュ装飾。幾何形状ブロック・設定・ツールチップ） | 346 |
 | `integratedterminals` | Integrated Terminals（ストレージ端末） | 176 |
 | `integratedcrafting` | Integrated Crafting（自動クラフト） | 110 |
 | `patchouli` | Patchouli 本ビューアUI（全Patchouli本共通） | 90 |
 | `advancedperipherals` | Advanced Peripherals（アイテム・Patchouli本） | 88 |
-| **合計** | 11名前空間 ＋ Patchouli本26ファイル | **11,513** |
+| **合計** | 12名前空間 ＋ Patchouli本26ファイル | **11,859** |
 
 ### 🧩 パック側 kubejs で対応済み
 
@@ -125,11 +126,11 @@
 
 </details>
 
-### ❌ 未対応・翻訳候補（95）
+### ❌ 未対応・翻訳候補（94）
 
 プレイに関わる未翻訳 Mod（キー数の多い順）。
 
-<details><summary>一覧を開く（95）</summary>
+<details><summary>一覧を開く（94）</summary>
 
 | 名前空間 | Mod | キー数 |
 |------|------|-------:|
@@ -139,7 +140,6 @@
 | `tfc_ie_addon` | TFC-IE-Crossover | 461 |
 | `vs_clockwork` | clockwork | 458 |
 | `thoriumreactors` | thoriumreactors | 369 |
-| `framedblocks` | FramedBlocks | 346 |
 | `ftbchunks` | ftb-chunks | 282 |
 | `xaeroworldmap` | XaerosWorldMap | 272 |
 | `beneath` | beneath | 268 |
