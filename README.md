@@ -15,6 +15,7 @@
 | `integratedterminals` | ストレージ端末 | 175 |
 | `mcw_tfc_aio` | Macaw's 家具（TFC統合版） | 2,033 |
 | `dfc` | DecoFirmaCraft（TFC装飾ブロック大量追加） | 3,062 |
+| `immersivegeology` | Immersive Geology（地質・鉱石加工。鉱物名/機械/実績/マニュアル） | 2,120 |
 | `advancedperipherals` | アイテム名・ツールチップ・ガイドブック（Patchouli） | 88 + 本26ファイル |
 | `patchouli` | 本ビューアのUI（Categories / Chapters など、全Patchouli本共通） | 90 |
 

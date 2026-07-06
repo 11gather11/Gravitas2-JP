@@ -6,6 +6,14 @@
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-07-06
+
+### Added
+
+- **immersivegeology（Immersive Geology）** を翻訳（2,120キー）。地質・鉱石加工を追加するIE系アドオン。
+  鉱物名は鉱物学の日本語（軟マンガン鉱・黄銅鉱・閃ウラン鉱…）、岩石/金属はTFCと統一。
+  アイテム/ブロックのテンプレート（`%s`）、機械名、実績、マニュアル、鉱脈タイプ、GUI、化学工程（ベッヒャー法・ホール・エルー法…）を翻訳。プレースホルダ整合を検証済み（未訳0）。
+
 ## [0.2.0] - 2026-07-06
 
 ### Added
@@ -45,7 +53,8 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.1.2...v0.2.0
 [0.1.2]: https://github.com/11gather11/Gravitas2-JP/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/11gather11/Gravitas2-JP/compare/v0.1.0...v0.1.1
