@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      # 全 ja_jp.json / Patchouli 本 JSON の妥当性を検証し、ビルドが通るか確認する
+      # （build.py は JSON エラーがあれば非ゼロ終了する）
+      - name: Validate & build resource pack
+        run: python build.py --no-copy

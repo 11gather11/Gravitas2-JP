@@ -56,7 +56,22 @@ python build.py --no-copy  # dist/ に出力するだけ
 - 専門用語（GregTech の電圧ティア、化学工程など）は分かりやすさを優先して意訳した箇所あり。
 - 翻訳は AI（Claude）による作成。誤訳・表記ゆれの指摘歓迎。
 
-## クレジット・ライセンス
+## バージョニングとリリース
 
-- 原文（クエスト・各Modのテキスト）の著作権は各権利者（ATMTeam および各Mod作者）に帰属します。
-- 本リポジトリは翻訳（二次的著作物）です。公開・再配布の際は元パック／各Modのライセンスに従ってください。
+- [Semantic Versioning](https://semver.org/lang/ja/)（`vMAJOR.MINOR.PATCH`）を git タグで管理します。
+- 変更点は [CHANGELOG.md](CHANGELOG.md)（[Keep a Changelog](https://keepachangelog.com/ja/1.1.0/) 形式）に記録します。
+- **リリース手順**：`CHANGELOG.md` を更新してコミット後、タグを push すると GitHub Actions が zip をビルドして Release を自動作成します。
+
+  ```bash
+  git tag v0.1.0
+  git push origin v0.1.0
+  ```
+
+- **CI**：`main` への push / PR ごとに、全 `ja_jp.json` と Patchouli 本 JSON の妥当性を検証します（`.github/workflows/`）。
+
+## ライセンス
+
+- 本リポジトリの**翻訳物**は [Creative Commons 表示 - 非営利 - 継承 4.0 国際 (CC BY-NC-SA 4.0)](LICENSE) の下で提供されます。
+- ただし、**原文**（クエスト・各Modのテキスト）の著作権は各権利者（ATMTeam および各Mod作者）に帰属します。本リポジトリはその翻訳（二次的著作物）です。
+- 再配布・改変の際は、CC BY-NC-SA 4.0 の条件に加え、元パック [AllTheMods/Gravitas2](https://github.com/AllTheMods/Gravitas2) および各Modのライセンスにも従ってください。
+- 非公式の有志翻訳であり、ATMTeam 公式とは関係ありません。

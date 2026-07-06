@@ -1,0 +1,39 @@
+name: Release
+
+# `v0.1.0` のようなタグを push すると、zip をビルドして GitHub Release を自動作成する
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Build resource pack
+        run: python build.py --no-copy
+
+      - name: Rename artifact with version
+        run: cp dist/Gravitas2-JP.zip "Gravitas2-JP-${GITHUB_REF_NAME}.zip"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: Gravitas2-JP-*.zip
+          generate_release_notes: true
+          body: |
+            **All The Mods - Gravitas²** の非公式日本語翻訳リソースパック `${{ github.ref_name }}`。
+
+            下の `Gravitas2-JP-${{ github.ref_name }}.zip` をダウンロードして
+            インスタンスの `resourcepacks/` に入れ、ゲーム内で有効化してください。
+
+            変更点の詳細は [CHANGELOG.md](https://github.com/11gather11/Gravitas2-JP/blob/main/CHANGELOG.md) を参照。
