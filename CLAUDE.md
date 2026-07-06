@@ -67,7 +67,19 @@ python tools/build.py --no-copy  # dist/ に出力するだけ（CI で使用）
 python tools/scan_status.py "<インスタンスのパス>"
 ```
 
-各Modを走査し `done_RP`（このパック）/ `done_kubejs` / `done_jar`（Mod同梱）/ `TODO`（未翻訳）に分類。README の「翻訳状況」もこの走査結果に基づく。
+各Modを走査し `done_RP`（このパック）/ `done_kubejs` / `done_jar`（Mod同梱・十分に網羅）/ `partial_jar`（Mod同梱だが不完全）/ `TODO`（未翻訳）に分類。README の「翻訳状況」もこの走査結果に基づく。
+
+## 同梱翻訳が不完全な Mod の欠落補完
+
+`ja_jp` を同梱していても、Mod 更新で追加された要素が未翻訳だったり、`ja_jp` の値が英語のまま放置されている Mod がある（`scan_status.py` の `partial_jar`）。判定基準は **欠落15件以上、またはカバレッジ85%未満**（`jar_coverage` / `is_partial`）。
+
+- **lang はキー単位でマージされる**。リソースパックの `ja_jp` に **欠落しているキーだけ** を入れれば、Mod 同梱の既存訳を壊さずに穴を埋められる。
+- 手順：
+  1. Mod jar の `en_us` と `ja_jp` を突き合わせ、`ja_jp` に無いキー（欠落）を抽出する。
+  2. その欠落分だけを翻訳し、`pack/assets/<ns>/lang/ja_jp.json` に **欠落キーのみ** で書き出す（全キーを書く必要はない）。
+  3. キー一致（欠落集合と一致）とプレースホルダ整合を検証する。
+- 実例：**nuclearcraft**（同梱 ja の欠落 649 キー＝加速器・粒子物理・クーゲルブリッツ・Ponder 等を補完）。
+- 注意：`partial_jar` の「英語のまま」件数には**固有名詞が含まれ得る**ため、実際に訳すべきか一件ずつ確認する。`%s` テンプレ方式で表示名を賄う Mod（例 `everycomp`）は `TEMPLATE_MODS` で除外している。
 
 ## 既知の制約
 

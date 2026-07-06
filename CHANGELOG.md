@@ -6,6 +6,12 @@
 
 ## [Unreleased]
 
+### Changed
+
+- `scan_status.py` に **同梱翻訳の網羅度チェック**を追加。`ja_jp` を同梱しつつ不完全な Mod を `partial_jar`（欠落15件以上またはカバレッジ85%未満）として分類し、欠落・英語のままキー数を表示する。
+- README の「翻訳状況」に **📖 同梱翻訳が不完全・翻訳候補** セクション（35 Mod）を追加。従来 `done_jar` に埋もれていた翻訳候補（enderio・railways・createbigcannons・ae2 ほか）を可視化。
+- CLAUDE.md に「同梱翻訳が不完全な Mod の欠落補完」手順を追記。
+
 ## [0.10.0] - 2026-07-07
 
 ### Added

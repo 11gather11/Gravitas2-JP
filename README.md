@@ -17,7 +17,7 @@
 
 モッドパック内の Mod を走査した結果です（`en_us` を持つ名前空間 218 個）。数値は英語キー数の目安。
 
-- ✅ **このパックで翻訳**：23／📦 **Mod同梱で対応済み**：69／🧩 **パック側 kubejs で対応済み**：3／❌ **未対応（翻訳候補）**：84（ほかにライブラリ・未使用など 39 は対象外）
+- ✅ **このパックで翻訳**：23／📦 **Mod同梱で対応済み**：34／🧩 **パック側 kubejs で対応済み**：3／📖 **同梱翻訳が不完全（翻訳候補）**：35／❌ **未対応（翻訳候補）**：84（ほかにライブラリ・未使用など 39 は対象外）
 
 ### ✅ このパックで翻訳
 
@@ -56,83 +56,97 @@
 | `gtceu` | gtceu | 5,921 |
 | `create` | create | 3,646 |
 
-### 📦 Mod同梱で対応済み（69）
+### 📦 Mod同梱で対応済み（34）
 
 各 Mod が自前で `ja_jp` を同梱しており、そのまま日本語表示されます。
 
-<details><summary>一覧を開く（69）</summary>
+<details><summary>一覧を開く（34）</summary>
 
 | 名前空間 | Mod | キー数 |
 |------|------|-------:|
 | `immersiveengineering` | ImmersiveEngineering | 1,405 |
 | `iceandfire` | iceandfire | 1,322 |
-| `railways` | Steam_Rails | 1,293 |
-| `railcraft` | railcraft-reborn | 1,025 |
 | `apotheosis` | Apotheosis | 1,014 |
 | `firmalife` | Firmalife | 1,013 |
-| `ae2` | appliedenergistics2 | 999 |
 | `everycomp` | everycomp | 962 |
-| `createbigcannons` | createbigcannons | 744 |
-| `powergrid` | powergrid | 663 |
-| `sgjourney` | Stargate Journey | 661 |
-| `xaerominimap` | Xaeros_Minimap | 611 |
-| `enderio` | EnderIO | 553 |
-| `inventoryprofilesnext` | InventoryProfilesNext | 519 |
-| `recruits` | recruits | 519 |
-| `createdeco` | createdeco | 418 |
 | `alltheores` | alltheores | 333 |
 | `farmersdelight` | FarmersDelight | 323 |
-| `create_connected` | create_connected | 307 |
-| `createdieselgenerators` | createdieselgenerators | 286 |
 | `allthemodium` | allthemodium | 282 |
-| `jade` | Jade | 280 |
-| `sophisticatedcore` | sophisticatedcore | 276 |
 | `createaddition` | createaddition | 255 |
 | `computercraft` | cc-tweaked | 233 |
 | `sophisticatedbackpacks` | sophisticatedbackpacks | 228 |
-| `voicechat` | voicechat | 228 |
 | `waystones` | waystones | 199 |
-| `enchdesc` | EnchantmentDescriptions | 183 |
-| `gcyr` | gcyr | 183 |
 | `expatternprovider` | ExtendedAE | 172 |
 | `advanced_ae` | AdvancedAE | 167 |
-| `repurposed_structures` | repurposed_structures | 161 |
-| `modernfix` | modernfix | 137 |
 | `storagedrawers` | StorageDrawers | 133 |
 | `jei` | jei | 132 |
-| `nochatreports` | NoChatReports | 129 |
 | `immersive_aircraft` | immersive_aircraft | 123 |
 | `petrolpark` | petrolpark | 81 |
 | `xaerobetterpvp` | Xaeros_Minimap | 77 |
-| `comforts` | comforts | 77 |
-| `iris` | oculus | 72 |
 | `copycats` | copycats | 67 |
 | `chalk` | chalk | 64 |
-| `simpleradio` | simpleradio | 55 |
-| `trackwork` | trackwork | 55 |
-| `valkyrienskies` | valkyrienskies-120 | 55 |
-| `projectred_core` | ProjectRed | 54 |
 | `lootr` | lootr | 51 |
-| `cloth-config2` | cloth-config | 49 |
-| `curios` | curios | 48 |
 | `immersive_machinery` | immersive_machinery | 40 |
 | `tfcagedalcohol` | TFCAgedAlcohol | 38 |
 | `bellsandwhistles` | bellsandwhistles | 38 |
-| `sodiumdynamiclights` | sodiumdynamiclights | 34 |
 | `bookshelf` | Bookshelf | 32 |
 | `enderchests` | enderchests | 28 |
 | `allthetweaks` | allthetweaks | 26 |
 | `minecraft` | TerraFirmaCraft | 21 |
-| `ae2ct` | ae2ct | 19 |
 | `waterflasks` | waterflasks | 17 |
-| `tfcgroomer` | tfcgroomer | 16 |
 | `astikorcarts` | astikorcarts | 15 |
-| `controlling` | Controlling | 12 |
-| `moonlight` | moonlight | 9 |
-| `aeinfinitybooster` | AEInfinityBooster | 3 |
 | `pccard` | Programmed Circuit Card | 1 |
 | `searchables` | Searchables | 1 |
 | `endertanks` | endertanks | 0 |
+
+</details>
+
+### 📖 同梱翻訳が不完全・翻訳候補（35）
+
+`ja_jp` を同梱しているものの、Mod 更新で追加された要素が未翻訳だったり、英語のまま放置されているもの。NuclearCraft と同様に **欠落分だけをリソースパックの lang 上書きで補完**できます（lang はキー単位でマージされる）。
+
+- **欠落**：`en_us` にあるが `ja_jp` に無いキー（Mod 更新で増えた新要素など）
+- **英語のまま**：`ja_jp` に有るが値が英語のキー（※固有名詞が含まれ得るため目安）
+
+<details><summary>一覧を開く（35）</summary>
+
+| 名前空間 | Mod | 欠落 | 英語のまま | en総数 |
+|------|------|-------:|-------:|-------:|
+| `enderio` | EnderIO | 10 | 543 | 553 |
+| `xaerominimap` | Xaeros_Minimap | 417 | 5 | 611 |
+| `powergrid` | powergrid | 403 | 10 | 663 |
+| `railways` | Steam_Rails | 375 | 1 | 1,293 |
+| `createbigcannons` | createbigcannons | 336 | 16 | 744 |
+| `createdieselgenerators` | createdieselgenerators | 195 | 3 | 286 |
+| `railcraft` | railcraft-reborn | 151 | 2 | 1,025 |
+| `ae2` | appliedenergistics2 | 140 | 10 | 999 |
+| `enchdesc` | EnchantmentDescriptions | 128 | 0 | 169 |
+| `repurposed_structures` | repurposed_structures | 101 | 3 | 161 |
+| `createdeco` | createdeco | 85 | 0 | 418 |
+| `sophisticatedcore` | sophisticatedcore | 61 | 16 | 276 |
+| `recruits` | recruits | 59 | 11 | 519 |
+| `sgjourney` | Stargate Journey | 58 | 6 | 661 |
+| `projectred_core` | ProjectRed | 54 | 0 | 54 |
+| `jade` | Jade | 34 | 12 | 279 |
+| `gcyr` | gcyr | 42 | 1 | 183 |
+| `inventoryprofilesnext` | InventoryProfilesNext | 32 | 6 | 519 |
+| `comforts` | comforts | 35 | 2 | 77 |
+| `create_connected` | create_connected | 28 | 4 | 307 |
+| `trackwork` | trackwork | 22 | 2 | 55 |
+| `voicechat` | voicechat | 23 | 1 | 228 |
+| `valkyrienskies` | valkyrienskies-120 | 21 | 1 | 55 |
+| `nochatreports` | NoChatReports | 16 | 5 | 129 |
+| `curios` | curios | 16 | 0 | 48 |
+| `modernfix` | modernfix | 15 | 1 | 137 |
+| `sodiumdynamiclights` | sodiumdynamiclights | 15 | 0 | 34 |
+| `cloth-config2` | cloth-config | 4 | 8 | 49 |
+| `iris` | oculus | 10 | 2 | 72 |
+| `simpleradio` | simpleradio | 8 | 3 | 55 |
+| `tfcgroomer` | tfcgroomer | 5 | 0 | 16 |
+| `ae2ct` | ae2ct | 4 | 0 | 19 |
+| `controlling` | Controlling | 3 | 0 | 12 |
+| `moonlight` | moonlight | 3 | 0 | 9 |
+| `aeinfinitybooster` | AEInfinityBooster | 0 | 1 | 3 |
 
 </details>
 
