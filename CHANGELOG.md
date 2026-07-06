@@ -6,10 +6,25 @@
 
 ## [Unreleased]
 
+## [0.11.0] - 2026-07-07
+
+### Added
+
+- **Mod 15 名前空間を翻訳**（計2,357キー）。うち3つは Mod 同梱 ja の欠落補完。
+  - **vs_clockwork（VS: Clockwork）**（458）：Create×Valkyrien Skies。飛空艇部品・ガス/気球システム・ワンダーワンド・グラビトロン・Ponder。
+  - **beneath（Beneath）**（267）：ネザー拡張（TFC統合）。真紅/歪んだ木材・鉱石・キノコ・儀式（木材はTFC規則で合成）。
+  - **createdieselgenerators**（195・欠落補完）：燃料・機械・エンティティフィルター・Ponder。
+  - **projectred_fabrication / illumination / integration / transmission / core**（496）：Project Red 全体。IC設計・16色照明・論理ゲート・配線・回路部品（色×形状は合成）。
+  - **create_new_age（Create: New Age）**（158）：電力・原子炉・磁石発電・Ponder。
+  - **buildinggadgets2（Building Gadgets 2）**（111）：建築補助ツールのGUI・メッセージ。
+  - **createdeco**（85・欠落補完）：ファサード・塀・角レンガ（既存 ja の訳語に準拠して合成）。
+  - **tfccaffeinated（61）**：コーヒー・茶・飲料。**cccbridge（32）**：CC×Create連携。**tfccanes（4）**：杖。
+  - `%s`/`%d`/`%1$s`/`%%`・`_強調_`・§コード・改行を保持し、キー一致とプレースホルダ整合を検証（未訳0）。
+
 ### Changed
 
 - `scan_status.py` に **同梱翻訳の網羅度チェック**を追加。`ja_jp` を同梱しつつ不完全な Mod を `partial_jar`（欠落15件以上またはカバレッジ85%未満）として分類し、欠落・英語のままキー数を表示する。
-- README の「翻訳状況」に **📖 同梱翻訳が不完全・翻訳候補** セクション（35 Mod）を追加。従来 `done_jar` に埋もれていた翻訳候補（enderio・railways・createbigcannons・ae2 ほか）を可視化。
+- README の「翻訳状況」に **📖 同梱翻訳が不完全・翻訳候補** セクションを追加。従来 `done_jar` に埋もれていた翻訳候補（enderio・railways・createbigcannons・ae2 ほか）を可視化。
 - CLAUDE.md に「同梱翻訳が不完全な Mod の欠落補完」手順を追記。
 
 ## [0.10.0] - 2026-07-07
@@ -129,7 +144,8 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.10.0...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.11.0...HEAD
+[0.11.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.10.0...v0.11.0
 [0.10.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.9.0...v0.10.0
 [0.9.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.8.0...v0.9.0
 [0.8.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.7.0...v0.8.0

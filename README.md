@@ -17,7 +17,7 @@
 
 モッドパック内の Mod を走査した結果です（`en_us` を持つ名前空間 218 個）。数値は英語キー数の目安。
 
-- ✅ **このパックで翻訳**：23／📦 **Mod同梱で対応済み**：34／🧩 **パック側 kubejs で対応済み**：3／📖 **同梱翻訳が不完全（翻訳候補）**：35／❌ **未対応（翻訳候補）**：84（ほかにライブラリ・未使用など 39 は対象外）
+- ✅ **このパックで翻訳**：37／📦 **Mod同梱で対応済み**：34／🧩 **パック側 kubejs で対応済み**：3／📖 **同梱翻訳が不完全（翻訳候補）**：32／❌ **未対応（翻訳候補）**：73（ほかにライブラリ・未使用など 39 は対象外）
 
 ### ✅ このパックで翻訳
 
@@ -35,18 +35,32 @@
 | `integratedtunnels` | Integrated Tunnels（転送） | 487 |
 | `vintage` | Create: Vintage（Createアドオン。金属加工品・機械・Ponder・JEI） | 481 |
 | `tfc_ie_addon` | TFC-IE Crossover（TFC×IE。鉱石・金属加工・鉱物） | 461 |
+| `vs_clockwork` | VS: Clockwork（Create×Valkyrien Skies。飛空艇・ガス・気球） | 458 |
+| `createdeco` | Create Deco（装飾。同梱ja欠落＝ファサード・塀・角レンガを補完） | 418 |
 | `framedblocks` | FramedBlocks（カモフラージュ装飾。幾何形状ブロック・設定・ツールチップ） | 346 |
+| `createdieselgenerators` | Create: Diesel Generators（同梱ja欠落＝燃料・機械・Ponderを補完） | 286 |
 | `ftbchunks` | FTB Chunks（チャンク取得・地図・ミニマップ・ウェイポイント） | 282 |
+| `beneath` | Beneath（ネザー拡張。TFC統合。木材・鉱石・キノコ・儀式） | 268 |
 | `integratedterminals` | Integrated Terminals（ストレージ端末） | 176 |
+| `projectred_fabrication` | Project Red: Fabrication（IC設計・製造） | 174 |
+| `projectred_illumination` | Project Red: Illumination（16色ランプ・照明） | 162 |
+| `create_new_age` | Create: New Age（電力・原子炉・磁石発電） | 158 |
 | `alekiships` | aleki's Nifty Ships（帆船Mod。ボート/スループ・区画・大砲・実績） | 120 |
+| `buildinggadgets2` | Building Gadgets 2（建築補助ツール・GUI） | 111 |
 | `integratedcrafting` | Integrated Crafting（自動クラフト） | 110 |
 | `ftblibrary` | FTB Library（FTB系共通UI・GUI部品） | 99 |
 | `patchouli` | Patchouli 本ビューアUI（全Patchouli本共通） | 90 |
 | `ftbteams` | FTB Teams（チーム・パーティ管理） | 89 |
 | `advancedperipherals` | Advanced Peripherals（アイテム・Patchouli本） | 88 |
 | `create_tweaked_controllers` | Create: Tweaked Controllers（ゲームパッド対応コントローラー） | 85 |
+| `projectred_transmission` | Project Red: Transmission（配線・ケーブル） | 71 |
+| `tfccaffeinated` | TFC Caffeinated（TFC。コーヒー・茶・飲料） | 61 |
+| `projectred_core` | Project Red: Core（回路部品・イルマー染料。同梱ja欠落補完） | 54 |
+| `projectred_integration` | Project Red: Integration（論理ゲート） | 35 |
+| `cccbridge` | CC:C Bridge（ComputerCraft×Create連携） | 32 |
 | `drivebywire` | Drive By Wire（VS2船のケーブルネットワーク） | 29 |
-| **合計** | 23名前空間 ＋ Patchouli本26ファイル | **18,346** |
+| `tfccanes` | TFC Canes（TFC。杖） | 4 |
+| **合計** | 37名前空間 ＋ Patchouli本26ファイル | **20,638** |
 
 ### 🧩 パック側 kubejs で対応済み
 
@@ -101,14 +115,14 @@
 
 </details>
 
-### 📖 同梱翻訳が不完全・翻訳候補（35）
+### 📖 同梱翻訳が不完全・翻訳候補（32）
 
 `ja_jp` を同梱しているものの、Mod 更新で追加された要素が未翻訳だったり、英語のまま放置されているもの。NuclearCraft と同様に **欠落分だけをリソースパックの lang 上書きで補完**できます（lang はキー単位でマージされる）。
 
 - **欠落**：`en_us` にあるが `ja_jp` に無いキー（Mod 更新で増えた新要素など）
 - **英語のまま**：`ja_jp` に有るが値が英語のキー（※固有名詞が含まれ得るため目安）
 
-<details><summary>一覧を開く（35）</summary>
+<details><summary>一覧を開く（32）</summary>
 
 | 名前空間 | Mod | 欠落 | 英語のまま | en総数 |
 |------|------|-------:|-------:|-------:|
@@ -117,16 +131,13 @@
 | `powergrid` | powergrid | 403 | 10 | 663 |
 | `railways` | Steam_Rails | 375 | 1 | 1,293 |
 | `createbigcannons` | createbigcannons | 336 | 16 | 744 |
-| `createdieselgenerators` | createdieselgenerators | 195 | 3 | 286 |
 | `railcraft` | railcraft-reborn | 151 | 2 | 1,025 |
 | `ae2` | appliedenergistics2 | 140 | 10 | 999 |
 | `enchdesc` | EnchantmentDescriptions | 128 | 0 | 169 |
 | `repurposed_structures` | repurposed_structures | 101 | 3 | 161 |
-| `createdeco` | createdeco | 85 | 0 | 418 |
 | `sophisticatedcore` | sophisticatedcore | 61 | 16 | 276 |
 | `recruits` | recruits | 59 | 11 | 519 |
 | `sgjourney` | Stargate Journey | 58 | 6 | 661 |
-| `projectred_core` | ProjectRed | 54 | 0 | 54 |
 | `jade` | Jade | 34 | 12 | 279 |
 | `gcyr` | gcyr | 42 | 1 | 183 |
 | `inventoryprofilesnext` | InventoryProfilesNext | 32 | 6 | 519 |
@@ -150,46 +161,38 @@
 
 </details>
 
-### ❌ 未対応・翻訳候補（84）
+### ❌ 未対応・翻訳候補（73）
 
 プレイに関わる未翻訳 Mod（キー数の多い順）。
 
-<details><summary>一覧を開く（84）</summary>
+<details><summary>一覧を開く（73）</summary>
 
 | 名前空間 | Mod | キー数 |
 |------|------|-------:|
-| `vs_clockwork` | clockwork | 458 |
 | `thoriumreactors` | thoriumreactors | 369 |
 | `xaeroworldmap` | XaerosWorldMap | 272 |
-| `beneath` | beneath | 268 |
 | `sfm` | Super Factory Manager (SFM) | 255 |
 | `firmaciv` | FirmaCivilization | 239 |
 | `potionsmaster` | potionsmaster | 237 |
 | `integrateddynamicscompat` | IntegratedDynamics | 214 |
 | `tfcgenviewer` | tfcgenviewer | 177 |
-| `projectred_fabrication` | ProjectRed | 174 |
 | `bits_n_bobs` | bits_n_bobs | 174 |
-| `projectred_illumination` | ProjectRed | 162 |
 | `hostilenetworks` | HostileNeuralNetworks | 160 |
-| `create_new_age` | create-new-age | 158 |
 | `attributeslib` | ApothicAttributes | 130 |
 | `gregitas_core` | gregitas-core | 129 |
 | `fluxnetworks` | FluxNetworks | 123 |
 | `workers` | workers | 114 |
-| `buildinggadgets2` | buildinggadgets2 | 111 |
 | `megacells` | megacells | 108 |
 | `simpleplanes` | simpleplanes | 108 |
 | `smallships` | smallships | 95 |
 | `laserio` | laserio | 90 |
 | `sfcr` | sfcr | 88 |
 | `mininggadgets` | mininggadgets | 85 |
-| `projectred_transmission` | ProjectRed | 71 |
 | `precisionprospecting` | precisionprospecting | 70 |
 | `petrolsparts` | petrolsparts | 69 |
 | `tfc_textile` | tfc_textile | 69 |
 | `freecam` | freecam | 65 |
 | `tfships` | tfships | 63 |
-| `tfccaffeinated` | tfccaffeinated | 61 |
 | `extremesoundmuffler` | ExtremeSoundMuffler | 56 |
 | `survivorsdelight` | survivorsdelight | 56 |
 | `deathpunishment` | TFC_punishment_for_death | 53 |
@@ -205,13 +208,11 @@
 | `tfcambiental` | tfcambiental | 38 |
 | `tfcchannelcasting` | tfcchannelcasting | 38 |
 | `jadeaddons` | JadeAddons | 36 |
-| `projectred_integration` | ProjectRed | 35 |
 | `ae2wtlib` | ae2wtlib | 35 |
 | `siegemachines` | 1.20.1]-Siege-Machines | 34 |
 | `createmoredrillheads` | createmoredrillheads | 34 |
 | `workerstfc` | workerstfc | 33 |
 | `blazemap` | BlazeMap | 32 |
-| `cccbridge` | cccbridge | 32 |
 | `trashcans` | trashcans | 32 |
 | `create_factory_logistics` | create_factory_logistics | 27 |
 | `woodencog` | woodencog | 27 |
@@ -235,7 +236,6 @@
 | `tfc_support_indicator` | tfc_support_indicator | 5 |
 | `tfcea` | tfcea | 5 |
 | `findme` | findme | 4 |
-| `tfccanes` | tfccanes | 4 |
 | `easynametags` | EasyNameTags | 3 |
 | `headlight` | Headlight | 3 |
 | `showcaseitem` | showcaseitem | 2 |
