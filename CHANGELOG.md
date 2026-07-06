@@ -6,6 +6,12 @@
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-07-06
+
+### Added
+
+- リソースパック選択画面の説明文に**バージョンを表示**。`build.py` がビルド時に git タグ（`git describe --tags`）からバージョンを自動注入し、CI ではタグ名（`--version`）を使う。ソースの `pack.mcmeta` は書き換えず zip 内の内容だけ差し替える。
+
 ## [0.1.1] - 2026-07-06
 
 ### Removed
@@ -31,6 +37,7 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/11gather11/Gravitas2-JP/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/11gather11/Gravitas2-JP/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/11gather11/Gravitas2-JP/releases/tag/v0.1.0
