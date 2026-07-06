@@ -31,7 +31,9 @@ def validate_pack():
 
     errors = []
     total_keys = 0
-    for f in glob.glob(os.path.join(PACK, "assets", "**", "*.json"), recursive=True):
+    targets = glob.glob(os.path.join(PACK, "assets", "**", "*.json"), recursive=True)
+    targets.append(os.path.join(PACK, "pack.mcmeta"))  # pack.mcmeta も JSON 検証する
+    for f in targets:
         try:
             data = json.load(open(f, encoding="utf-8"))
             if f.endswith("ja_jp.json") and isinstance(data, dict):

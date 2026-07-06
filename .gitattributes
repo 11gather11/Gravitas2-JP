@@ -1,0 +1,8 @@
+# テキストファイルは LF に正規化する。
+# リソースパックの JSON に CRLF が混ざると、文字列内の \r が
+# ゲーム内で「□」等に化けることがあるため。
+* text=auto eol=lf
+
+# バイナリ
+*.png binary
+*.zip binary

@@ -6,6 +6,12 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- `pack.mcmeta` の description に生の改行が含まれ不正なJSONだった問題を修正（リソースパック一覧で説明が「□」に化ける不具合）。
+- 改行コードによる文字化けを防ぐため `.gitattributes` を追加し、テキストを LF に正規化。
+- `build.py` の検証対象に `pack.mcmeta` を追加（CIで同種の不正JSONを検出できるように）。
+
 ## [0.1.0] - 2026-07-06
 
 ### Added
