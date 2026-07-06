@@ -8,8 +8,12 @@
 
 ### Added
 
-- README に「翻訳カバレッジ」と「未翻訳（翻訳候補）」の節を追加。
-- `tools/scan_status.py` を追加：各 Mod の日本語化状況（このパック／kubejs／Mod同梱／未翻訳）を走査して一覧表示する。
+- `tools/scan_status.py`：各 Mod の日本語化状況（このパック／kubejs／Mod同梱／未翻訳）を走査して一覧表示。
+- `CLAUDE.md`：ビルド・リリース手順・翻訳規約などの開発情報を集約。
+
+### Changed
+
+- README をユーザー向けに再構成。全 Mod を走査した「翻訳状況」（✅このパック／📦Mod同梱／🧩kubejs／❌未対応）に統合し、開発系の記述は `CLAUDE.md` へ移動。
 
 ## [0.3.0] - 2026-07-06
 
