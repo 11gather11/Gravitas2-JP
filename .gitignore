@@ -6,3 +6,6 @@
 .DS_Store
 Thumbs.db
 *.swp
+
+# 作業引き継ぎメモ（ローカルのみ）
+HANDOFF.md
