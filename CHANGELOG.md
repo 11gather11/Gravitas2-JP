@@ -6,6 +6,13 @@
 
 ## [Unreleased]
 
+## [0.7.0] - 2026-07-06
+
+### Added
+
+- **scguns（Scorched Guns）** を翻訳（971キー）。多数の銃・弾薬・防具・タレットを追加する銃Mod。
+  銃の固有名はカタカナ、素材/弾薬/装備/アタッチメントは意訳、実績（フレーバー文）・エンチャント・特性・GUI・JEI説明・攻撃メッセージを翻訳。`%s`/`%d`/`§`/`♥` を保持し、キー一致とプレースホルダ整合を検証済み（未訳0）。
+
 ## [0.6.0] - 2026-07-06
 
 ### Added
@@ -81,7 +88,8 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.6.0...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.7.0...HEAD
+[0.7.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.3.0...v0.4.0
