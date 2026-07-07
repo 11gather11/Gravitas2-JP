@@ -1,0 +1,16 @@
+{
+  "name": "蒸気タービン",
+  "icon": "railcraft:steam_turbine",
+  "category": "railcraft:multiblock",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "蒸気はたくさんあるのに使い道がない、という段階に来たかもしれませんね？ お助けします。蒸気を電力に変えられる装置、強力な蒸気タービンをお届けします。$(br2)粉砕機と同じく2x3x2のパターンで建てます。さらに、作動にはタービンローターの設置が必要です。ローターは（実時間で）数日の連続使用に耐えるはずです。その後、バニラの修理機構で2つのローターを組み合わせてローターを修理できます。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "蒸気タービン",
+      "multiblock_id": "railcraft:steam_turbine"
+    }
+  ]
+}

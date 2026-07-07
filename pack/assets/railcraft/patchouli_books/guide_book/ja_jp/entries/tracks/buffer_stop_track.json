@@ -1,0 +1,11 @@
+{
+  "name": "車止めレール",
+  "icon": "railcraft:iron_buffer_stop_track",
+  "category": "railcraft:tracks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "レール線におしゃれな終端が必要ですか？ それならこのレールがぴったりです！ トロッコがレールの端から転がり落ちるのを防ぐ完璧な端キャップです。ここではトロッコが跳ね返ったり爆発したりもしません！"
+    }
+  ]
+}

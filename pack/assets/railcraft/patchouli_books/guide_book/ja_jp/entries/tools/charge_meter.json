@@ -1,0 +1,11 @@
+{
+  "name": "電荷メーター",
+  "icon": "railcraft:charge_meter",
+  "category": "railcraft:tools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "電荷メーターは Railcraft の道具で、電気機関車・電気供給ユニット・各種電気レールなど、Railcraft の電荷を使う/伝える様々な機械・配線・レールの電荷を測るのに使います。5秒間のネットワーク使用量を記録します。"
+    }
+  ]
+}

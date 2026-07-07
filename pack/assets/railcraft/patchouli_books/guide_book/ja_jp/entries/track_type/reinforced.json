@@ -1,0 +1,15 @@
+{
+  "name": "強化",
+  "icon": "railcraft:reinforced_track",
+  "category": "railcraft:track_type",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "強化レールは鉄レールの種類に対していくつかの利点があります。$(li)より強い爆発耐性があります（45、TNT爆発に耐えるのに十分）。$(li)鉄レールの種類より25%速いです。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "高速レールの種類と比べると、ずっと遅く、ずっと安全です。$(br2)ただし、支持ブロックが取り除かれるとレールは常にドロップするので、強化レールは爆発耐性のあるブロックの上に置くべきです。"
+    }
+  ]
+}

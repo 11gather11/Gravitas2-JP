@@ -1,0 +1,16 @@
+{
+  "name": "蒸気オーブン",
+  "icon": "railcraft:steam_oven",
+  "category": "railcraft:multiblock",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "蒸気オーブンは、蒸気を供給するとアイテムを調理してくれる2x2x2の構造です。256tick（12.8秒）という短時間で、一度に最大9個のアイテムを調理できます！"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "蒸気オーブン",
+      "multiblock_id": "railcraft:steam_oven"
+    }
+  ]
+}

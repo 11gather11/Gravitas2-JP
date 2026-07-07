@@ -1,0 +1,16 @@
+{
+  "name": "粉砕機",
+  "icon": "railcraft:crusher",
+  "category": "railcraft:multiblock",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "岩石粉砕機は様々な素材を加工する3x2x2の構造です。粉砕機は鋼ブロック・ピストン・ダイヤモンドから作る12個の特殊ブロックで作られます。分解すると、1台の岩石粉砕機を作るのに鋼ブロック3個、ピストン12個、ダイヤモンド12個が必要です。岩石粉砕機は隣接して建てられません。粉砕機の間には少なくとも1マス空ける必要があります。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "粉砕機",
+      "multiblock_id": "railcraft:crusher"
+    }
+  ]
+}

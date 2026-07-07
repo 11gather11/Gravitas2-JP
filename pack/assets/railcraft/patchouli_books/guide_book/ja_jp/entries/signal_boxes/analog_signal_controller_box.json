@@ -1,0 +1,11 @@
+{
+  "name": "アナログ信号制御箱",
+  "icon": "railcraft:analog_signal_controller_box",
+  "category": "railcraft:signal_boxes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "アナログ信号制御箱は、前バージョンの制御箱と同様に信号を発しますが、動力がある/ない時に単に1つの信号形態を発するのではありません。受け取った動力の強さに基づいて信号タイプを発します。GUIで、例えばレッドストーン動力が5の時は緑を、0の時は赤を、15の時はオフを発するよう設定できます。"
+    }
+  ]
+}

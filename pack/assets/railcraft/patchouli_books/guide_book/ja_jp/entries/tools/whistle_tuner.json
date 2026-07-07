@@ -1,0 +1,11 @@
+{
+  "name": "汽笛調律器",
+  "icon": "railcraft:whistle_tuner",
+  "category": "railcraft:tools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "機関車に完璧な汽笛の音程を探していますか？ この道具でそれができます。機関車をこれで壊すだけです。"
+    }
+  ]
+}

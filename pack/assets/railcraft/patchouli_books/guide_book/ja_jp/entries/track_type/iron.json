@@ -1,0 +1,11 @@
+{
+  "name": "鉄",
+  "icon": "minecraft:rail",
+  "category": "railcraft:track_type",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "標準のレールは、本質的にバニラ Minecraft のレールと同じです。標準のレールと木製の軌道床で作られます。ただし、Railcraft の他のフレックスレールと同様に、レールキットを適用できます。"
+    }
+  ]
+}

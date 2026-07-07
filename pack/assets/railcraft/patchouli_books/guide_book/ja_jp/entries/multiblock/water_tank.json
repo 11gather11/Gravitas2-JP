@@ -1,0 +1,16 @@
+{
+  "name": "貯水タンク",
+  "icon": "railcraft:water_tank_siding",
+  "category": "railcraft:multiblock",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "貯水タンクは鉄道の水源です。環境から水を集めてタンクを満たし続ける受動的なシステムです。タンク自体は400バケツの水を保持でき、蒸気機関車（や他の水を消費する装置）の補給に使えます。タンクが満たされる速度は、バイオーム・天候・タンクが屋外か（空が見えるか）で決まります。一般に、砂漠を通して鉄道を走らせようとしないことをお勧めします。$(br2)貯水タンクを作るには、コークス炉を作るのと同様に、貯水タンクの側板で3x3x3の中空構造を建てます。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "貯水タンク",
+      "multiblock_id": "railcraft:water_tank"
+    }
+  ]
+}

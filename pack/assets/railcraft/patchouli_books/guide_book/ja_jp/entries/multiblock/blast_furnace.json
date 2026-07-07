@@ -1,0 +1,16 @@
+{
+  "name": "高炉",
+  "icon": "railcraft:blast_furnace_bricks",
+  "category": "railcraft:multiblock",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "高炉は、鉄インゴットを鋼インゴットに変換するための、中央が中空の3x3x4のレンガ構造です。$(br2)炉はネザーレンガ・ソウルサンド・マグマクリームから作る34個の特殊レンガで作られます。分解すると、1台の高炉を作るのにネザーレンガ36個、ソウルサンド36個、マグマクリーム9個が必要です。高炉は隣接して建てられません。炉の間には少なくとも1マス空ける必要があります。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "高炉",
+      "multiblock_id": "railcraft:blast_furnace"
+    }
+  ]
+}

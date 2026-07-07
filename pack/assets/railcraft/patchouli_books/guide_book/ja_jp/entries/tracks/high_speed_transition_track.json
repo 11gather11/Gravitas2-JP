@@ -1,0 +1,11 @@
+{
+  "name": "高速移行レール",
+  "icon": "railcraft:high_speed_transition_track",
+  "category": "railcraft:tracks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "この方向性のある速度レールは、動力を与えると一方向にのみトロッコを加速します。逆方向に走るトロッコは、レールに動力があれば通常のトロッコ速度まで減速し、なければ停止まで減速します。"
+    }
+  ]
+}

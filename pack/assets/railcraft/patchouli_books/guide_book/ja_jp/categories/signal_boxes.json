@@ -1,0 +1,5 @@
+{
+  "name": "信号箱",
+  "description": "箱は信号モジュールの一部です。信号を操作するのに使えます。",
+  "icon": "railcraft:signal_controller_box"
+}

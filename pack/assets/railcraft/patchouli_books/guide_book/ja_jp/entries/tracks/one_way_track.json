@@ -1,0 +1,11 @@
+{
+  "name": "一方通行レール",
+  "icon": "railcraft:iron_one_way_track",
+  "category": "railcraft:tracks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "動力がない時、このレールの挙動は通常のレールと同じです。ただし、動力を受けると、レールの矢印と逆方向に走るトロッコの運動量を反転させます。もちろん、運動量の一部は失われます。"
+    }
+  ]
+}

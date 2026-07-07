@@ -1,0 +1,11 @@
+{
+  "name": "信号受信箱",
+  "icon": "railcraft:signal_receiver_box",
+  "category": "railcraft:signal_boxes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "この箱は任意の制御機とペアリングできます。ペアリングすると、どの信号現示で箱からレッドストーン電流を発するかをGUIで選べます。信号制御箱の隣に置くと、現示をそちらにも伝えます。"
+    }
+  ]
+}
