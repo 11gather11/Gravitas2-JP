@@ -1,0 +1,43 @@
+{
+  "name": "高度なコネクター",
+  "icon": "laserio:laser_connector_advanced",
+  "sortnum": 2,
+  "category": "laserio:blocks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "高度なレーザーコネクターは$(l:laserio:laser_connector)レーザーコネクター$(/l)と同じように機能し、最大8ブロック先の他の（基本）コネクターやノードに接続します。$(br2)ただし、他の1つの高度なコネクターにのみ接続してペアを形成できます。ある高度なコネクターからそのパートナーへの接続範囲は無限で、ディメンションを越えることもできます！"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "高度なコネクター",
+      "images": [
+        "laserio:textures/book/entries/laser_connector_advanced1.png"
+      ],
+      "border": true,
+      "text": "互いにリンクした2つの高度なコネクター"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "高度なコネクターに既にパートナーがいて、新しいパートナーとペアにしようとすると、元の接続が切れて新しい接続が形成されます。$(br2)$(l:laserio:laser_wrench)レーザーレンチ$(/l)を手に持ってブロックを見ると、パートナーブロックの座標が見えます。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "パートナーの座標",
+      "images": [
+        "laserio:textures/book/entries/laser_connector_advanced2.png"
+      ],
+      "border": true,
+      "text": "パートナーコネクターの座標を表示"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "高度なレーザーコネクターはチャンクロードをしません。すべてのチャンクロードは自分で処理する責任があります！ 未読み込みチャンク内のノードは動作しません。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "高度なレーザーコネクター",
+      "recipe": "laserio:laser_connector_advanced"
+    }
+  ]
+}

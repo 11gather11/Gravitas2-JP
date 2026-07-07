@@ -1,0 +1,21 @@
+{
+  "name": "液体カード",
+  "sortnum": 2,
+  "category": "laserio:cards",
+  "icon": "laserio:card_fluid",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "液体カードは、タンクなどのインベントリ間で液体を送るのに使います。$(br2)オーバークロッカーの値は次のページに記載されています。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "オーバークロッカーごとのMB/T値（最大）:$(br2)$(li)0個: 1,000mb/20t$(li)1個: 2,000mb/15t$(li)2個: 4,000mb/10t$(li)3個: 6,000mb/5t$(li)4個: 8,000mb/1t"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "液体カード",
+      "recipe": "laserio:card_fluid"
+    }
+  ]
+}

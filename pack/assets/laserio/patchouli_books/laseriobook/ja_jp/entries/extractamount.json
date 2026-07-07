@@ -1,0 +1,20 @@
+{
+  "name": "抽出量",
+  "sortnum": 7,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/modeextractor.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "抽出量は抽出モードと在庫モードでのみ使えます。$(br2)この設定は、1操作あたりに抽出されるアイテム数（または液体/FEの量）を決めます。$(br2)例えば、20tickあたり8アイテムに設定すると、抽出器は20tickごとに一度に8アイテムを抽出します。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "抽出カードと在庫カードは既定値が1、最大値が8ですが、$(l:laserio:overclocker_card)カードオーバークロッカー$(/l)を取り付けた場合は別です。指定のオーバークロッカーを取り付けると以下の抽出量が可能になります:$(br)1. 16$(br)2. 32$(br)3. 48$(br)4. 64$(br2)一度に64アイテムを抽出したい場合、オーバークロッカーを4個取り付ける必要があります。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "この値を左クリックで1増やします。右クリックで減らします。Shiftを押すと変化量が10倍、Ctrlを押すと64倍になります。$(br2)これらは併用でき、Shift+Ctrlで640倍になります。$(br2)例えば、Shift右クリックで10減ります。"
+    }
+  ]
+}

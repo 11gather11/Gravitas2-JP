@@ -1,0 +1,6 @@
+{
+  "name": "カード",
+  "description": "カードはノードが隣接ブロックと関わる手段です。カードがなければノードは役に立ちません！",
+  "sortnum": 1,
+  "icon": "laserio:card_item"
+}

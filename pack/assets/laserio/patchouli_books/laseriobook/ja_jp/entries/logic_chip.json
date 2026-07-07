@@ -1,0 +1,22 @@
+{
+  "name": "ロジックチップ",
+  "icon": "laserio:logic_chip",
+  "sortnum": 0,
+  "category": "laserio:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ロジックチップは LaserIO の主要なクラフト材料です。$(br2)「バニラ」素材で作られる唯一のアイテムで、以降のすべてのアイテムは何らかの形でチップを使います。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "生のロジックチップ",
+      "recipe": "laserio:logic_chip_raw"
+    },
+    {
+      "type": "patchouli:smelting",
+      "title": "ロジックチップ",
+      "recipe": "laserio:logic_chip"
+    }
+  ]
+}

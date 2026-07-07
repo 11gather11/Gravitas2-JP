@@ -1,0 +1,29 @@
+{
+  "name": "基本の仕組み",
+  "icon": "laserio:logic_chip",
+  "sortnum": 0,
+  "category": "laserio:filters",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "フィルターアイテムを右クリックするとUIが開きます。あるいは、フィルターがカード内にあるときもUIを使えます。$(br2)フィルターは、挿入・抽出・在庫できるアイテムを制限できます。$(br2)1. 許可 vs 拒否$(br)2. NBT比較$(br)3. フィルタースロット"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "フィルターUI",
+      "images": [
+        "laserio:textures/book/entries/filter_basic.png"
+      ],
+      "border": true,
+      "text": "基本フィルターUI"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "許可 vs 拒否$(br2)許可モードでは、フィルター内のアイテムがフィルターで許可されます。つまり挿入器は丸石を受け付け、抽出器は丸石を抽出できます。$(br2)拒否モードではその逆です。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "NBT比較$(br2)NBT比較を有効にすると、アイテムのNBTタグがフィルターで考慮されます。例えば、剣は受けたダメージ量をNBTに保存します。「NBT比較」を有効にすると、無傷のダイヤモンドの剣は、損傷したものやエンチャントされたものと別物として扱われます。$(br2)NBT比較を無効にすると、状態に関わらずすべてのダイヤモンドの剣が一致します。"
+    }
+  ]
+}

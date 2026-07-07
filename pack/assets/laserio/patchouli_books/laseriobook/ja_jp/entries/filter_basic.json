@@ -1,0 +1,16 @@
+{
+  "name": "基本フィルター",
+  "sortnum": 1,
+  "category": "laserio:filters",
+  "icon": "laserio:filter_basic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "基本フィルターは、インベントリに許可するアイテムを制限するのに使えます。$(br2)これらのスロットは「ゴーストスロット」で、実際にはアイテムを保持せず、アイテムの画像だけを保持します。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "JEIが導入されていれば、JEIからこれらの「ゴーストスロット」にアイテムをドラッグできます。JEIから左クリックしてフィルターUIにドラッグするだけです。"
+    }
+  ]
+}

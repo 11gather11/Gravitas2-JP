@@ -1,0 +1,32 @@
+{
+  "name": "モード",
+  "sortnum": 1,
+  "category": "laserio:mechanics",
+  "icon": "laserio:textures/gui/buttons/modestocker.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "モードはカードの基本的な動作を決めます。次のページで、現在利用可能な各モードタイプを定義します。$(br2)各種類のカード（アイテム/液体/エネルギー）は以下の3つのモードに対応します。アイテムカードを例に使います。$(br2)レッドストーンカードは異なるモード群に対応します。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "laserio:card_item{channel:0b,exact:0b,inv:{Items:[],Size:2},itemextractamt:1b,itemextractspeed:20,mode:0b,priority:0s,regulate:0b,roundRobin:0,sneaky:-1b}",
+      "text": "挿入モードのカードは、抽出モードのカードが抽出した物の有効な送り先です。$(br2)在庫モードのカードは挿入モードのカードから引き出そうとします。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "laserio:card_item{channel:0b,exact:0b,inv:{Items:[],Size:2},itemextractamt:1b,itemextractspeed:20,mode:1b,priority:0s,regulate:0b,roundRobin:0,sneaky:-1b}",
+      "text": "抽出モードのカードは、隣接ブロックから物を取り除こうとします。例えばアイテムは、隣接チェストから取り除かれて挿入カードへ送られます。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "laserio:card_item{channel:0b,exact:0b,inv:{Items:[],Size:2},itemextractamt:1b,itemextractspeed:20,mode:2b,priority:0s,regulate:0b,roundRobin:0,sneaky:-1b}",
+      "text": "在庫モードのカードは、フィルターで指定したアイテムを探し、同じネットワーク内の他の挿入ノードから引き出そうとします。$(br2)在庫モードのカードは、許可に設定したフィルターが必要です。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "laserio:card_item{channel:0b,exact:0b,inv:{Items:[],Size:2},itemextractamt:1b,itemextractspeed:20,mode:3b,priority:0s,regulate:0b,roundRobin:0,sneaky:-1b}",
+      "text": "センサーカードは物を移動せず、代わりに隣接インベントリを見て、インベントリがフィルターに一致すればレッドストーンチャンネルにレッドストーン信号を発します。$(br2)センサーモードのカードはフィルターが必要です。"
+    }
+  ]
+}

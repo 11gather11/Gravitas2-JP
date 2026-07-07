@@ -1,0 +1,20 @@
+{
+  "name": "tick速度",
+  "sortnum": 8,
+  "category": "laserio:mechanics",
+  "icon": "minecraft:textures/item/clock_00.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "tick速度は抽出モードと在庫モードでのみ使えます。$(br2)この設定はカードが動作する速さを決めます。既定値の20tickは、抽出カードが20tick（1秒）ごとにのみアイテムを抽出することを意味します。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "抽出カードと在庫カードは既定かつ最小値が20、最大値が1200ですが、$(l:laserio:overclocker_card)カードオーバークロッカー$(/l)を取り付けた場合は別です。指定のオーバークロッカーを取り付けると以下の最小tick速度が可能になります:$(br)1. 15$(br)2. 10$(br)3. 5$(br)4. 1$(br2)毎tickアイテムを抽出したい場合、オーバークロッカーを4個取り付ける必要があります。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "この値を左クリックで1増やします。右クリックで減らします。Shiftを押すと変化量が10倍、Ctrlを押すと64倍になります。$(br2)これらは併用でき、Shift+Ctrlで640倍になります。$(br2)例えば、Shift右クリックで10減ります。"
+    }
+  ]
+}

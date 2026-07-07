@@ -1,0 +1,29 @@
+{
+  "name": "タグフィルター",
+  "sortnum": 2,
+  "category": "laserio:filters",
+  "icon": "laserio:filter_tag",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "タグフィルターは、資源のタグで振り分けられます。$(br2)タグは Minecraft が似た資源をグループ化する方法です。例えば右を見ると、鉄インゴットに「forge:ingots」タグがあります。金・銅・スズなども同様です。$(br2)タグフィルターなら、1つのエントリですべてのインゴットを振り分けられます！"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "タグUI",
+      "images": [
+        "laserio:textures/book/entries/filter_tag.png"
+      ],
+      "border": true,
+      "text": "タグUI"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "まず、右上のスロットにアイテムを置きます。このアイテムのタグの一覧が$(#0000ff)青$()で表示されます。追加したいタグをクリックし、+ボタンを押します。Shiftを押しながら+ボタンを押すと、すべてのタグを一覧に追加します。$(br2)一覧からタグを削除するには、選んで-ボタンを押します。$(br2)あるいは、Shiftクリックでタグを自動的に追加/削除できます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Xボタンは一覧全体を消去します。$(br2)一覧は「or」一覧として扱われます。つまり、一覧のいずれか1つのタグに一致するアイテムが振り分けられます。$(br2)タグフィルターはNBT比較に対応していません。意味をなさないためです。"
+    }
+  ]
+}

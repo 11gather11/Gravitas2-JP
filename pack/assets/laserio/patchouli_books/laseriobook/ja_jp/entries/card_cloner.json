@@ -1,0 +1,21 @@
+{
+  "name": "カードクローナー",
+  "icon": "laserio:card_cloner",
+  "sortnum": 2,
+  "category": "laserio:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "カードクローナーは、あるカードから別のカードへ設定を「コピー＆ペースト」できます！ $(l:laserio:laser_node)レーザーノード$(/l)画面内で、カードクローナーを（カーソルに）拾い、カードを左クリックすると設定をコピーします。$(br2)カードを右クリックすると保存した設定をペーストします。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "ペースト時、$(l:laserio:overclocker_card)オーバークロッカー$(/l)と$(l:laserio:filters)フィルター$(/l)は、現在利用可能な$(l:laserio:card_holder)カードホルダー$(/l)から自動的に取られます（または戻されます）。これらのアイテムはプレイヤーのインベントリからは取り出されません。$(br2)必要なアイテムが不足している場合、ペーストは失敗します。設定が部分的にペーストされることはありません。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "カードクローナー",
+      "recipe": "laserio:card_cloner"
+    }
+  ]
+}

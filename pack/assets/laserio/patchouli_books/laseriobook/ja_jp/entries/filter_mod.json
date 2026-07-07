@@ -1,0 +1,12 @@
+{
+  "name": "Modフィルター",
+  "sortnum": 3,
+  "category": "laserio:filters",
+  "icon": "laserio:filter_mod",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Modフィルターは、アイテム/ブロックがどのModから来たかに基づいて振り分けます。例えば、レーザーレンチをフィルターに置くと、すべての LaserIO のアイテムとブロックがそのフィルターに一致します。"
+    }
+  ]
+}

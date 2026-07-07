@@ -1,0 +1,6 @@
+{
+  "name": "フィルター",
+  "description": "フィルターは、カードで移動できるもの/できないものを制御できます。",
+  "sortnum": 3,
+  "icon": "laserio:filter_basic"
+}

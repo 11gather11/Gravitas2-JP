@@ -1,0 +1,26 @@
+{
+  "name": "レーザーレンチ",
+  "icon": "laserio:laser_wrench",
+  "sortnum": 1,
+  "category": "laserio:items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "レーザーレンチは主に複数のブロックをつなげるのに使います。$(br2)$(l:laserio:laser_node)ノード$(/l)と$(l:laserio:laser_connector)コネクター$(/l)は、Shift右クリックでブロックを選び、別のブロックを右クリックして接続を形成できます。$(br2)最大接続範囲は8ブロックです。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "レーザーレンチ",
+      "images": [
+        "laserio:textures/book/entries/laser_wrench.png"
+      ],
+      "border": true,
+      "text": "現在選択中のブロックが緑で強調表示されます。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "レーザーレンチ",
+      "recipe": "laserio:laser_wrench"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "レーザーコネクター",
+  "icon": "laserio:laser_connector",
+  "sortnum": 1,
+  "category": "laserio:blocks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "複数の$(l:laserio:laser_node)レーザーノード$(/l)は$(l:laserio:laser_wrench)レーザーレンチ$(/l)で直接つなげられますが、最大範囲は8ブロックです。$(br2)レーザーコネクターはノード間の安価な中継点として機能し、相互接続されたインベントリのネットワークを構築できます。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "レーザーノード",
+      "images": [
+        "laserio:textures/book/entries/laser_connector1.png"
+      ],
+      "border": true,
+      "text": "2つのノード間のコネクター"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "レーザーコネクター",
+      "recipe": "laserio:laser_connector"
+    }
+  ]
+}

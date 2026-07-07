@@ -1,0 +1,65 @@
+{
+  "name": "レーザーノード",
+  "icon": "laserio:laser_node",
+  "sortnum": 0,
+  "category": "laserio:blocks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "レーザーノードは、隣接ブロックと関われるため LaserIO で最も重要なブロックです。$(br2)$(l:laserio:card_item)アイテムカード$(/l)などのカードを使うと、隣接ブロックと関わってアイテム・液体・エネルギー・レッドストーンを転送できます。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "レーザーノード",
+      "images": [
+        "laserio:textures/book/entries/laser_node1.png"
+      ],
+      "border": true,
+      "text": "チェストと関わるノード"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "ノードの各面には、カードを受け入れる3x3のインベントリスロットのグリッドがあります。ノードの面を右クリックするとUIが開きます。$(br2)変更したい面に簡単にアクセスできない場合に備え、上部のボタンで作業する面を変えられます。$(br2)隣の画面写真は、西面のインベントリと関わるノードを示しています。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "レーザーノード UI",
+      "images": [
+        "laserio:textures/book/entries/laser_node_gui1.png"
+      ],
+      "border": true,
+      "text": "カード入りのノードUI"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "ノードは複数の隣接インベントリと同時に関われます。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "稼働中のレーザーノード",
+      "images": [
+        "laserio:textures/book/entries/laser_node2.png"
+      ],
+      "border": true,
+      "text": "2つのチェスト間のノード"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "ノードは$(l:laserio:laser_wrench)レーザーレンチ$(/l)でつなげられ、離れたインベントリ間を接続できます。接続間の最大範囲は8ブロックです。$(br2)ノードがより離れている場合は、$(l:laserio:laser_connector)レーザーコネクター$()の使用をお勧めします。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "接続されたレーザーノード",
+      "images": [
+        "laserio:textures/book/entries/laser_node3.png"
+      ],
+      "border": true,
+      "text": "接続された2つのノード"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "レーザーノード",
+      "recipe": "laserio:laser_node"
+    }
+  ]
+}
