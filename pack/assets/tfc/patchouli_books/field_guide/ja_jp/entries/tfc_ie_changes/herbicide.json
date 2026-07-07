@@ -1,0 +1,20 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "除草剤の追加",
+  "category": "tfc:tfc_ie_changes",
+  "icon": "immersiveengineering:herbicide_bucket",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)除草剤$()は TerraFirmaCraft の世界でも機能します！ $(thing)ケミカルスロワー$()に装填すると細かい霧として散布され、触れた植物を枯らして破壊します。この液体は花や作物を破壊し、土から草を剥がします。また、耕地を乾燥させて台無しにします。そのため、$(thing)腐った堆肥$()の代替として使えます。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "immersiveengineering:herbicide_bucket",
+      "link_recipes": false,
+      "text": "$(thing)除草剤$()を作るには、$(thing)エタノール$()半バケツと任意の$(thing)銅粉$()と$(l:tfc:tfc_ie_changes/chemicals#sulfur)硫黄$()を$(thing)ミキサー$()で混ぜます。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 10
+}

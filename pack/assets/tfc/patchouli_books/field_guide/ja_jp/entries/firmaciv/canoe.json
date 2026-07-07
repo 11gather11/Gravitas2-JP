@@ -1,0 +1,96 @@
+{
+  "name": "丸木舟",
+  "category": "tfc:firmaciv",
+  "icon": "firmaciv:canoe_with_paddle_icon_only",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "丸木舟は、おそらく水上の旅の第一歩になるでしょう！ 銅器時代にいるなら、丸木舟を作れるはずです。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "firmaciv:textures/gui/book/canoe_isometric.png"
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "操縦席にブロックや動物を置けますが、そうするとボートを漕ぐ方法がなくなる点に注意してください！ 川に沿って材料を単独で流したいだけなら最も便利です。$(br2)丸木舟には2つの座席があり、後方から操縦します。全速で進むには丸木舟のパドルを持つ必要があり、2人がパドルを持てばさらに速く進めます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "丸木舟を作るには、皮を剥いだ原木3本を横一列に置き、のこぎりで上部を切り落とします。次に、斧で丸木舟の形を彫ります。最後に、丸木舟の内側に火をつけて船体をくり抜きます。くり抜き工程の完了には、素焼き窯と同じだけの時間がかかります。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "丸木舟を彫るにはより柔らかい木が必要で、そのため一部の原木のみが加工できます。$(br2)ベイマツ$(br)マツ$(br)ヤシ$(br)トウヒ$(br)セコイア$(br)カポック$(br)マングローブ$(br)ホワイトシダー$(br)ヤナギ"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            " F ",
+            " 0 ",
+            " B "
+          ]
+        ],
+        "mapping": {
+          "F": "tfc:wood/stripped_log/douglas_fir[axis=x]",
+          "0": "tfc:wood/stripped_log/douglas_fir[axis=x]",
+          "B": "tfc:wood/stripped_log/douglas_fir[axis=x]"
+        }
+      },
+      "name": "ただの原木",
+      "text": "丸木舟を作る最初のステップ。",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            " F ",
+            " 0 ",
+            " B "
+          ]
+        ],
+        "mapping": {
+          "F": "firmaciv:wood/canoe_component_block/douglas_fir[canoe_carved=5,facing=east,end=true]",
+          "0": "firmaciv:wood/canoe_component_block/douglas_fir[canoe_carved=5,facing=east,end=false]",
+          "B": "firmaciv:wood/canoe_component_block/douglas_fir[canoe_carved=5,facing=east,end=true]"
+        }
+      },
+      "name": "奇妙なハーフブロック",
+      "text": "のこぎりで原木の上部を取り除いた状態。",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            " F ",
+            " 0 ",
+            " B "
+          ]
+        ],
+        "mapping": {
+          "F": "firmaciv:wood/canoe_component_block/douglas_fir[canoe_carved=11,facing=west,end=true]",
+          "0": "firmaciv:wood/canoe_component_block/douglas_fir[canoe_carved=11,facing=east,end=false]",
+          "B": "firmaciv:wood/canoe_component_block/douglas_fir[canoe_carved=11,facing=east,end=true]"
+        }
+      },
+      "name": "奇妙な彫刻",
+      "text": "完全に彫られた丸木舟。船体をくり抜く準備が整っています。",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "firmaciv:crafting/canoe_paddle",
+      "text": "パドルを1〜2本作るのを忘れずに！"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 1
+}

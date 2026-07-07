@@ -1,0 +1,6 @@
+{
+  "name": "チャンネルによるTFC鋳造",
+  "description": "るつぼから複数の鋳型に金属を鋳造できるアドオン、Casting with Channels のすべて。",
+  "icon": "tfcchannelcasting:channel",
+  "sortnum": 60
+}

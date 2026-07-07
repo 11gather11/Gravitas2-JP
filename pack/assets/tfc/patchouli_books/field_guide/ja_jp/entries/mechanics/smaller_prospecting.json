@@ -1,0 +1,73 @@
+{
+  "name": "より小さな探鉱",
+  "category": "tfc:mechanics",
+  "icon": "precisionprospecting:metal/prospector_hammer/bronze",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:mechanics/prospecting)探鉱者のツルハシ$()の広い範囲にいらだっていませんか？ 宝の場所も分からず手探りで掘るのに疲れましたか？ もう絶望しないでください、$(thing)探鉱者のハンマー$()や$(thing)探鉱者のドリル$()が助けになるかもしれません！"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "precisionprospecting:metal/prospector_hammer/bismuth_bronze",
+      "title": "探鉱者のハンマー",
+      "text": "探鉱者のハンマーはツルハシの兄弟のほぼ複製ですが、範囲が小さく、調べたブロックを中心とする13x13x13の範囲のみを探すという顕著な違いがあります。周りじゅうにあるように見える鉱脈を見つけるのに非常に便利です。"
+    },
+    {
+      "type": "tfc:knapping_recipe",
+      "recipe": "precisionprospecting:knapping/prospector_hammer_head_mold",
+      "text": "探鉱者のツルハシと同様に、探鉱者のハンマーヘッドの鋳型は、上に示すように粘土を$(l:getting_started/pottery)打ち出して$()作れます。これを加熱して液体金属を$(l:getting_started/finding_ores#casting)鋳造$()するのに使えます。"
+    },
+    {
+      "type": "tfc:anvil_recipe",
+      "recipe": "precisionprospecting:anvil/prospector_hammer/bronze_head",
+      "text": "探鉱者のハンマーヘッドは、任意の工具用金属の$(thing)2連インゴット$()から$(l:mechanics/anvils)金床$()で$(l:mechanics/anvils#working)鍛造$()することもできます。工具ヘッドを棒と合成して探鉱者のハンマーを作ります。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "precisionprospecting:metal/prospector_drill/bismuth_bronze",
+      "title": "探鉱者のドリル",
+      "text": "鉱脈がどの方向にあるか分からない場合は、$(thing)探鉱者のドリル$()を取り出す時かもしれません。7x25x7の範囲を探し、長辺はクリックしたブロックの面と一直線で、10ブロック先を中心とします。"
+    },
+    {
+      "type": "tfc:knapping_recipe",
+      "recipe": "precisionprospecting:knapping/prospector_drill_head_mold",
+      "text": "探鉱者のドリルヘッドの鋳型は、上に示すように粘土から打ち出せます。"
+    },
+    {
+      "type": "tfc:anvil_recipe",
+      "recipe": "precisionprospecting:anvil/prospector_drill/bronze_head",
+      "text": "探鉱者のドリルヘッドは、任意の工具用金属の羽口から金床で鍛造することもできます。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "precisionprospecting:crafting/metal/prospector_drill/bronze",
+      "text": "工具ヘッドを2本の棒と合成して探鉱者のドリルを作ります。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "探鉱者のハンマーやドリルは調査範囲が小さいため、$(thing)非常に大きなサンプル$()を発見したと報告することはまれかもしれない点に留意してください。"
+    }
+  ],
+  "read_by_default": true,
+  "extra_recipe_mappings": {
+    "precisionprospecting:metal/prospector_hammer/bismuth_bronze": 1,
+    "precisionprospecting:metal/prospector_hammer/black_bronze": 1,
+    "precisionprospecting:metal/prospector_hammer/bronze": 1,
+    "precisionprospecting:metal/prospector_hammer/copper": 1,
+    "precisionprospecting:metal/prospector_hammer/wrought_iron": 1,
+    "precisionprospecting:metal/prospector_hammer/steel": 1,
+    "precisionprospecting:metal/prospector_hammer/black_steel": 1,
+    "precisionprospecting:metal/prospector_hammer/blue_steel": 1,
+    "precisionprospecting:metal/prospector_hammer/red_steel": 1,
+    "precisionprospecting:metal/prospector_drill/bismuth_bronze": 4,
+    "precisionprospecting:metal/prospector_drill/black_bronze": 4,
+    "precisionprospecting:metal/prospector_drill/bronze": 4,
+    "precisionprospecting:metal/prospector_drill/copper": 4,
+    "precisionprospecting:metal/prospector_drill/wrought_iron": 4,
+    "precisionprospecting:metal/prospector_drill/steel": 4,
+    "precisionprospecting:metal/prospector_drill/black_steel": 4,
+    "precisionprospecting:metal/prospector_drill/blue_steel": 4,
+    "precisionprospecting:metal/prospector_drill/red_steel": 4
+  }
+}

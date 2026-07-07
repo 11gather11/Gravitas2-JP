@@ -1,0 +1,39 @@
+{
+  "name": "チャンネルによる鋳造",
+  "category": "tfc:tfcchannelcasting",
+  "icon": "tfcchannelcasting:channel",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)チャンネル$()と$(thing)鋳型台$()を使えば、$(thing)るつぼ$()から一度に複数の鋳型へ鋳造できます。$(thing)鋳型台$()を$(thing)チャンネル$()で$(thing)るつぼ$()につなぎ、$(thing)るつぼ$()の隣の$(thing)チャンネル$()を右クリックするだけです。$(thing)鋳型台$()を$(l:getting_started/pottery#mold)鋳型$()でShift右クリックすると鋳型を置いたり外したりできます。"
+    },
+    {
+      "type": "tfc:knapping_recipe",
+      "recipe": "tfcchannelcasting:fire_clay_knapping/unfired_channel_4",
+      "text": "いくつかの$(thing)素焼き前のチャンネル$()を打ち出します。"
+    },
+    {
+      "type": "tfc:knapping_recipe",
+      "recipe": "tfcchannelcasting:fire_clay_knapping/unfired_mold_table",
+      "text": "$(thing)素焼き前の鋳型台$()を打ち出します。"
+    },
+    {
+      "type": "tfc:heat_recipe",
+      "recipe": "tfcchannelcasting:heating/channel",
+      "text": "チャンネルと鋳型台を打ち出したら、他の陶器と同様に$(thing)焼成$()する必要があります。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock_id": "tfcchannelcasting:example",
+      "name": "鋳造のセットアップ",
+      "text": "",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)鋳型台$()にふいごを使うと金属がより速く冷えます。$()$(li)$(thing)チャンネル$()をレッドストーンパルスで作動させると金属が注がれ始めます。$()$(li)$(thing)鋳型台$()はコンパレーター信号を出力します。",
+      "title": "自動化"
+    }
+  ],
+  "read_by_default": true
+}

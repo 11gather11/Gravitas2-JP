@@ -1,0 +1,151 @@
+{
+  "name": "手漕ぎボート",
+  "category": "tfc:firmaciv",
+  "icon": "firmaciv:rowboat_icon_only",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "鉄器時代に到達してアップグレードが欲しいですか？ それなら手漕ぎボートがぴったりです。座席が3つあり、3人のプレイヤー、または馬を含む最大2頭の動物を乗せられます！ いつものように、座席（操縦席を除く）を好きな容器に置き換えることもできます。船尾に追加の容器を2つ置くこともできます。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "firmaciv:textures/gui/book/rowboat_isometric.png"
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "手漕ぎボートでは、他のボートと違い、操縦時は後ろ向きに座ります。これにより機械的な利点が得られ、オールに全力を込められます！ もちろん一人称でも操縦できますが、自分に向かう三人称の方が直感的かもしれません。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "firmaciv:crafting/watercraft_frame_angled",
+      "text": "手漕ぎボートを作るには、船大工の足場から始める必要があります。これを使うと、組み立て中にボートの材料を所定の位置に保てます。$(br2)次に、2×3の範囲に内向きに配置します。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            "   ",
+            "   "
+          ],
+          [
+            " 12",
+            " 04",
+            " 56"
+          ]
+        ],
+        "mapping": {
+          "1": "firmaciv:watercraft_frame_angled[facing=west,shape=inner_right]",
+          "2": "firmaciv:watercraft_frame_angled[facing=west,shape=inner_left]",
+          "0": "firmaciv:watercraft_frame_angled[facing=north,shape=straight]",
+          "4": "firmaciv:watercraft_frame_angled[facing=south,shape=straight]",
+          "5": "firmaciv:watercraft_frame_angled[facing=east,shape=inner_left]",
+          "6": "firmaciv:watercraft_frame_angled[facing=east,shape=inner_right]"
+        }
+      },
+      "name": "手漕ぎボートの足場",
+      "text": "手漕ぎボートを組み立てるために配置した船大工の足場。",
+      "enable_visualize": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "次に、適度に丈夫な硬材の板を追加する必要があります。$(br2)アカシア$(br)トネリコ$(br)ポプラ$(br)シラカバ$(br)ブラックウッド$(br)トチノキ$(br)ヒッコリー$(br)カエデ$(br)オーク$(br)ローズウッド$(br)スズカケノキ"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            "   ",
+            "   "
+          ],
+          [
+            " 12",
+            " 04",
+            " 56"
+          ]
+        ],
+        "mapping": {
+          "1": "firmaciv:wood/watercraft_frame/angled/hickory[facing=west,shape=inner_right,frame_processed=3]",
+          "2": "firmaciv:wood/watercraft_frame/angled/hickory[facing=west,shape=inner_left,frame_processed=3]",
+          "0": "firmaciv:wood/watercraft_frame/angled/hickory[facing=north,shape=straight,frame_processed=3]",
+          "4": "firmaciv:wood/watercraft_frame/angled/hickory[facing=south,shape=straight,frame_processed=3]",
+          "5": "firmaciv:wood/watercraft_frame/angled/hickory[facing=east,shape=inner_left,frame_processed=3]",
+          "6": "firmaciv:wood/watercraft_frame/angled/hickory[facing=east,shape=inner_right,frame_processed=3]"
+        }
+      },
+      "name": "手漕ぎボートの足場",
+      "text": "各足場に板を4枚追加した状態。",
+      "enable_visualize": true
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            "   ",
+            "   "
+          ],
+          [
+            " 12",
+            " 04",
+            " 56"
+          ]
+        ],
+        "mapping": {
+          "1": "firmaciv:wood/watercraft_frame/angled/hickory[facing=west,shape=inner_right,frame_processed=7]",
+          "2": "firmaciv:wood/watercraft_frame/angled/hickory[facing=west,shape=inner_left,frame_processed=7]",
+          "0": "firmaciv:wood/watercraft_frame/angled/hickory[facing=north,shape=straight,frame_processed=7]",
+          "4": "firmaciv:wood/watercraft_frame/angled/hickory[facing=south,shape=straight,frame_processed=7]",
+          "5": "firmaciv:wood/watercraft_frame/angled/hickory[facing=east,shape=inner_left,frame_processed=7]",
+          "6": "firmaciv:wood/watercraft_frame/angled/hickory[facing=east,shape=inner_right,frame_processed=7]"
+        }
+      },
+      "name": "手漕ぎボートの足場",
+      "text": "オフハンドにハンマーを持ち、各足場に銅のボルトを4本追加します。銅のボルトは銅インゴットから鍛造します。",
+      "enable_visualize": true
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            " LR",
+            "   "
+          ],
+          [
+            " 12",
+            " 04",
+            " 56"
+          ]
+        ],
+        "mapping": {
+          "1": "firmaciv:wood/watercraft_frame/angled/hickory[facing=west,shape=inner_right,frame_processed=7]",
+          "2": "firmaciv:wood/watercraft_frame/angled/hickory[facing=west,shape=inner_left,frame_processed=7]",
+          "0": "firmaciv:wood/watercraft_frame/angled/hickory[facing=north,shape=straight,frame_processed=7]",
+          "4": "firmaciv:wood/watercraft_frame/angled/hickory[facing=south,shape=straight,frame_processed=7]",
+          "5": "firmaciv:wood/watercraft_frame/angled/hickory[facing=east,shape=inner_left,frame_processed=7]",
+          "6": "firmaciv:wood/watercraft_frame/angled/hickory[facing=east,shape=inner_right,frame_processed=7]",
+          "L": "alekiships:oarlock[facing=north]",
+          "R": "alekiships:oarlock[facing=south]"
+        }
+      },
+      "name": "手漕ぎボートの足場",
+      "text": "最後に、ボートの中央にオール受けを追加します。これは錬鉄の2連インゴットから鍛造します。",
+      "enable_visualize": true
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe2": "alekiships:crafting/oar",
+      "text": "では、$(item)$(k:key.use)$()でオールを追加すれば出発です！"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 3
+}

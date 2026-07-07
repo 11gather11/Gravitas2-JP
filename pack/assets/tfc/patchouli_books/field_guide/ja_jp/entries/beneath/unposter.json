@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "アンポスター",
+  "category": "tfc:beneath",
+  "icon": "beneath:unposter",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)アンポスター$()はキノコを育てるのに使います。キノコ、ガストの涙、ネザーの作物を入れられます。キノコのそばにあると、1日に1回、中のアイテムを消費して周囲でそのキノコを増やします。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "beneath:crafting/unposter"
+    }
+  ],
+  "read_by_default": true
+}

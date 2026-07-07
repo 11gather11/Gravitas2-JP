@@ -1,0 +1,35 @@
+{
+  "category": "tfc:survivors_delight",
+  "extra_recipe_mappings": {
+    "farmersdelight:stove": 0
+  },
+  "icon": "farmersdelight:stove",
+  "name": "コンロ",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "コンロは$(l:mechanics/heating)熱$()を利用する高度な方法です。このブロックは$(thing)原木$()、$(thing)石炭$()、$(thing)木炭$()を、調理や他の調理装置への熱供給の燃料として受け付けます。点火されているが調理していないときは、燃料消費は最小限です。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "X": "farmersdelight:stove"
+        },
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ]
+      },
+      "name": "コンロ",
+      "text": ""
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 2
+}

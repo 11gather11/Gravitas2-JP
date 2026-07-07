@@ -6,6 +6,23 @@
 
 ## [Unreleased]
 
+## [0.19.0] - 2026-07-07
+
+### Added
+
+- **Patchouli ガイドブックの翻訳を開始**。まず TFC フィールドガイドに相乗りする全アドオン章＋Beneath＋EnderIO を本文まで翻訳（13ブック・約350文字列）。TFC本体のガイドは Mod 同梱の日本語版があるため、その中に英語で並んでいた以下の章を日本語化。
+  - **beneath**（Beneath 全11章：古代の祭壇・ゲップフラワー・作物・ヘルフォージ・供犠の一覧 等）
+  - **firmaciv**（船・カヤック・スループ・航法〈経度/緯度/高度〉）、**tfc_ie_changes**（合金・化学・アーク炉・鉱石 等13章）、**survivorsdelight**（戸棚・調理鍋・フライパン・特殊効果 等8章）
+  - **advancedtfctech**（ビームハウス・製粉機・動力織機 等）、**precisionprospecting**、**tfchannelcasting**、**tfships**、**workerstfc**、**castirongrill**、**tfcgyres_orehints**、**firmalife**（欠落2章）、**enderio**
+  - Patchouli書式（`$(thing)`/`$(l:)`/`$(item)$(k:)`/`$(br)`/`$(li)`/色コード）を保持し、書式トークン整合を自動検証。
+- **survivorsabilities の `appetite`（食欲）属性を補完**（Mod側が en_us 未登録のため生キー表示だった）。
+
+### Note
+
+- ApothicAttributes 属性画面の「Hide Unchanged」はMod内ハードコード文字列（翻訳キーなし）のためリソースパックでは翻訳不可。
+- 残りのガイドブック（railcraft/sgjourney/laserio/buildinggadgets2/advancedperipherals/nuclearcraft ほか独立ブック 約180章）は今後のバージョンで順次翻訳予定。
+
+
 ## [0.18.1] - 2026-07-07
 
 ### Fixed

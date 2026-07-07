@@ -1,0 +1,33 @@
+{
+  "name": "カヤック",
+  "category": "tfc:firmaciv",
+  "icon": "firmaciv:kayak_with_paddle_icon_only",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "陸路での単独冒険の最良の相棒。もちろん、アイテムとして運べる唯一のボートであることが役立ちます。単独プレイヤーには最速のボートで、非常に機動力が高いです！$(br2)カヤックを運ぶには、壊すだけです。",
+      "title": "カヤック"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "カヤック",
+      "images": [
+        "firmaciv:textures/gui/book/kayak_isometric.png"
+      ],
+      "text": "カヤックは最も小さく、最も持ち運びやすいボートです。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "firmaciv:crafting/kayak",
+      "recipe2": "firmaciv:crafting/kayak_paddle"
+    },
+    {
+      "type": "tfc:sealed_barrel_recipe",
+      "anchor": "soaking",
+      "recipe": "firmaciv:barrel/large_waterproof_hide_olive",
+      "text": "大きな加工済みの獣皮を獣脂かオリーブ油に浸すと、表面が水を通さなくなります。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 2
+}

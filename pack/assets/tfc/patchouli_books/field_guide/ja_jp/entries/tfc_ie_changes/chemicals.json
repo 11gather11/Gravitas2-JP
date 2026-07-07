@@ -1,0 +1,39 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "化学材料",
+  "category": "tfc:tfc_ie_changes",
+  "icon": "tfc:powder/saltpeter",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "工学のすべての材料が、木・石・様々な金属ほど単純なわけではありません。利用できる材料の幅広さを理解するには、化学工程の基本的な理解が不可欠です。"
+    },
+    {
+      "type": "tfc:quern_recipe",
+      "recipe": "tfc:quern/saltpeter",
+      "text": "$(thing)硝石$()は、$(l:the_world/ores_and_minerals#saltpeter)硝石鉱石$()と$(thing)砂岩$()を$(thing)クラッシャー$()で加工して得られるアルカリ塩です。$(thing)硝石鉱石$()は$(l:mechanics/quern)石臼$()でも加工できます。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "immersiveengineering:crafting/fertilizer",
+      "text": "$(thing)硝石$()は$(thing)バイオディーゼル$()の生成の触媒として使われ、上に示すように$(thing)肥料$()を作るのにも使えます。"
+    },
+    {
+      "type": "tfc:quern_recipe",
+      "anchor": "sulfur",
+      "recipe": "tfc:quern/sulfur",
+      "text": "$(thing)硫黄$()は、特定の鉱石や$(thing)鉱床$()で一般的に見つかる粉です。$(l:the_world/ores_and_minerals#sulfur)硫黄鉱石$()と$(thing)クォーツブロック$()を$(thing)クラッシャー$()で加工して得られます。$(thing)硫黄鉱石$()は$(l:mechanics/quern)石臼$()でも加工できます。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/gunpowder",
+      "recipe2": "tfc:crafting/gunpowder_graphite"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)硝石$()、$(thing)硫黄$()、$(thing)木炭$()を混ぜると$(thing)火薬$()を作れます。倒したモンスターから略奪するよりずっと科学的な方法です。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 3
+}

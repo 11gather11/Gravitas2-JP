@@ -1,0 +1,35 @@
+{
+  "category": "tfc:survivors_delight",
+  "extra_recipe_mappings": {
+    "tag:survivorsdelight:cabinets": 0
+  },
+  "icon": "survivorsdelight:planks/cabinet/ash",
+  "name": "戸棚",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "戸棚は食料の保存と調理器具の収納に使う木製の容器です。$(l:mechanics/lamps#tallow)獣脂のバケツ$()を持って$(item)$(k:key.use)$()すると処理できます。処理した戸棚は食料を$(l:mechanics/decay)より長く保存$()できます。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "X": "#survivorsdelight:cabinets"
+        },
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ]
+      },
+      "name": "戸棚の種類",
+      "text": ""
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 3
+}

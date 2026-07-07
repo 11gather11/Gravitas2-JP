@@ -1,0 +1,66 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "動力織機",
+  "category": "tfc:advancedtfctech",
+  "icon": "advancedtfctech:power_loom",
+  "pages": [
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            "SM ",
+            "SM ",
+            "SM ",
+            "   "
+          ],
+          [
+            " L ",
+            "SMS",
+            " F ",
+            "SMS",
+            " L "
+          ],
+          [
+            " L ",
+            "SHS",
+            "S0S",
+            "SHS",
+            "RT "
+          ]
+        ],
+        "mapping": {
+          "S": "immersiveengineering:steel_scaffolding_standard",
+          "M": "immersiveengineering:sheetmetal_steel",
+          "T": "immersiveengineering:storage_steel",
+          "F": "immersiveengineering:steel_fence",
+          "L": "immersiveengineering:light_engineering",
+          "H": "immersiveengineering:heavy_engineering",
+          "R": "immersiveengineering:rs_engineering",
+          "0": "immersiveengineering:heavy_engineering"
+        }
+      },
+      "name": "動力織機",
+      "text": "構造を形成するには、エンジニアのハンマーで、鋼ブロックの上の$(thing)軽工業ブロック$()を$(item)右クリック$()します。",
+      "enable_visualize": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)動力織機$()は、繊維への高まる需要に対する革新的な解決策です。$(br2)織りの工程を自動化するため、糸を巻いた管を含むシャトルが、高い位置と低い位置を交互に張られた2組の直交する糸の間を素早く往復します。$(br2)動力織機を動かすには、$(thing)選択した糸/繊維を巻いた管$()を機械の$(thing)側面$()にあるホルダーに取り付ける必要があります。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "織機が動作する前に、機械の$(thing)中央$()の「グリル」に糸/繊維で$(item)右クリック$()して$(thing)選択した糸/繊維16個$()を装填する必要があります。$(br2)その後、$(thing)入力する糸/繊維$()を同じ方法で$(thing)機械の短い側の下側のビーム$()に入れられます。$(br2)出力は、$(thing)出力側の中央$()に置いた保管装置で、または背面を$(item)Shift右クリック$()して取り出せます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "既定では 80IF/t を消費します。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 0,
+  "extra_recipe_mappings": {
+    "advancedtfctech:power_loom": 0
+  }
+}

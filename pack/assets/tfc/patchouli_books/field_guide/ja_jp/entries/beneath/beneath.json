@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "Beneath に眠るもの",
+  "category": "tfc:beneath",
+  "icon": "beneath:warped_thatch",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "何年もの間、あなたが知っていたのはオーバーワールドの静けさだけでした。確かに困難でしたが、太陽は昇り、朝には鳥がさえずり、$(thing)魔法$()のかけらもありませんでした。ある日、あなたはこれでは足りないと思い立ちました。奇妙な生き物、想像を超える危険、そして計り知れない富に満ちた呪われた世界を夢見たのです。その世界はあなたの Beneath（下）にあります。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Beneath の世界は、あなたがよく知る地下世界とよく似ていますが、TerraFirmaCraft 風です。そこには木が生え、地面には道具にできる石が見つかります。取り除かれたもの、置き換えられたものがあり、多くの新しい要素が追加されています。一つ確かなのは、生き延びるにはより一層努力しなければならないということです。"
+    }
+  ],
+  "read_by_default": true
+}

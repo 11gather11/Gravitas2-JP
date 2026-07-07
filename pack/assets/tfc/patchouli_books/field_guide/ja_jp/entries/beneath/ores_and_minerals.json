@@ -1,0 +1,113 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "鉱石と鉱物",
+  "category": "tfc:beneath",
+  "icon": "beneath:ore/normal_nether_gold",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "オーバーワールドの下でも、採掘できる鉱脈が見つかります。重要な点として、$(thing)ネザーラック$()は原石のようには崩落しません。ただし、$(thing)ブラックストーン$()、$(thing)ネザーレンガ$()、$(thing)コブルラック$()やその他のブロックは崩落します。探鉱はオーバーワールドの下でも機能します。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "anchor": "nether_gold",
+      "multiblock": {
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "X": "beneath:ore/normal_nether_gold"
+        }
+      },
+      "name": "ネザーゴールド",
+      "text": "ネザーゴールドはネザーラックを置き換え、豊富にあります。溶岩の下ではより多く、より豊かな金があります。",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:multiblock",
+      "anchor": "cursecoal",
+      "multiblock": {
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "X": "beneath:ore/nether_cursecoal"
+        }
+      },
+      "name": "呪われた石炭",
+      "text": "呪われた石炭は強力な$(l:beneath/hellforge)燃料$()です。高さ80より上でネザーラックを置き換えます。",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:multiblock",
+      "anchor": "sylvite",
+      "multiblock": {
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "X": "beneath:ore/blackstone_sylvite"
+        }
+      },
+      "name": "シルバイト",
+      "text": "シルバイトはどの高さでも玄武岩を置き換えます。",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:multiblock",
+      "anchor": "quartz",
+      "multiblock": {
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "X": "minecraft:nether_quartz_ore"
+        }
+      },
+      "name": "ネザークォーツ",
+      "text": "ネザークォーツはすべての高さでネザーラックを置き換え、豊富にあります。",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:multiblock",
+      "anchor": "slimed_netherrack",
+      "multiblock": {
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "X": "beneath:ore/slimed_netherrack"
+        }
+      },
+      "name": "スライムまみれのネザーラック",
+      "text": "スライムまみれのネザーラックは、溶岩面より上で時折ネザーラックを置き換えます。",
+      "enable_visualize": false
+    }
+  ],
+  "read_by_default": true
+}

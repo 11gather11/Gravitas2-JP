@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "ゲップフラワー",
+  "category": "tfc:beneath",
+  "icon": "beneath:burpflower",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)ゲップフラワー$()には、他のブロックに役立つ呪いをかける力があります。Beneath のいたるところで見つかります。ゲップフラワーには向きがあり、それが作用を行う方向です。その後ろに$(thing)硫黄$()ブロックを置くと充填されます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "硫黄があると、やがてゲップフラワーは充填され、黄色い硫黄の花をつけます。そしてまもなくゲップの音を立てて硫黄の煙を吐き出します。この煙にはブロックを別のブロックに変える力があります。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "まず、ネザーレンガは$(thing)ヘルブリック$()に変えられます。木炭の山は$(l:beneath/ores_and_minerals#cursecoal)呪われた石炭の山$()に変換できます。さらに、$(thing)ソウル耕地$()に$(thing)腐敗$()を加えることもできます。"
+    }
+  ],
+  "read_by_default": true
+}

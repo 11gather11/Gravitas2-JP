@@ -1,0 +1,45 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "クォーツ",
+  "category": "tfc:tfc_ie_changes",
+  "icon": "tfc_ie_addon:mineral/quartz_shard",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc_ie_addon:mineral/quartz_shard",
+      "title": "クォーツ",
+      "link_recipes": false,
+      "text": "もうネザーには行けませんが、電子機器用のクォーツがまだ必要ですか？ 問題ありません！ TFC のオーバーワールドで$(thing)クォーツ晶洞$()を見つけられるようになりました。中には$(thing)クォーツブロック$()や$(thing)クォーツクラスター$()が含まれます！ Immersive Engineering の電子機器のクラフトに役立ちます！"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            " Q ",
+            "   "
+          ],
+          [
+            "   ",
+            " 0 ",
+            "   "
+          ]
+        ],
+        "mapping": {
+          "Q": "tfc_ie_addon:mineral/quartz_cluster",
+          "0": "tfc_ie_addon:mineral/budding_quartz"
+        }
+      },
+      "name": "クォーツクラスター",
+      "text": "時間が経つと$(thing)芽生えたクォーツブロック$()がより多くの$(thing)クォーツクラスター$()を生み出せる点に留意してください。",
+      "enable_visualize": false
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 7,
+  "extra_recipe_mappings": {
+    "tfc_ie_addon:mineral/quartz_shard": 0,
+    "tfc_ie_addon:mineral/quartz_block": 0
+  }
+}

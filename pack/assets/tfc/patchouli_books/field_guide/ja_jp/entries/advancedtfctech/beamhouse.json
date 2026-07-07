@@ -1,0 +1,67 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "ビームハウス",
+  "category": "tfc:advancedtfctech",
+  "icon": "advancedtfctech:beamhouse",
+  "pages": [
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "    ",
+            " mmm",
+            " MMM",
+            " mmm"
+          ],
+          [
+            " L L",
+            "RMHM",
+            "LM M",
+            "LMMM"
+          ],
+          [
+            "SPSL",
+            "SP0S",
+            "LPSS",
+            "LSSS"
+          ]
+        ],
+        "mapping": {
+          "S": "immersiveengineering:steel_scaffolding_standard",
+          "M": "immersiveengineering:sheetmetal_iron",
+          "m": "immersiveengineering:slab_sheetmetal_iron",
+          "P": "minecraft:orange_wool",
+          "H": "immersiveengineering:heavy_engineering",
+          "L": "immersiveengineering:light_engineering",
+          "R": "immersiveengineering:rs_engineering",
+          "0": "immersiveengineering:steel_scaffolding_standard"
+        }
+      },
+      "name": "ビームハウス",
+      "text": "ハンマーで$(thing)重工業ブロック$()を$(item)右クリック$()します。$(#007500)オレンジ色の羊毛$()は$(#007500)流体パイプ$()であるべきですが、描画するとクラッシュします。",
+      "enable_visualize": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)ビームハウス$()は、皮革生産工程における獣皮の石灰漬け・洗浄・なめしを扱います。$(br2)流体の入力には、GUI内に満たしたバケツを入れるか、満たしたバケツで流体入力ポートを$(item)右クリック$()します。不要な流体は、同じポートを空のバケツで$(item)右クリック$()すると取り除けます。$(br2)既定では 20IF/t を消費します。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "machine_made",
+      "item": "tfc:large_prepared_hide{machine_made:1b}",
+      "title": "機械製の獣皮",
+      "link_recipes": false,
+      "text": "生の獣皮は$(thing)ビームハウス$()で加工されると$(thing)「機械製」$()タグを得ます。続く洗浄・肉削ぎ（削り）・なめしの工程を$(thing)ビームハウス$()と$(l:tfc:advancedtfctech/fleshing_machine)肉削ぎ機$()が扱えば、タグは引き継がれます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "これらすべての工程を経ると、得られる革の量は通常の$(thing)2倍$()になります。$(br2)工程のいずれかのステップが機械で扱われないと、$(thing)「機械製」$()タグは失われ、出力2倍のボーナスは保持できない点に注意してください。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 3,
+  "extra_recipe_mappings": {
+    "advancedtfctech:beamhouse": 0
+  }
+}

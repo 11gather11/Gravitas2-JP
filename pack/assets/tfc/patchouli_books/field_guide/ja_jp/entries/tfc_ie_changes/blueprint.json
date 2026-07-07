@@ -1,0 +1,19 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "設計図のレシピ",
+  "category": "tfc:tfc_ie_changes",
+  "icon": "immersiveengineering:blueprint",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "TerraFirmaCraft の世界は村の生成を提供しないため、設計図を売ってくれる村人に会えません。そのため、作業台で設計図をクラフトできるようになりました！ 少し難しいですが、その価値はあります。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc_ie_addon:crafting/blueprint_electrode",
+      "recipe2": "tfc_ie_addon:crafting/blueprint_special_bullet"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 5
+}

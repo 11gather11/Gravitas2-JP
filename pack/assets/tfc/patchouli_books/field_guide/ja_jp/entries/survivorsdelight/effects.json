@@ -1,0 +1,29 @@
+{
+  "category": "tfc:survivors_delight",
+  "extra_recipe_mappings": {},
+  "icon": "survivorsdelight:effect_icon/nourishment",
+  "name": "特殊効果",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Farmer's Delight の料理は、過酷な世界で生き延びるのに役立つ特殊効果を与えることがあります。腐った料理には有益な効果がない点に注意してください。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "survivorsdelight:effect_icon/nourishment",
+      "text": "滋養は空腹度と喉の渇きが減るのを防ぎます。ただし、ダメージを受けて自然な受動回復が有効な場合は機能を停止します。体力が満タンに戻るか、空腹度や喉の渇きが自然回復には低すぎる状態になると再開します。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "survivorsdelight:effect_icon/comfort",
+      "text": "快適は、空腹度や喉の渇きが自然回復には低すぎる場合でも体力を回復できるようにします。また、回復速度を空腹度と喉の渇きが満タンのときと同じまで高めます。滋養と併用して困難な状況を生き延びる助けになります。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "survivorsdelight:effect_icon/workhorse",
+      "text": "働き者は、馬やプレイヤーが過積載にならずに、より多くの非常に大きく重いアイテムを運べるようにします。馴れが35%以上の馬に馬用飼料を与えると付与できます。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 5
+}

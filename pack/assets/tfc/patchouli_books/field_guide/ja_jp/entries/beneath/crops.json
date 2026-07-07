@@ -1,0 +1,54 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "作物",
+  "category": "tfc:beneath",
+  "icon": "beneath:gleamflower",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ソウルソイルは耕して$(thing)ソウル耕地$()にできます。Beneath では作物の仕組みが少し異なります。栄養素は5種類あります。死、破壊、腐敗、悲哀、炎です。栄養素はクワを持つと表示されますが、値が0より大きくないと現れません。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "作物には好みの栄養素があります。それを消費する代わりに、時間とともにその栄養素を土に加えていきます。作物は成長するために他の4つの栄養素を喜んで消費します。ネザーの作物は枯れませんが、成長にはブロック光が必要です。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "肥料は次のとおりです。$(br)$(br)硫黄: 腐敗20%、炎10%$(br)火薬: 破壊60%、炎10%、死40%$(br)ガストの涙: 悲哀30%$(br)ブレイズパウダー: 炎20%"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "これらの肥料は、チェストの戦利品から入手できる「純粋な」形でも手に入ります。それらを合成すると、すべてをまとめた$(thing)苦悶の肥料$()になります。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "真紅の根（腐敗）と歪んだ根（破壊）は作物として育てられます。これらはソウル耕地の栄養の質を高める手段として最も役立ちます。要塞で見つかるネザーウォート（死）も作物として育てられます。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "X": "beneath:gleamflower"
+        }
+      },
+      "name": "グリームフラワー",
+      "text": "グリームフラワー（炎）は作物として育てられ、また世界に植物として見つかります。無限の光源として役立ちます。",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "beneath:ghost_pepper",
+      "link_recipes": false,
+      "text": "ゴーストペッパー（悲哀）は Beneath で育てられる食用の野菜です！"
+    }
+  ],
+  "read_by_default": true
+}

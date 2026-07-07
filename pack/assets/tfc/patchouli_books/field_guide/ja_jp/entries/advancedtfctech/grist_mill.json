@@ -1,0 +1,55 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "製粉機",
+  "category": "tfc:advancedtfctech",
+  "icon": "advancedtfctech:grist_mill",
+  "pages": [
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            " H ",
+            "   ",
+            "   "
+          ],
+          [
+            " L ",
+            "RLM",
+            "mTm",
+            "mLm"
+          ],
+          [
+            "SMS",
+            "S0L",
+            "SSS",
+            "SMS"
+          ]
+        ],
+        "mapping": {
+          "S": "immersiveengineering:steel_scaffolding_standard",
+          "M": "immersiveengineering:sheetmetal_steel",
+          "m": "immersiveengineering:slab_sheetmetal_steel",
+          "T": "immersiveengineering:storage_steel",
+          "L": "immersiveengineering:light_engineering",
+          "R": "immersiveengineering:rs_engineering",
+          "H": "minecraft:hopper",
+          "0": "immersiveengineering:steel_scaffolding_standard"
+        }
+      },
+      "name": "製粉機",
+      "text": "エンジニアのハンマーで、レッドストーン工業ブロックの反対側から$(thing)鋼ブロック$()を$(item)右クリック$()します。",
+      "enable_visualize": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)製粉機$()は、生の穀物をより食べやすい小麦粉に挽きます。$(br2)アイテムはホッパー、シュート、または投下式コンベアベルトで上から入力できます。$(br2)既定では 80IF/t を消費します。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 2,
+  "extra_recipe_mappings": {
+    "advancedtfctech:grist_mill": 0
+  }
+}

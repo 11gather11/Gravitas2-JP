@@ -1,0 +1,20 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "黒鉛",
+  "category": "tfc:tfc_ie_changes",
+  "icon": "immersiveengineering:ingot_hop_graphite",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "高配向熱分解黒鉛（HOP）は、特殊な工学構造物に使われる複雑で高度に圧縮された炭素材料です。$(thing)HOP黒鉛の粉$()は、8個の$(thing)コークスの粉$()または$(thing)黒鉛粉$()を$(thing)工業用スクイーザー$()で圧縮して作られます。その粉はインゴットに製錬できます。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "immersiveengineering:graphite_electrode",
+      "link_recipes": false,
+      "text": "HOP黒鉛の最も一般的な用途は、$(thing)アーク炉$()で使う$(thing)電極$()の作成です。これらの$(thing)電極$()はクラフト可能な$(l:tfc:tfc_ie_changes/blueprint)エンジニアの設計図$()で作られます。ロッドの鋳型を4つのインゴットに使って$(thing)メタルプレス$()でも$(thing)電極$()を作れますが、この方法で作った$(thing)電極$()は耐久値が半分しかありません。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 8
+}

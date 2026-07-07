@@ -1,0 +1,36 @@
+{
+  "name": "鋳鉄のグリル",
+  "category": "tfc:castirongrill",
+  "icon": "castirongrill:cast_iron_grill",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)鋳鉄のグリル$()は$(l:tfc:mechanics/grill)錬鉄のグリル$()の鋳鉄版です。$(br2)唯一の違いは、$(thing)鋳鉄のグリル$()は一度に5個ではなく$(item)2個$()のアイテムしか調理できないことです。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "X": "castirongrill:cast_iron_grill_firepit"
+        }
+      },
+      "name": "鋳鉄のグリル",
+      "text": "",
+      "enable_visualize": false
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 1,
+  "extra_recipe_mappings": {
+    "castirongrill:cast_iron_grill": 0,
+    "castirongrill:cast_iron_grill_firepit": 0
+  }
+}

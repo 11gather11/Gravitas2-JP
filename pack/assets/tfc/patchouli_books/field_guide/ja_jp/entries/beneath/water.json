@@ -1,0 +1,22 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "水",
+  "category": "tfc:beneath",
+  "icon": "beneath:juicer",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "残念ながら、Beneath にいても水は依然として必要です。樽に貯めた水は Beneath では蒸発しません。ただし、$(thing)ジューサー$()を作るという選択肢もあります。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "beneath:crafting/juicer",
+      "text": "ジューサーは、$(thing)キノコ$()を水に圧縮できる飲用容器です。単一スロットのユーザーインターフェースが、入れたキノコを自動的に水に加工します。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "キノコはオーバーワールドの下の Beneath のあちこちに自由に生えます。新鮮な果物も、手元にあれば水に絞れます。"
+    }
+  ],
+  "read_by_default": true
+}

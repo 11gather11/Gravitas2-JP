@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "供犠の一覧",
+  "category": "tfc:beneath",
+  "icon": "tfc:gem/diamond",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "この項目では、Beneath で行える様々な$(l:beneath/ancient_altar)供犠$()の、可能なコストと報酬を詳しく説明します。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)生スライム$() → 豊富なガーニエ石$()$(li)呪われた獣皮 → 大きな生の獣皮$()$(li)丸石 → ブラックストーン$()"
+    }
+  ],
+  "read_by_default": true
+}

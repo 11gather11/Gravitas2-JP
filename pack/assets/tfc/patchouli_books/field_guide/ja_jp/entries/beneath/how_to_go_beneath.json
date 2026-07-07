@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "Beneath への行き方",
+  "category": "tfc:beneath",
+  "icon": "minecraft:flint_and_steel",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Beneath へ行くのに必要な供犠は大きなものです。まず$(thing)大鎌$()を持ちます。豚、ヤギ、または羊を見つけます。次に、7つの供物を用意します。有効な供物は、頭蓋骨、金床、設置した金・銑鉄・黒鋼インゴット、金または黒鋼めっきブロックです。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "供物から5ブロック以内で動物を殺します。ポータルが作られますが、注意してください！ Beneath は一時的にあなたの世界を侵略し、破壊と混乱をもたらします。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "ポータルを開かない、より一般的な種類の供犠については、$(l:beneath/ancient_altar)古代の祭壇$()の章を参照してください。"
+    }
+  ],
+  "read_by_default": true
+}

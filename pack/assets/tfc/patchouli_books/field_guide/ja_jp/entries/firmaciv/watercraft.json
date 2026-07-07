@@ -1,0 +1,137 @@
+{
+  "name": "はじめに: ボート",
+  "category": "tfc:firmaciv",
+  "icon": "firmaciv:anchor",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ボートの作成と使用は、慣れているものより少し手間がかかるかもしれませんが、完璧な船を作って大海原へ漕ぎ出すのは格別です。このマニュアルを熟読し、彫る・作る・組み立てる・漕ぐ・パドルを使う・操縦する・好みに合わせて装飾する、その要領を学びましょう。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "firmaciv:textures/gui/book/boats.png"
+      ],
+      "border": true,
+      "text": "世界を、あるいは近場を旅するには、航行できる水路を使うのが最良なことが多いです。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "カスタマイズ",
+      "text": "ボートにブロックを追加できます！ 陸地にブロックを置くように、チェスト・金床・作業台を持って$(item)$(k:key.use)$()するとボートに追加できます。$(item)$(k:key.use)$()でそれらにアクセスします。特定の場所にブロックを置けない場合、それはおそらく操縦席だからです！ 邪魔にブロックがあると船を操縦できません！ ブロックは通常通り壊して取り除けます。"
+    },
+    {
+      "type": "patchouli:image",
+      "border": true,
+      "images": [
+        "firmaciv:textures/gui/book/customization.png"
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "title": "アイテムとしてのボート",
+      "text": "存在しません！ カヤックを除き、ボートを壊しても材料の一部しかドロップしません！ つまり、ボートを陸路で運びたいならカヤックが必要で、より大きな船には桟橋を作りたくなるということです。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "firmaciv:textures/gui/book/items.png"
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "title": "動物の輸送",
+      "text": "いつものように、ボートを使って動物を移動できます！ ただし、馬のような大きな動物は、十分な大きさのボートにしか乗れない点に注意してください。動物がボートに乗っていて邪魔な場合は、しゃがんで$(item)$(k:key.use)$()を押すとボートから降ろせます。動物はボートに2日いると落ち着かなくなり、3日で自らボートを降ります。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "操縦",
+      "images": [
+        "firmaciv:textures/gui/book/piloting.png"
+      ],
+      "text": "各ボートには、操縦するために乗る必要のある特定の座席があります。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "パドルとオール",
+      "text": "ボートの動きが遅いと感じたら、適切なパドルアイテムを持っているか、またはボートにオールが必要な場合はオールがオール受けに装着されているかを再確認してください。一部のボートでは、複数のプレイヤーがパドルやオールを漕いでボートを速くできます。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "firmaciv:textures/gui/book/paddles.png"
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "title": "クリートとリード",
+      "text": "ほとんどのボートには少なくとも1つのクリートがあります。クリートにリードを取り付けてボートを引いたり、小型ボートを岸辺やハーフブロックの上に引き上げたりできます。リードはボートをフェンスに繋ぐのにも使え、フェンスに2つのクリートをそれぞれ繋ぐと大型ボートを簡単に停泊できます。ボートが漂流するのを止めるため、リードを多用したくなるでしょう！"
+    },
+    {
+      "type": "patchouli:image",
+      "border": true,
+      "images": [
+        "firmaciv:textures/gui/book/leads.png"
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "title": "錨と揚錨機",
+      "text": "大型ボートには錨があり、錨が海底に据えられ帆が展開されていなければ、ボートを完全に停止できます。停泊中でもボートは風で向きを変えます。揚錨機（錨のウインチ）にある錨のアイコンを探し、$(item)$(k:key.use)$()を押すと錨を下ろしたり上げたりできます。"
+    },
+    {
+      "type": "patchouli:image",
+      "border": true,
+      "images": [
+        "firmaciv:textures/gui/book/anchor.png"
+      ],
+      "text": "スループの錨と揚錨機。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "帆",
+      "text": "帆船にはもちろん帆があります。ボートを適切に操縦するには帆を展開する必要があります。三角形の帆のアイコンを探し、$(item)$(k:key.use)$()を押すと各帆を展開します。ほとんどのボートには複数の帆があるので、帆の展開の組み合わせを変えて速度を制御できます。"
+    },
+    {
+      "type": "patchouli:image",
+      "border": true,
+      "images": [
+        "firmaciv:textures/gui/book/sails.png"
+      ],
+      "text": "このスループではジブ帆（左）と主帆（右）の両方が展開されています。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "帆走",
+      "text": "慣れているかもしれない船と違い、帆走は Firma: Civilization では技能です。帆船を操縦していると、風速と風向、そしてボートの速度を示す新しいUI要素が現れます。風の矢印の色は、その方向への帆走の難しさを示します。前後移動キーで帆の角度を設定し、風の角度に最適なものを試して見つけてください。"
+    },
+    {
+      "type": "patchouli:image",
+      "border": false,
+      "images": [
+        "firmaciv:textures/gui/book/sailing.png"
+      ],
+      "text": "帆走UIが船の操縦を助けます。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "塗装と染色",
+      "text": "船大工の足場を使って建造したボートはどれも塗装でき、どの帆も個別に染色できます。染料を手に持ち、ペイントブラシのアイコンが見えたら$(item)$(k:key.use)$()を押すと、船体を塗装したり帆を染色したりできます。大型ボートには塗装色ごとに独自の模様があります。"
+    },
+    {
+      "type": "patchouli:image",
+      "border": true,
+      "images": [
+        "firmaciv:textures/gui/book/painting.png"
+      ],
+      "text": "スループを黄色に塗装し、帆を染色した状態。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "損傷と修理",
+      "text": "損傷したボートはひび割れが現れ始めます。船大工の足場で建造したボートは、適切な種類の板で修理します。丸木舟には木材を使います。損傷90%でボートは浸水し始め、損傷100%で沈みます！ これはカヤックには適用されません。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 0
+}

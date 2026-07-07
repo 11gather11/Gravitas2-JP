@@ -1,0 +1,40 @@
+{
+  "name": "チョコレートの鋳造",
+  "category": "tfc:tfcchannelcasting",
+  "icon": "tfcchannelcasting:food/milk_chocolate_heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "以下の内容は Firmalife が導入されている場合のみ利用できます。$(thing)チョコレート$()は退屈な板状である必要はありません！ $(thing)ホワイト$()、$(thing)ミルク$()、$(thing)ダーク$()チョコレートを$(thing)壺$()や$(thing)るつぼ$()で溶かし、鋳型に鋳造してチョコレート菓子を作れます。チョコレート菓子には3種類あります。$(thing)ハート$()、$(thing)ベル$()、$(thing)ナイフ$()です。それぞれ異なる鋳型にチョコレートを鋳造して得られます。"
+    },
+    {
+      "type": "tfc:knapping_recipe",
+      "recipe": "tfcchannelcasting:clay_knapping/unfired_heart_mold",
+      "text": "$(thing)ハート$()型のチョコレートを作るのに使う$(thing)ハートの鋳型$()を打ち出します。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "チョコレート菓子は板チョコと同じ栄養を与えますが、食べるのが速いです。ただし、これらの菓子を年の特定の時期に作ると、栄養が倍になる特性を得ます。$(thing)チョコレートのハート$()は2月に$(thing)ロマンチック$()特性を、$(thing)チョコレートのウィンターベル$()は12月に$(thing)お祝い$()特性を、$(thing)チョコレートのキャンディナイフ$()は10月に$(thing)怖い$()特性を得ます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "さらに、菓子は$(thing)詰め物$()をして追加の効果を得られます。$(thing)ジャム$()を詰めた菓子は追加の$(thing)果物$()栄養を持ちます。$(thing)酒$()を詰めた菓子は良いポーション効果を与えます。"
+    },
+    {
+      "type": "tfc:sealed_barrel_recipe",
+      "recipe": "tfcchannelcasting:barrel/fill_with_sweet_liquor",
+      "text": "$(thing)甘い酒$()を詰めたチョコレートを食べると移動速度上昇のバフを得ます。"
+    },
+    {
+      "type": "tfc:sealed_barrel_recipe",
+      "recipe": "tfcchannelcasting:barrel/fill_with_strong_liquor",
+      "text": "$(thing)強い酒$()を詰めたチョコレートを食べるとダメージ耐性を得ます。"
+    },
+    {
+      "type": "tfc:sealed_barrel_recipe",
+      "recipe": "tfcchannelcasting:barrel/fill_with_whiskey",
+      "text": "$(thing)ウイスキー$()を詰めたチョコレートを食べると採掘速度上昇を得ます。"
+    }
+  ],
+  "read_by_default": true
+}

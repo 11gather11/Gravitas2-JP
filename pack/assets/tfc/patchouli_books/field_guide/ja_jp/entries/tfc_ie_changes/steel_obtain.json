@@ -1,0 +1,23 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "鋼の作成",
+  "category": "tfc:tfc_ie_changes",
+  "icon": "tfc:metal/ingot/steel",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "TerraFirmaCraft の世界では$(l:mechanics/steel)鋼インゴット$()を作るのは簡単ではありません。今は$(thing)銑鉄$()から$(thing)鋼$()までインゴットを鍛造する全工程を踏む必要があります。幸い、この工程は後で簡略化できます。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "immersiveengineering:slag",
+      "link_recipes": false,
+      "text": "また、$(thing)銑鉄インゴット$()を鍛造して$(thing)高炭素鋼インゴット$()を得る際に$(thing)スラグ$()も得られるようになりました。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 9,
+  "extra_recipe_mappings": {
+    "immersiveengineering:slag": 0
+  }
+}

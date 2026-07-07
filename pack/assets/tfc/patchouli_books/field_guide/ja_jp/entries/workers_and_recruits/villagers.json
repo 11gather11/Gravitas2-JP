@@ -1,0 +1,27 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "村人の入手方法",
+  "category": "tfc:workers_and_recruits",
+  "icon": "workerstfc:gildedfruit",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "workerstfc:weaknessbomb",
+      "text": "$(thing)陶器の丸壺$()といくつかの他のアイテムから、代替の弱化のポーションを作れます。$(br)通常のゾンビと一緒に地下でスポーンするようになったゾンビ村人を治療できます。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "workerstfc:gapple1",
+      "text": "$(thing)金メッキの果実$()はあなたを回復できませんが、金のリンゴと同じようにゾンビ村人を治療できます。木で育つ任意の果物から作れます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "村人が2人以上いれば、バニラと同じ方法で繁殖できます。十分なベッドと食料が必要です。ただし今は TFC の任意のパン類やあらゆる種類の野菜を食べられます。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "workerstfc:recruitblock",
+      "text": "十分な村人がいれば、様々な台を使って$(thing)リクルート$()や$(thing)労働者$()に転換できます。他のすべてのレシピは JEI を確認してください。"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "ジュート",
+  "category": "tfc:tfc_ie_changes",
+  "icon": "tfc:jute_fiber",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:jute_fiber",
+      "title": "ジュート",
+      "link_recipes": false,
+      "text": "産業用大麻は注目すべき植物ですが、今日は$(thing)ジュート$()について話します！ その種は$(thing)バイオディーゼル$()の生成に役立つだけでなく、$(thing)ジュート繊維$()は丈夫な布の代替である$(thing)麻布$()の作成にも使われます。種は$(l:the_world/wild_crops)野生のジュート$()を収穫して得られます。"
+    },
+    {
+      "type": "tfc:loom_recipe",
+      "recipe": "tfc:loom/burlap_cloth",
+      "text": "丈夫な布と同様に、$(thing)麻布$()は$(thing)ジュート繊維$()から作られる丈夫な織物です。$(thing)改良型風車$()のほか、$(thing)気球$()や$(thing)ジャンプクッション$()の作成に使われます。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 6
+}

@@ -1,0 +1,59 @@
+{
+  "name": "造船",
+  "category": "tfc:tfships",
+  "icon": "tfships:rosewood_galley",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "船には3種類あります。コグ船、ブリッグ船、ガレー船です。それぞれ能力が異なり、任意の木材で作れます。$(br2)注意: 船を設置できない場合は、その場所がブロックやエンティティで塞がれていないか確認してください！"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "smallships:sail",
+      "text": "船の種類ごとに異なるクラフトレシピがありますが、すべて帆が必要です。帆は羊毛、リード、原木から作ります。原木や羊毛の種類は完成した船に影響しません。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfships:ash_cog",
+      "text": "コグ船は最も安価で、最も小さく、最も基本的な船です。ボートの木材の種類がコグ船の木材の種類を決めます。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "tfships:cog",
+      "scale": 0.5,
+      "name": "トネリコのコグ船"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfships:ash_brigg",
+      "text": "ブリッグ船は最も大きな船で、最大のインベントリと最も多い座席を持ちます。チェストとボートの木材の種類がブリッグ船の木材の種類を決めます。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "tfships:brigg",
+      "scale": 0.5,
+      "name": "トネリコのブリッグ船"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfships:ash_galley",
+      "text": "ガレー船は最も機動力が高く、唯一オールを持つ船です。チェストとボートの木材の種類がガレー船の木材の種類を決めます。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "tfships:galley",
+      "scale": 0.5,
+      "name": "トネリコのガレー船"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "すべての船は染料と旗で装飾できます。染料を手に持って船に$(k:use)すると帆と索具を染められます。同様に、旗を手に持って船に$(k:use)すると、旗のようにマストの頂部に横向きに旗を取り付けます。船とのすべての操作は、船体の周りの当たり判定を狙う必要があります。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "最後に、すべての船は十分なダメージを受けるとアイテムの形でドロップします。船のインベントリ内のアイテムもドロップしますが、船に使った染料・旗・大砲はドロップしません。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 0
+}

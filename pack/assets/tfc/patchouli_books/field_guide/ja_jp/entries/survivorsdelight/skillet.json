@@ -1,0 +1,76 @@
+{
+  "category": "tfc:survivors_delight",
+  "extra_recipe_mappings": {
+    "tag:survivorsdelight:skillets": 0
+  },
+  "icon": "survivorsdelight:skillet/copper",
+  "name": "フライパン",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "フライパンを使って$(l:mechanics/heating)ものを加熱$()できます。フライパンは設置ブロックとしても手持ちアイテムとしても使えます。鋼以上の材質のフライパンは、$(l:mechanics/damage_types)打撃ダメージ$()を与える近接武器として使えます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "フライパンを手持ちアイテムとして使うには、メインハンドにフライパン、オフハンドに食材を持ち、熱源の近くに立ちます。次に$(item)$(k:key.use)$()を長押しすると食材スタックから1つを加熱します。この処理はフライパンの耐久値を消費します。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "設置したフライパンは同じ食材を最大8個まで保持し、すべて加熱できます。これはより効率的な調理方法です。ただし、熱源の温度がフライパンの$(l:mechanics/anvils#working)融点$()に近いと、余分に耐久値を消費する場合があります。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "X": "#survivorsdelight:skillets"
+        },
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ]
+      },
+      "name": "フライパンの種類",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "make_a_skillet",
+      "text": "フライパンに有効な金属材質は$(thing)銅、鋳鉄、鋼、黒鋼、赤鋼、青鋼$()です。より良い材質のフライパンはより丈夫です。$(thing)銅$()製のフライパンは、使える調理器具になるまでに追加の工程が必要です。",
+      "title": "フライパンを作る"
+    },
+    {
+      "type": "tfc:anvil_recipe",
+      "recipe": "survivorsdelight:anvil/skillet_head/steel",
+      "text": "金属の2連板金をフライパンのヘッドに鍛造します。"
+    },
+    {
+      "type": "tfc:welding_recipe",
+      "recipe": "survivorsdelight:welding/unfinished_skillet/steel",
+      "text": "フライパンのヘッドを同じ金属の棒と溶接します。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "survivorsdelight:crafting/skillet/steel",
+      "recipe2": "survivorsdelight:crafting/skillet/farmer",
+      "title": "フライパンを組み立てる"
+    },
+    {
+      "type": "tfc:anvil_recipe",
+      "recipe": "survivorsdelight:anvil/skillet_lining/silver",
+      "text": "銅製フライパン用の特別な内張りは、有毒な銅イオンが食料に溶け出すのを防ぎます。これは$(thing)銀$()や$(thing)スズ$()で作れます。銅製フライパンは、使える調理器具になるまでに内張りと溶接する必要があります。"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "repair",
+      "text": "フライパンは耐久値が残り1になると調理器具として使えなくなります。設置したフライパンもこの状態でアイテムとしてドロップします。ほとんどのフライパンは再鍛造して耐久値を全回復させるか、損失なく元の材質に溶かし戻せます。他と違い、銅製フライパンは内張りの層と再溶接するだけで再び使えるようになります。",
+      "title": "フライパンを修理する"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 1
+}

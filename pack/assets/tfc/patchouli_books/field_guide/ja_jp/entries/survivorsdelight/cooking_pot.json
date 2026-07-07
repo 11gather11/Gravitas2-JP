@@ -1,0 +1,43 @@
+{
+  "category": "tfc:survivors_delight",
+  "extra_recipe_mappings": {
+    "farmersdelight:cooking_pot": 0
+  },
+  "icon": "farmersdelight:cooking_pot",
+  "name": "調理鍋",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "調理鍋は陶器の鍋の代替品です。この装置は食料をより効率的に加工するよう設計されています。スープを作ったり卵を茹でたりするのが速くなります。ただし、液体を生み出すレシピには使えません。陶器の鍋のレシピに加え、金属の調理鍋専用のレシピもいくつかあります。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "X": "farmersdelight:cooking_pot"
+        },
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ]
+      },
+      "name": "調理鍋",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": "調理鍋の操作メニューの左側にバケツボタンがあります。このボタンは樽のようなメニューを開き、調理鍋に液体を入れられます。液体は後で鍋や調理鍋のレシピに使えます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "調理鍋の出力の中には、食料容器（多くの場合、器やガラス瓶）を必要とするものがあります。器料理には陶器と木製の器の両方が有効です。瓶入り飲料には4種類すべてのガラス瓶が有効です。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 4
+}

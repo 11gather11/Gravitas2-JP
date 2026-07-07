@@ -1,0 +1,31 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "肉削ぎ機",
+  "category": "tfc:advancedtfctech",
+  "icon": "advancedtfctech:fleshing_machine",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)肉削ぎ機$()は、鋭い刃のついた回転する円筒で、機械を通る獣皮を削り、余分な脂肪と肉を取り除きます。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "advancedtfctech:crafting/fleshing_machine"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)肉削ぎ機$()を動かすには、$(thing)肉削ぎ刃$()で機械を$(item)右クリック$()して、機械内部の円筒に$(thing)肉削ぎ刃$()を取り付ける必要があります。$(br2)入力が同じタグを持っていれば、出力は$(l:tfc:advancedtfctech/beamhouse#machine_made)「機械製」$()タグが付きます。$(br2)既定では 20IF/t を消費します。"
+    },
+    {
+      "type": "tfc:anvil_recipe",
+      "recipe": "advancedtfctech:anvil/fleshing_blades",
+      "text": ""
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 4,
+  "extra_recipe_mappings": {
+    "advancedtfctech:fleshing_machine": 0,
+    "advancedtfctech:fleshing_blades": 0
+  }
+}

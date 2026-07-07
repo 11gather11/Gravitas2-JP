@@ -1,0 +1,37 @@
+{
+  "name": "海戦",
+  "category": "tfc:tfships",
+  "icon": "smallships:cannon",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "鋳鉄の大砲を追加すると、船を兵器に変えられます。$(br2)コグ船は大砲を4門、ブリッグ船は6門、ガレー船は2門搭載できます。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfships:cannon",
+      "text": "船搭載の大砲は、任意の糸で作った導火線、3枚の鋳鉄の2連板金、任意の種類の原木2本から作ります。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfships:cannon_ball",
+      "text": "砲弾は火薬1つと鋳鉄の板金1枚から不定形クラフトで作れます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "大砲を持って船に$(k:use)すると、大砲を船に搭載できます。一度搭載すると、大砲は船から取り出せない点に注意してください。船を破壊すれば外せますが、ドロップはしません。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "tfships:cog{CannonCount:4}",
+      "scale": 0.5,
+      "name": "大砲付きのコグ船"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "発射するには、まず砲弾を船のインベントリに入れます。次に、見ている側の船の大砲を$(k:jump)で発射できます。$(br2)砲弾は着弾時に爆発し、ダメージを与えて地形を破壊します。さらに、砲弾に当たった船は、船アイテムをドロップせずに消滅します。インベントリ内のアイテムはドロップします。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 2
+}

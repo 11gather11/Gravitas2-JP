@@ -1,0 +1,24 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "新しい鋳型",
+  "category": "tfc:tfc_ie_changes",
+  "icon": "tfc_ie_addon:mold_sheet",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc_ie_addon:mold_sheet",
+      "title": "板の鋳型",
+      "link_recipes": false,
+      "text": "$(thing)板の鋳型$()は$(thing)エンジニアの作業台$()で$(thing)エンジニアの設計図$()を使って作られます。これを使うと$(thing)メタルプレス$()で全金属の板金を作れます。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc_ie_addon:mold_block",
+      "title": "ブロックの鋳型",
+      "link_recipes": false,
+      "text": "$(thing)ブロックの鋳型$()は同じ方法で作られます。これを使うと$(thing)鋼ブロック$()や$(thing)ウランブロック$()を作れます。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 2
+}

@@ -1,0 +1,22 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "電気るつぼ？",
+  "category": "tfc:tfc_ie_changes",
+  "icon": "tfc:crucible",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "このModに電気るつぼはありませんが、$(thing)外部ヒーター$()は$(l:mechanics/charcoal_forge)木炭の炉$()と同じように$(l:mechanics/crucible)るつぼ$()を加熱できるように作られています。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "immersiveengineering:crafting/furnace_heater",
+      "text": "既定では、20IF/t を消費して$(thing)るつぼ$()を2000℃まで加熱します。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 11,
+  "extra_recipe_mappings": {
+    "immersiveengineering:furnace_heater": 0
+  }
+}

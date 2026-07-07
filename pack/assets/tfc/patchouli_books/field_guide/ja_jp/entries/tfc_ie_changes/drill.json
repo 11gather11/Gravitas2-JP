@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "高性能ドリルヘッド",
+  "category": "tfc:tfc_ie_changes",
+  "icon": "tfc_ie_addon:drillhead_black_steel",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ドリルでの採掘が遅すぎると感じますか？ 鋼のドリルヘッドに満足できませんか？$(br)色付き鋼のドリルヘッドを作れるようになりました！ 採掘速度と範囲が向上し、耐久性も高くなります。"
+    },
+    {
+      "type": "tfc:tri_anvil_recipe",
+      "header": "Drill Heads",
+      "recipe": "tfc_ie_addon:anvil/drillhead_black_steel",
+      "recipe2": "tfc_ie_addon:anvil/drillhead_blue_steel",
+      "recipe3": "tfc_ie_addon:anvil/drillhead_red_steel"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 12
+}

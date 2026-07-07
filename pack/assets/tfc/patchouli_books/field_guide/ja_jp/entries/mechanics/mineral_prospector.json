@@ -1,0 +1,39 @@
+{
+  "name": "鉱物はどこに？",
+  "category": "tfc:mechanics",
+  "icon": "precisionprospecting:metal/mineral_prospector/copper",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "建築用の$(thing)石膏$()や、$(l:mechanics/blast_furnace)高炉$()を作るための$(thing)カオリナイト$()や$(thing)黒鉛$()のような鉱物を探しているのに、金属ばかり見つかって疲れていませんか？ 幸運です、$(thing)鉱物探知機$()が助けになります！"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "precisionprospecting:metal/mineral_prospector/bismuth_bronze",
+      "title": "鉱物探知機",
+      "text": "鉱物探知機は、定番の$(l:mechanics/prospecting)探鉱者のツルハシ$()の変種です。ただし、近くの任意の鉱石を報告する代わりに、クリックしたブロックを中心とする45x45x45の範囲内の$(t:非金属鉱石)鉱物$()のみを報告します。"
+    },
+    {
+      "type": "tfc:knapping_recipe",
+      "recipe": "precisionprospecting:knapping/mineral_prospector_head_mold",
+      "text": "鉱物探知機ヘッドの鋳型は、上に示すように粘土から$(l:getting_started/pottery)打ち出せます$()。"
+    },
+    {
+      "type": "tfc:anvil_recipe",
+      "recipe": "precisionprospecting:anvil/mineral_prospector/bronze_head",
+      "text": "鉱物探知機ヘッドは、任意の工具用金属の$(thing)2連インゴット$()から$(l:mechanics/anvils)金床$()で鍛造することもできます。工具ヘッドを棒と合成して鉱物探知機を作ります。"
+    }
+  ],
+  "read_by_default": true,
+  "extra_recipe_mappings": {
+    "precisionprospecting:metal/mineral_prospector/bismuth_bronze": 1,
+    "precisionprospecting:metal/mineral_prospector/black_bronze": 1,
+    "precisionprospecting:metal/mineral_prospector/bronze": 1,
+    "precisionprospecting:metal/mineral_prospector/copper": 1,
+    "precisionprospecting:metal/mineral_prospector/wrought_iron": 1,
+    "precisionprospecting:metal/mineral_prospector/steel": 1,
+    "precisionprospecting:metal/mineral_prospector/black_steel": 1,
+    "precisionprospecting:metal/mineral_prospector/blue_steel": 1,
+    "precisionprospecting:metal/mineral_prospector/red_steel": 1
+  }
+}

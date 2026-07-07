@@ -1,0 +1,81 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "奇妙なブロック",
+  "category": "tfc:beneath",
+  "icon": "beneath:soul_clay",
+  "pages": [
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "X": "beneath:soul_clay"
+        }
+      },
+      "name": "ソウルクレイ",
+      "text": "ソウルクレイはソウルサンドの谷で見つかります。通常の粘土の入手源です。",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "X": "beneath:sulfur"
+        }
+      },
+      "name": "硫黄",
+      "text": "硫黄はシャベルで壊せます。ただし注意してください。鉄を含むアイテム（鋼を含む）は硫黄に触れると爆発します！",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "X": "beneath:warped_thatch"
+        }
+      },
+      "name": "わらぶき",
+      "text": "草を刈ると、歪んだ、または真紅のわらが手に入ります。これは通常の方法でわらぶきにできます。",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "beneath:crafting/blackstone_aqueduct",
+      "text": "ブラックストーンの水路は、どんな距離でも溶岩を導けます。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "beneath:crafting/hellbricks",
+      "text": "ヘルブリックは、ヘルフォージにも使われる建材です。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "beneath:crafting/blackstone_brick",
+      "text": "ブラックストーンレンガは通常のレンガと同じように作られ、それにはレンガアイテムの作成も含まれます。"
+    }
+  ],
+  "read_by_default": true
+}

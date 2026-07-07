@@ -1,0 +1,70 @@
+{
+  "category": "tfc:survivors_delight",
+  "extra_recipe_mappings": {
+    "farmersdelight:organic_compost": 4,
+    "farmersdelight:rich_soil": 0,
+    "farmersdelight:rich_soil_farmland": 2
+  },
+  "icon": "farmersdelight:rich_soil_farmland",
+  "name": "肥沃な土",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "肥沃な土は自然の成長を促進する特別な種類の土です。苗木が成長するまでの準備時間を短縮します。肥沃な土の上のブロックが空気の場合、茶色や赤色のキノコをランダムに生成することがあります。これらのキノコはやがて完全なキノコの群生に成長します。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "X": "farmersdelight:rich_soil"
+        },
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ]
+      },
+      "name": "肥沃な土",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": "肥沃な土はクワで耕して肥沃な耕地にできます。肥沃な耕地に植えた作物は、周囲の温度や湿度が通常の成長範囲からわずかに外れても成長し続けます。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "mapping": {
+          "X": "farmersdelight:rich_soil_farmland"
+        },
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ]
+      },
+      "name": "肥沃な耕地",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": "有機堆肥を作って世界に設置できます。堆肥はやがて肥沃な土ブロックになります。水、空の光、他の肥沃な土ブロック、キノコが変換を促進します。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "survivorsdelight:crafting/misc/organic_compost",
+      "recipe2": "survivorsdelight:crafting/misc/organic_compost2",
+      "title": "有機堆肥のクラフト"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 6
+}

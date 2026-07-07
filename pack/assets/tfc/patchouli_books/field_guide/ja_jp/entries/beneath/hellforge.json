@@ -1,0 +1,51 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "ヘルフォージ",
+  "category": "tfc:beneath",
+  "icon": "beneath:cursecoal",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)ヘルフォージ$()は、燃料・生成物・加熱の容量が大きい、途方もなく大きな炉です。ヘルブリック、$(l:beneath/ores_and_minerals#cursecoal)呪われた石炭$()、ブラックストーンの水路から作られます。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "ZXXXZ",
+            "XYYYX",
+            "XY0YX",
+            "XYYYX",
+            "ZXXXZ"
+          ],
+          [
+            "     ",
+            " XXX ",
+            " XXX ",
+            " XXX ",
+            "     "
+          ]
+        ],
+        "mapping": {
+          "Z": "beneath:blackstone_aqueduct[fluid=lava]",
+          "Y": "beneath:hellforge_side",
+          "0": "beneath:hellforge",
+          "X": "beneath:hellbricks"
+        }
+      },
+      "name": "ヘルフォージ",
+      "text": "",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:text",
+      "text": "ヘルフォージは、四隅の水路に溶岩が流れていること、そして21個のヘルブリックが必要です。中央の3x3は$(l:beneath/ores_and_minerals#cursecoal)呪われた石炭$()の山で埋める必要があり、それに火をつけると炉が始動します。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "ヘルフォージのアイテムスロットには燃料や製錬するものを入れられます。区別はありません。何を入れるか注意してください！ 木炭の炉と同様に、溶かすためのスロットもあります。画面の溶岩メーターは温度を示します（また、世界内でのアイテムの視覚的な動きも）。"
+    }
+  ],
+  "read_by_default": true
+}

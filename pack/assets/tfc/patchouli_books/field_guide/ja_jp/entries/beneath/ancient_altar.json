@@ -1,0 +1,51 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "古代の祭壇",
+  "category": "tfc:beneath",
+  "icon": "beneath:lost_page",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Beneath にいるときには、より日常的な種類の$(thing)供犠$()を行えます。これには残された禁断の知識の断片、$(thing)失われたページ$()の入手が必要です。これらは$(thing)要塞$()、$(thing)荒廃したポータル$()、$(thing)ピグリン要塞の残骸$()などの構造物で見つかります。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "beneath:crafting/ancient_altar",
+      "text": "$(thing)古代の祭壇$()は任意のアイテムを1スタックまで保持・展示できます。$(item)$(k:key.use)$()で祭壇にアイテムを入れたり交換したりします。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "古代の祭壇を作るための$(thing)ブラックストーン$()がすぐに手に入らない場合は、$(thing)すす$()と通常の石から作れます。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "beneath:crafting/blackstone_from_soot",
+      "recipe2": "beneath:crafting/blackstone_bricks_from_soot"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "ほとんどの供犠は起動に任意の種類の研磨した$(thing)宝石$()を必要とし、完了時に宝石を消費します。最も基本的な供犠は、失われたページの情報を読むことです。これには白紙のページを祭壇に置き、宝石を持って$(item)$(k:key.use)$()します。ページを開いて内容を読むには、それを持って$(item)$(k:key.use)$()を押します。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "失われたページには重要な3つの要素があります。$(thing)コスト$()、$(thing)報酬$()、$(thing)罰$()です。これらの値はページが起動されると固定されますが、それ以外は決まった値の集合からランダムに決まります。つまり同じコストと報酬を持つ2つのページでも、有用度が異なる場合があります。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "供犠の$(thing)コスト$()は、クラフトと同じように単一の材料と数量です。このコストは、失われたページを置く中央の祭壇から同じ高さで5ブロック以内に置いた、他の古代の祭壇に置きます。供犠の総コストを超える量を含むスタックも消費される場合があるので、正確に！"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "供犠の$(thing)報酬$()は、コストが揃っていれば、ページを置いた祭壇で$(item)$(k:key.use)$()すると得られます。報酬はアイテムとして祭壇の上に出現します。オーバーワールドで行うと$(thing)報酬は半分に減ります$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "供犠の$(thing)罰$()は、「罰なし」から、いくつかの追加アイテム、危険なモンスターの襲撃まで様々です。罰はページに書かれているため、常に事前に分かります。罰の詳細な一覧はありませんが、自由に試してみてください（また、どこを見ればよいか分かれば、罰が何かを突き止めるのは難しくありません）。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "供犠の一覧は、読みやすいように$(l:beneath/list_of_sacrifices)供犠の一覧$()の章に詳しく載っています。"
+    }
+  ],
+  "read_by_default": true
+}

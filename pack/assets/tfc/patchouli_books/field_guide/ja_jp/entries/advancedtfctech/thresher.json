@@ -1,0 +1,49 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "脱穀機",
+  "category": "tfc:advancedtfctech",
+  "icon": "advancedtfctech:thresher",
+  "pages": [
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            "MHM",
+            "   "
+          ],
+          [
+            "MMM",
+            "LLR",
+            "MLM"
+          ],
+          [
+            "MLM",
+            "M0M",
+            "MMM"
+          ]
+        ],
+        "mapping": {
+          "M": "immersiveengineering:sheetmetal_steel",
+          "L": "immersiveengineering:light_engineering",
+          "R": "immersiveengineering:rs_engineering",
+          "H": "minecraft:hopper",
+          "0": "immersiveengineering:light_engineering"
+        }
+      },
+      "name": "脱穀機",
+      "text": "エンジニアのハンマーで、鋼の板金の反対側の中間層にある$(thing)軽工業ブロック$()を$(item)右クリック$()します。",
+      "enable_visualize": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)脱穀機$()は、回転する円筒と機械動力を使って穀物からもみ殻を分離します。$(br2)アイテムはホッパー、シュート、または投下式コンベアベルトで上から入力できます。$(br2)既定では 80IF/t を消費します。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 1,
+  "extra_recipe_mappings": {
+    "advancedtfctech:thresher": 0
+  }
+}

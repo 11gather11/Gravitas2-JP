@@ -1,0 +1,7 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "鉱石ヒントとスポーン",
+  "description": "金属脈に小さな塊があるように、鉱物脈にもヒント岩ができるようになりました！$(br2)「ヒント岩」のアイデアと初期の岩石選定をしてくれた TechNodeFirmaCraft の AnodeCathode に感謝します。$(br2)y=90より上の山には、追加の豊富な鉄脈がスポーンします。",
+  "icon": "tfc:metal/propick/steel",
+  "sortnum": 3
+}

@@ -1,0 +1,28 @@
+{
+  "name": "大砲",
+  "category": "tfc:firmaciv",
+  "icon": "alekiships:cannon",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "大砲！ 大砲が欲しくない人がいるでしょうか？ この強力な海戦兵器は、大型船にも陸上にも設置でき、敵の船を破壊する最良の手段です。他のどんな代替手段よりもはるかに大きなダメージを船に与えます。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "firmaciv:textures/gui/book/cannon_isometric.png"
+      ]
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "firmaciv:crafting/cannon",
+      "text": "錬鉄の2連板金から砲身を鍛造し、クラフトで大砲を完成させます。"
+    },
+    {
+      "type": "text",
+      "text": "大砲を発射するには、錬鉄の2連インゴットから鍛造した砲弾のほか、火薬、未精製の紙、火打石と打ち金も必要です。UI要素が大砲の状態を示します。$(item)$(k:key.use)$()を押すと砲を上に、しゃがんで$(item)$(k:key.use)$()を押すと下に向けられます。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 5
+}

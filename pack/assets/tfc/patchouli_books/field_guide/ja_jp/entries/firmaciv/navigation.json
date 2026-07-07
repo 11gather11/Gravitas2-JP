@@ -1,0 +1,56 @@
+{
+  "name": "航法",
+  "category": "tfc:firmaciv",
+  "icon": "firmaciv:textures/item/nav_toolkit.png",
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "title": "航法",
+      "images": [
+        "firmaciv:textures/gui/book/navigation.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "世界を航行するのは簡単なことではありません。成功する文明を築くには、自分の位置をよく把握し、重要な場所をよく記録する必要があります！ 自分がどこにいるか正確に教えてくれる魔法の数字はもうありません。代わりに、技術を進歩させ、位置を特定する精密な機器を手に入れる必要があります。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "経度",
+      "text": "経度、つまり本初子午線からの距離を求めるには時計が必要です！ 具体的には、本初子午線の太陽時と同期を保つ精密な計時器が必要です。$(br2)真鍮の2連板金から未完成の航海用時計を鍛造し、右のレシピで完成させます。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "firmaciv:crafting/nav_clock",
+      "text": "航海用時計を作ったら、それを持って$(item)$(k:key.use)$()を押すと経度を求められます。経度は東経または西経の度で測られ、本初子午線で0度、同一の気候で360度になることを覚えておいてください。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "緯度",
+      "text": "緯度、つまり赤道からの距離を求めるには、北極星ポラリスか太陽を見上げる角度を求める必要があります。具体的には、天体を観測し、地平線からの角距離を測る精密な機構が必要です。$(br2)真鍮の2連インゴットから未完成の六分儀を鍛造し、右のレシピで完成させます。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "firmaciv:crafting/sextant",
+      "text": "六分儀を作ったら、それを持って$(item)$(k:key.use)$()を押すと緯度を求められます。緯度は北緯または南緯の度で測られ、赤道で0度、極地で北緯または南緯90度になることを覚えておいてください。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "高度",
+      "text": "高度、つまり海面基準からの垂直距離を求めるには、大気圧を測る必要があります。具体的には、圧縮可能な流体を含む装置が必要で、その流体の体積を測って圧力を求めます。$(br2)真鍮の板金から未完成の気圧計を鍛造し、右のレシピで完成させます。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "firmaciv:crafting/barometer",
+      "text": "気圧計を作ったら、それを持って$(item)$(k:key.use)$()を押すと高度を求められます。高度は海面基準からの距離で測られることを覚えておいてください。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "補足",
+      "text": "距離を度で測るので、ブロック換算を知っておくと便利かもしれません。90度ごとに20,000ブロック、1度ごとに約222ブロックです。$(br2)Firma: Civilization では、コンパスは常に北を指しますが、元の TerraFirmaCraft のレシピで作られます。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 20
+}

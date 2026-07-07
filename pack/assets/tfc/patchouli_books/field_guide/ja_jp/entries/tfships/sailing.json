@@ -1,0 +1,25 @@
+{
+  "name": "航海",
+  "category": "tfc:tfships",
+  "icon": "smallships:sail",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "船を設置したら、$(k:use)で船に乗り込めます。乗り込むとカメラは自動的に三人称に切り替わります。スクロールでズームしたり、$(k:togglePerspective)で視点を切り替えたりできます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(k:smallships.ship_sail)を押すと帆を切り替えられ、展開すると自動的に船を前進させ始めます。船の速度は、$(k:forward)で帆を広げ、$(k:back)で帆を畳んで制御できます。さらに、ガレー船では$(k:forward)で前へ漕ぎます。$(k:left)と$(k:right)で船の向きを変えられます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "船のインベントリは、船に座っているときは$(k:inventory)で、船の外からは$(k:sneak) + $(k:use)でアクセスできます。船の最高速度は、積んだ貨物と大砲が多いほど下がります。$(br2)船はリードを持って$(k:use)すると係留できます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "バニラと同様に、船の当たり判定に入ったエンティティは、空席があれば自動的に乗客になります。$(k:sneak) + $(k:use)で船から全エンティティを降ろせます。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 1
+}

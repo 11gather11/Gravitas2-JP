@@ -1,0 +1,16 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "通貨",
+  "category": "tfc:workers_and_recruits",
+  "icon": "workerstfc:coin",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "既定では WorkersTFC はリクルートの通貨を$(thing)硬貨$()という新しいアイテムに置き換えます。これはMod追加のカスタム取引にも使われます。$(br)$(thing)硬貨$()を作るには、銅・青銅・銀・金のインゴットを$(thing)金床$()で加工する必要があります。希少な金属ほど多くの$(thing)硬貨$()になります。"
+    },
+    {
+      "type": "tfc:anvil_recipe",
+      "recipe": "workerstfc:anvil/coins1"
+    }
+  ]
+}

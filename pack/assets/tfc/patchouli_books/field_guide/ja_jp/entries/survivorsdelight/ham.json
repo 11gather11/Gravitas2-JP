@@ -1,0 +1,22 @@
+{
+  "category": "tfc:survivors_delight",
+  "extra_recipe_mappings": {
+    "farmersdelight:ham": 0,
+    "farmersdelight:smoked_ham": 0
+  },
+  "icon": "farmersdelight:smoked_ham",
+  "name": "ハム",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ハムはイノシシ科の大きな肉の塊です。$(l:mechanics/animal_husbandry#pig)家畜の豚$()や$(l:the_world/wild_animals#ramming_prey)イノシシ$()から得られます。ハムは$(l:mechanics/damage_types)刺突ダメージ$()で動物を倒したときのみ得られます。1頭の動物は最大2個のハムをドロップします。ドロップ確率は体の大きさと（あれば）馴れに影響されます。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "farmersdelight:ham",
+      "text": "ハムのアイテム。"
+    }
+  ],
+  "read_by_default": true,
+  "sortnum": 7
+}
