@@ -1,0 +1,213 @@
+{
+  "name": "一般情報",
+  "icon": "nuclearcraft:fission_reactor_casing",
+  "category": "nuclearcraft:fission",
+  "sortnum": 0,
+  "pages": [
+    {
+      "anchor": "intro",
+      "type": "text",
+      "text": "$(thing)核分裂炉$()は、核分裂燃料の自己持続する核反応から熱を生みます。この熱は最終的に電気に変換されます。発電方法は沸騰モードと電気モードに変更できます。"
+    },
+    {
+      "anchor": "reactor_modes",
+      "type": "text",
+      "text": "$(thing)核分裂炉$()は2つのモードで動作します: エネルギーと沸騰です。エネルギーモードは炉が直接エネルギーを生むことを意味します。沸騰モードでは生じた熱で冷却材を沸騰させます。冷却材の入出力には$(item)炉ポート$()を使います。"
+    },
+    {
+      "anchor": "casing",
+      "type": "blocks/2",
+      "header": "Reactor Casing",
+      "block1": "nuclearcraft:fission_reactor_casing",
+      "block2": "nuclearcraft:fission_reactor_glass",
+      "text": "炉の内部部品は直方体の中に収められます。炉は$(thing)炉ケーシング$()から成る辺を持つ必要があり、炉の壁は$(thing)炉ガラス$()・炉ケーシング、またはその両方にできます。"
+    },
+    {
+      "anchor": "controller",
+      "type": "blocks/1",
+      "header": "Reactor Controllers",
+      "block": "nuclearcraft:fission_reactor_controller",
+      "text": "コントローラーがないと、炉のマルチブロックは形成されません。そのGUIは、関連部品のステータスの平均値など、炉の情報を表示します。"
+    },
+    {
+      "anchor": "port",
+      "type": "blocks/1",
+      "header": "Reactor Port",
+      "block": "nuclearcraft:fission_reactor_port",
+      "text": "炉ポートは、アイテム・液体・エネルギーを炉に出し入れするのに使います。ポートはアイテム・液体・エネルギーの入力または出力に設定できます。ポートはレッドストーン制御やコンピューターにも使えます。"
+    },
+    {
+      "anchor": "fuel_cell",
+      "header": "Fuel Cell",
+      "type": "blocks/1",
+      "block": "nuclearcraft:fission_reactor_solid_fuel_cell",
+      "text": "燃料セルは、沸騰や直接発電のために燃料の発熱を変換するのに使います。各燃料セルは燃料の消耗速度を掛けます。"
+    },
+    {
+      "anchor": "moderator",
+      "header": "Moderators",
+      "type": "blocks/2",
+      "block1": "nuclearcraft:graphite_block",
+      "block2": "nuclearcraft:beryllium_block",
+      "text": "$(thing)減速材$()は、$(l:fission/general#fuel_cell)燃料セル$()が生む高エネルギー中性子を、他の燃料部品でより多くの核分裂を引き起こす中性子に減速できます。減速材は燃料セルの隣に置く必要があります。$(item)炉ポート$()へのレッドストーン信号入力で減速レベルを調整できます。"
+    },
+    {
+      "anchor": "moderator_bonus",
+      "header": "Moderators Placement",
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "mapping": {
+          "M": "nuclearcraft:graphite_block",
+          "C": "nuclearcraft:fission_reactor_solid_fuel_cell"
+        },
+        "pattern": [
+          [
+            " 0 ",
+            "CMC",
+            "   "
+          ]
+        ],
+        "symmetrical": true,
+        "visualize": false
+      },
+      "text": "1つの減速材ブロックの隣に複数の燃料セルを置くと、追加の効率ボーナスを得られます。効率と熱のボーナスです。"
+    },
+    {
+      "anchor": "heatsink",
+      "type": "blocks/2",
+      "block1": "nuclearcraft:lapis_heat_sink,nuclearcraft:aluminum_heat_sink,nuclearcraft:arsenic_heat_sink,nuclearcraft:boron_heat_sink,nuclearcraft:carobbiite_heat_sink,nuclearcraft:copper_heat_sink,nuclearcraft:cryotheum_heat_sink,nuclearcraft:diamond_heat_sink,nuclearcraft:emerald_heat_sink,nuclearcraft:end_stone_heat_sink,nuclearcraft:enderium_heat_sink,nuclearcraft:fluorite_heat_sink,nuclearcraft:glowstone_heat_sink,nuclearcraft:gold_heat_sink,nuclearcraft:iron_heat_sink,nuclearcraft:lead_heat_sink,nuclearcraft:liquid_helium_heat_sink,nuclearcraft:liquid_nitrogen_heat_sink,nuclearcraft:lithium_heat_sink,nuclearcraft:magnesium_heat_sink,nuclearcraft:manganese_heat_sink,nuclearcraft:nether_brick_heat_sink,nuclearcraft:netherite_heat_sink,nuclearcraft:obsidian_heat_sink,nuclearcraft:prismarine_heat_sink,nuclearcraft:purpur_heat_sink,nuclearcraft:quartz_heat_sink,nuclearcraft:redstone_heat_sink,nuclearcraft:silver_heat_sink,nuclearcraft:slime_heat_sink,nuclearcraft:tin_heat_sink,nuclearcraft:villiaumite_heat_sink,nuclearcraft:water_heat_sink",
+      "header": "Heatsinks",
+      "text": "$(thing)ヒートシンク$()は、炉の$(thing)正味熱$()の均衡を取るため、炉の設計時に使います。設計者は完全に安定した炉のため、正味熱0HU/tを目指すべきです。各ヒートシンクは従うべき特定の設計規則を持ちます。"
+    },
+    {
+      "type": "text",
+      "text": "ヒートシンクは炉から熱を取り除くように働きます。燃料セルが稼働中のとき、基本発熱量に$(thing)熱倍率$()を掛けた熱を生みます。セルの熱倍率は減速材の線の数で決まります。したがって、減速材線が1本のセルは熱効率100%、2本のセルは熱効率200%になります。"
+    },
+    {
+      "anchor": "heat_sink_validation",
+      "header": "Heat Sink Validation",
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "mapping": {
+          "P": "nuclearcraft:prismarine_heat_sink",
+          "W": "nuclearcraft:water_heat_sink",
+          "C": "nuclearcraft:fission_reactor_solid_fuel_cell",
+          "M": "nuclearcraft:graphite_block"
+        },
+        "pattern": [
+          [
+            "C0 ",
+            "M  ",
+            "WP "
+          ]
+        ],
+        "visualize": false,
+        "symmetrical": true
+      },
+      "text": "炉の部品の配置規則の中には、燃料セルでないブロックが必要なものがあります。例えば別のヒートシンクブロックが必要な場合、そのヒートシンクは配置規則に従って置く必要があります。そして最終的に接続の連鎖が燃料セルにつながる必要があります。"
+    },
+    {
+      "anchor": "irradiator",
+      "header": "Irradiators",
+      "type": "blocks/2",
+      "block1": "nuclearcraft:fission_reactor_irradiation_chamber",
+      "block2": "nuclearcraft:irradiator",
+      "text": "$(l:fission/general#moderator)減速材$()の線の末端に置くと、$(thing)照射器$()は放射フラックスを使って照射チェンバー内のアイテムを変換します。照射速度は炉内の照射線の数に依存します。"
+    },
+    {
+      "anchor": "irradiator_line",
+      "header": "Irradiation Line",
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "mapping": {
+          "M": "nuclearcraft:graphite_block",
+          "C": "nuclearcraft:fission_reactor_solid_fuel_cell",
+          "I": "nuclearcraft:fission_reactor_irradiation_chamber"
+        },
+        "pattern": [
+          [
+            " 0 ",
+            "IMC",
+            "   "
+          ]
+        ],
+        "symmetrical": true,
+        "visualize": false
+      },
+      "text": "各照射チェンバーごとに最大6本の照射線を作れます。各線が照射速度を上げます。"
+    },
+    {
+      "anchor": "simple_reactor",
+      "header": "Simple Reactor",
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "mapping": {
+          "W": "nuclearcraft:fission_reactor_casing",
+          "G": "nuclearcraft:fission_reactor_glass",
+          "M": "nuclearcraft:graphite_block",
+          "C": "nuclearcraft:fission_reactor_solid_fuel_cell",
+          "I": "nuclearcraft:fission_reactor_irradiation_chamber",
+          "N": "nuclearcraft:fission_reactor_controller[facing=west]",
+          "P": "nuclearcraft:fission_reactor_port[facing=east]",
+          "H": "nuclearcraft:water_heat_sink",
+          "S": "nuclearcraft:prismarine_heat_sink",
+          "K": "nuclearcraft:glowstone_heat_sink",
+          "E": "nuclearcraft:enderium_heat_sink",
+          "R": "nuclearcraft:irradiator"
+        },
+        "pattern": [
+          [
+            "WWWWW",
+            "WGGGW",
+            "WGGGW",
+            "WGGGW",
+            "WWWWW"
+          ],
+          [
+            "WGGGW",
+            "GE EG",
+            "G I G",
+            "GE EG",
+            "WGGGW"
+          ],
+          [
+            "WGGGW",
+            "GSKSG",
+            "GKMKG",
+            "GSKSG",
+            "WGGGW"
+          ],
+          [
+            "WGNGW",
+            "GHMHG",
+            "RMCMG",
+            "GHMHG",
+            "WGPGW"
+          ],
+          [
+            "WWWWW",
+            "WWWWW",
+            "WWWWW",
+            "WWWWW",
+            "WWWWW"
+          ],
+          [
+            "     ",
+            "     ",
+            "  0  ",
+            "     ",
+            "     "
+          ]
+        ],
+        "symmetrical": true
+      },
+      "text": "これはシンプルな炉の設計です。燃料セル1つ、照射線1本を持ちます。炉の良い出発点です。この炉に最適な燃料はHEU-235です。"
+    },
+    {
+      "anchor": "planner",
+      "type": "text",
+      "header": "Design Considerations",
+      "text": "炉を設計する際は、$(l:https://github.com/ThizThizzyDizzy/nc-reactor-generator/releases)炉プランナー$()の使用をお勧めします。炉プランナーは炉の設計を助け、設計規則・熱制御・予測出力についてのフィードバックを提供します。"
+    }
+  ]
+}

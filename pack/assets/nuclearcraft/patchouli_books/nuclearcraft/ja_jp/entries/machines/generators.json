@@ -1,0 +1,40 @@
+{
+  "name": "発電機械",
+  "icon": "nuclearcraft:solar_panel_basic",
+  "category": "nuclearcraft:machines",
+  "sortnum": 1,
+  "pages": [
+    {
+      "anchor": "intro",
+      "type": "text",
+      "text": "これらの機械は比較的少量のエネルギーを生みますが、運転も簡単です。"
+    },
+    {
+      "anchor": "solar_panel",
+      "type": "blocks/4",
+      "header": "Solar Panels",
+      "block1": "nuclearcraft:solar_panel_basic",
+      "block2": "nuclearcraft:solar_panel_advanced",
+      "block3": "nuclearcraft:solar_panel_du",
+      "block4": "nuclearcraft:solar_panel_elite",
+      "text": "$(item)ソーラーパネル$()は日中に一定の速度でエネルギーを生みます。"
+    },
+    {
+      "anchor": "rtg",
+      "type": "blocks/4",
+      "header": "RTGs",
+      "block1": "nuclearcraft:americium_rtg",
+      "block2": "nuclearcraft:californium_rtg",
+      "block3": "nuclearcraft:plutonium_rtg",
+      "block4": "nuclearcraft:uranium_rtg",
+      "text": "$(item)崩壊発電機$()は隣接する放射性ブロックの崩壊からエネルギーを生みます。"
+    },
+    {
+      "anchor": "steam_turbine",
+      "type": "blocks/1",
+      "header": "Steam Turbine",
+      "block": "nuclearcraft:steam_turbine",
+      "text": "$(item)蒸気タービン$()は原子炉が生む蒸気からエネルギーを生みます。"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "放射線検知",
+  "icon": "nuclearcraft:dosimeter",
+  "category": "nuclearcraft:items",
+  "sortnum": 0,
+  "pages": [
+    {
+      "anchor": "geiger-counter",
+      "type": "items/1",
+      "header": "Geiger Counter",
+      "item": "nuclearcraft:geiger_counter",
+      "text": "$(item)ガイガーカウンター$()は、放射線を検知し、現在の被曝レベルを知るのに使えます。エンティティの被曝レベルを調べるのにも使えます。ガイガーカウンターがホットバーにないと、その音は消音されます。ブロック形態もあり、置いたチャンクの放射線値を示します。"
+    },
+    {
+      "anchor": "radiation-dosimeter",
+      "type": "items/1",
+      "header": "Dosimeter",
+      "item": "nuclearcraft:dosimeter",
+      "text": "$(item)線量計$()は、着用中の被曝レベルの変化を知るのに使えます。最大の被曝レベル変化まで、特定の被曝の増分でユーザーに被曝を通知します。"
+    }
+  ]
+}

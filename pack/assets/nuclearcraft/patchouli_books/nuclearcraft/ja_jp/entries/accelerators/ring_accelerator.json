@@ -1,0 +1,72 @@
+{
+  "name": "シンクロトロン加速器",
+  "icon": "nuclearcraft:ring_accelerator_controller",
+  "category": "nuclearcraft:accelerators",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "シンクロトロン加速器は、入れた粒子を$(l:multiblocks/accelerators/linear_accelerator)線形加速器$(/l)よりずっと高いエネルギーに加速しますが、加速器システムの始点にはできません。始点は$(l:multiblocks/accelerators/linear_accelerator#ion_source)イオン源$(/l)を持つ線形加速器でなければなりません。$(bold)シンクロトロンには最小入力粒子エネルギーがあります$()。これは通常5MeVですが、設定で変更できます。"
+    },
+    {
+      "type": "diagram_high",
+      "image": "nuclearcraft:textures/gui/book_images/ring.png",
+      "text": "シンクロトロン加速器の例。"
+    },
+    {
+      "anchor": "construction",
+      "title": "建造",
+      "type": "text",
+      "text": "シンクロトロン加速器は、幅5でなければならない加速器ケーシングかガラスの四角いトーラスです。すべての$(l:multiblocks/accelerators/general#construction)加速器$(/l)と同様に、入力・出力モードの冷却材ベントとエネルギーポートが必要です。中央に加速器ビームブロックの連続した輪が必要です。任意のビームポートはビームブロックで中央のビームの輪につなぐ必要があります。反対のページに例を示します。"
+    },
+    {
+      "type": "diagram_high",
+      "image": "nuclearcraft:textures/gui/book_images/ring_beam.png",
+      "text": "各角とビームポートの交差点には$(l:multiblocks/accelerators/general#dipole)双極子磁石$(/l)が必要です。そのためシンクロトロンには最低4つの双極子が必要です。上の例には少なくとも5つの双極子が必要です。"
+    },
+    {
+      "type": "diagram_low",
+      "image": "nuclearcraft:textures/gui/book_images/ring_cooler.png",
+      "text": "最後に、加速器の内側の角は加速器ケーシングや加速器ガラスであってはなりません。その領域は代わりに特定の冷却器を置くのに使えます！ 下に例を示します。"
+    },
+    {
+      "anchor": "operation",
+      "title": "運転",
+      "type": "text",
+      "text": "シンクロトロン加速器は他の任意の$(l:multiblocks/accelerators/general#operation)加速器$(/l)と同じように機能し、電力と冷却材が必要です。既存の粒子ビームを最小エネルギー5MeV（既定）で配管する必要があります。シンクロトロンは複数のビームポートを持てますが、任意の時点で入力と出力にできるのは1つずつだけです。$(l:multiblocks/accelerators/beam_diverter#switching)ビームポートの切り替え$(/l)はレッドストーンや OpenComputers で自動化できます。"
+    },
+    {
+      "type": "text",
+      "title": "レッドストーン制御",
+      "text": "$(l:multiblocks/accelerators/linear_accelerator#redstone)線形加速器$(/l)と同様に、コントローラー（または入力$(l:multiblocks/accelerators/general#redstone)レッドストーンポート$(/l)）に与えたレッドストーン信号でオンになり、出力粒子エネルギーは $(l)E=EₓSᵣ/15$() になります。$(br2)また線形加速器と同様に、出力粒子エネルギーは OpenComputers で制御できます。詳細は OpenComputers セクションを参照してください。"
+    },
+    {
+      "title": "粒子エネルギー",
+      "type": "text",
+      "text": "生じる粒子エネルギーは線形加速器より計算が複雑です。エネルギーは2つの要因で制限され、小さい方の要因が最大出力粒子エネルギー $(l)Eₓ=$(o)min$()$(l)(Eᵩ,Eᵣ)$() になります。これらの要因は双極子磁場強度とシンクロトロン放射損失からです。"
+    },
+    {
+      "anchor": "max_dipole",
+      "title": "双極子強度による最大値",
+      "type": "text",
+      "text": "双極子強度による最大エネルギー（GeV）は $(l)Eᵩ=(qB₂R)²/(2m)$() で、$(l)q$() は粒子の電荷、$(l)B₂$() は双極子の強度（各双極子の強度の合計）、$(l)R$() はシンクロトロンの半径、$(l)m$() は粒子の質量（MeV/c^2）です。陽子のような重い粒子ではこれが主な懸念です。"
+    },
+    {
+      "anchor": "max_radiation",
+      "title": "放射による最大値",
+      "type": "text",
+      "text": "放射損失による最大エネルギー（GeV）は $(l)Eᵣ=m(3VR/|q|)⁰˙²⁵$() で、$(l)V$() は加速器の電圧（kV）です。電子のような軽い粒子ではこれが主な懸念です。"
+    },
+    {
+      "anchor": "synchrotron_Port",
+      "header": "Synchrotron Ports",
+      "type": "diagram",
+      "image": "nuclearcraft:textures/gui/book_images/synch_port.png",
+      "text": "シンクロトロン加速器には特別なポート、加速器シンクロトロンポートを取り付けられます。このポートはシンクロトロン放射（高エネルギー光子）を放出します。ビームポートと同じ位置規則がシンクロトロンポートに適用されます。取り付けられるのは1つだけです。"
+    },
+    {
+      "type": "text",
+      "text": "生成される光子のpu/tはシンクロトロンを通る粒子のpu/tと等しく、収束はシンクロトロンを通る粒子と同じで、エネルギー（MeV）は $(l)Eᵧ=E³/(2πR(1000m)³)$() で、$(l)E$() はシンクロトロンが出力する粒子のエネルギー（MeV）です。$(br2)エネルギーは $(l)1/m³$() に比例するため、電子のような軽い粒子ははるかに高いエネルギーを与えます。"
+    }
+  ]
+}

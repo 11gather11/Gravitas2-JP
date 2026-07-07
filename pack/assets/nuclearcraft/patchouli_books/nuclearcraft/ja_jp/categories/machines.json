@@ -1,0 +1,6 @@
+{
+  "name": "機械",
+  "description": "$(l)よく整備された機械のように。",
+  "icon": "nuclearcraft:manufactory",
+  "sortnum": 1
+}

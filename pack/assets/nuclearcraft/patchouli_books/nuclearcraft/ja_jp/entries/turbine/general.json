@@ -1,0 +1,113 @@
+{
+  "name": "一般情報",
+  "icon": "nuclearcraft:turbine_controller",
+  "category": "nuclearcraft:turbine",
+  "sortnum": 0,
+  "pages": [
+    {
+      "anchor": "casing",
+      "type": "blocks/2",
+      "header": "Turbine Casing",
+      "block1": "nuclearcraft:turbine_glass",
+      "block2": "nuclearcraft:turbine_casing",
+      "text": "タービンの内部部品は直方体の中に収められます。タービンは$(thing)タービンケーシング$()から成る辺を持つ必要があり、タービンの壁は$(thing)タービンガラス$()・タービンケーシング、またはその両方にできます。"
+    },
+    {
+      "anchor": "controller",
+      "type": "blocks/1",
+      "header": "Turbine Controller",
+      "block": "nuclearcraft:turbine_controller",
+      "text": "コントローラーがないと、タービンのマルチブロックは形成されません。そのGUIは、関連部品のステータスの平均値など、タービンの情報を表示します。"
+    },
+    {
+      "anchor": "port",
+      "type": "blocks/1",
+      "header": "Turbine Port",
+      "block": "nuclearcraft:turbine_port",
+      "text": "タービンポートは、液体とエネルギーをタービンに出し入れするのに使います。ポートは液体・エネルギーの入力または出力に設定できます。ポートはレッドストーン制御やコンピューターにも使えます。"
+    },
+    {
+      "anchor": "coils",
+      "type": "blocks/2",
+      "block1": "nuclearcraft:turbine_copper_coil,nuclearcraft:turbine_magnesium_coil,nuclearcraft:turbine_silver_coil,nuclearcraft:turbine_gold_coil,nuclearcraft:turbine_beryllium_coil,nuclearcraft:turbine_aluminum_coil",
+      "header": "Coils",
+      "text": "$(thing)コイル$()はローターの運動エネルギーをエネルギーに変換するのに使います。すべてのコイルは異なる効率と配置規則を持ちます。"
+    },
+    {
+      "anchor": "simple_turbine",
+      "header": "Simple Turbine",
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "mapping": {
+          "W": "nuclearcraft:turbine_casing",
+          "G": "nuclearcraft:turbine_glass",
+          "L": "nuclearcraft:turbine_steel_rotor_blade",
+          "N": "nuclearcraft:turbine_controller[facing=north]",
+          "P": "nuclearcraft:turbine_port[facing=north]",
+          "M": "nuclearcraft:turbine_magnesium_coil",
+          "B": "nuclearcraft:turbine_beryllium_coil",
+          "K": "nuclearcraft:turbine_rotor_shaft",
+          "R": "nuclearcraft:turbine_bearing"
+        },
+        "pattern": [
+          [
+            "WWWWW",
+            "WGGGW",
+            "WGGGW",
+            "WGGGW",
+            "WGGGW",
+            "WGGGW",
+            "WWWWW"
+          ],
+          [
+            "WBMBW",
+            "P L G",
+            "G L G",
+            "N L G",
+            "G L G",
+            "P L G",
+            "WBMBW"
+          ],
+          [
+            "WMRMW",
+            "GLKLG",
+            "GLKLG",
+            "GLKLG",
+            "GLKLG",
+            "GLKLG",
+            "WMRMW"
+          ],
+          [
+            "WBMBW",
+            "G L G",
+            "G L G",
+            "G L G",
+            "G L G",
+            "G L G",
+            "WBMBW"
+          ],
+          [
+            "WWWWW",
+            "WGGGW",
+            "WGGGW",
+            "WGGGW",
+            "WGGGW",
+            "WGGGW",
+            "WWWWW"
+          ],
+          [
+            "     ",
+            "     ",
+            "     ",
+            "  0  ",
+            "     ",
+            "     ",
+            "     "
+          ]
+        ],
+        "symmetrical": true
+      },
+      "text": "これはシンプルなタービン設計です。燃料セル1つ、照射線1本を持ちます。タービンの良い出発点です。このタービンに最適な燃料はHEU-235です。"
+    }
+  ]
+}

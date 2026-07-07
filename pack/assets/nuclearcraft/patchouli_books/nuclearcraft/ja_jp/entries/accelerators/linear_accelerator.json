@@ -1,0 +1,71 @@
+{
+  "name": "線形加速器",
+  "icon": "nuclearcraft:linear_accelerator_controller",
+  "category": "nuclearcraft:accelerators",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "線形加速器は、粒子ビームを作ってそのエネルギーと収束を高めるか、既存の粒子ビームのエネルギーと収束を高めるのに使います。$(br2)エネルギーと収束の変化は、加速器内の$(l:multiblocks/accelerators/general#structure)構造$(/l)から決まります。"
+    },
+    {
+      "type": "diagram_high",
+      "image": "nuclearcraft:textures/gui/book_images/linac.png",
+      "text": "線形加速器の例。"
+    },
+    {
+      "title": "建造",
+      "type": "text",
+      "text": "線形加速器は、すべての$(l:multiblocks/accelerators/general#construction)加速器$(/l)と同様に、ケーシングかガラスで作られ、入力・出力モードの冷却材ベントとエネルギーポートが必要です。幅と高さが5ブロックで、長さは少なくとも6ブロックです。中央に加速器ビームブロックの連続した線が必要です。"
+    },
+    {
+      "type": "diagram_low",
+      "image": "nuclearcraft:textures/gui/book_images/linac_empty.png",
+      "text": "ビームブロックがケーシングと接する場所では、一端に加速器イオン源、もう一端に出力モードの加速器ビームポートが必要です。下は空の線形加速器の例です。"
+    },
+    {
+      "type": "diagram_low",
+      "image": "nuclearcraft:textures/gui/book_images/linac_empty_input.png",
+      "text": "あるいは、既存のビームを使うため、イオン源を入力モードのビームポートに置き換えられます。下に例を示します。"
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+    {
+      "anchor": "ion_source",
+      "title": "イオン源",
+      "type": "text",
+      "text": "あらゆる加速器システムの始まりには、イオン源を持つ線形加速器があります。イオン源は、液体か$(l:items_and_devices/sources)イオン源アイテム$(/l)で新しい粒子ビームを作るのに使います。これらの液体やイオン源アイテムは、加速器イオン源ブロックの用途をJEIで見ると見つかります。液体はイオン源に直接、または加速器ケーシングの加速器イオン源ポートを通して配管できます。"
+    },
+    {
+      "type": "text",
+      "text": "アイテムもイオン源に、または加速器イオン源ポートを通して出し入れできます。イオン源にはブロックを右クリックして見るGUIもあります。このGUIは手動でのアイテムアクセスを可能にし、GUI内のタンクをShift左クリックすると現在の液体を消去できます。"
+    },
+    {
+      "type": "text",
+      "text": "既定では2種類のイオン源があります: 通常の加速器イオン源と加速器レーザーイオン源です。各イオン源は異なるステータスを持ち、ブロックのツールチップで見られます。基本電力（イオン源が加速器の$(l:multiblocks/accelerators/general#power)部品電力$(/l)に加える電力）、粒子出力倍率（イオン源レシピが出力する粒子量を掛ける）、出力収束（$(l:multiblocks/accelerators/general#focus)粒子が始める収束$(/l)）があります。"
+    },
+    {
+      "title": "運転",
+      "type": "text",
+      "text": "線形加速器は、すべての$(l:multiblocks/accelerators/general#operation)加速器$(/l)と同じ要件で機能し、動作にエネルギーと冷却材が必要です。"
+    },
+    {
+      "title": "粒子エネルギー",
+      "type": "text",
+      "text": "最大出力粒子エネルギーは $(l)Eₓ= E₀+|q|V$() で計算され、$(l)E₀$() は開始エネルギー（イオン源では通常0）、$(l)q$() は粒子の電荷、$(l)V$() は加速器の電圧で、全RFキャビティ（ブロックではなく構造）の電圧の合計で、加速器のGUIで見られます。"
+    },
+    {
+      "anchor": "redstone",
+      "title": "レッドストーン制御",
+      "type": "text",
+      "text": "出力粒子エネルギーは、$(l)E=EₓSᵣ/15$() に従ってレッドストーン信号の強度で制御でき、$(l)Sᵣ$() はレッドストーン強度です。コントローラー（または入力$(l:multiblocks/accelerators/general#redstone)レッドストーンポート$(/l)）に15（最大）のレッドストーン強度を与えると最大エネルギーを出力し、15未満なら最大エネルギーの対応する割合を出力します。例えばレッドストーン強度2は最大エネルギーの2/15=13.3%です。"
+    },
+    {
+      "title": "コンピューター制御",
+      "type": "text",
+      "text": "出力粒子エネルギーは OpenComputers でも制御できます。詳細は OpenComputers セクションを参照してください。"
+    }
+  ]
+}

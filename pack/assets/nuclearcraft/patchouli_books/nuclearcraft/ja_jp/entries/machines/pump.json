@@ -1,0 +1,13 @@
+{
+  "name": "ポンプ",
+  "icon": "nuclearcraft:pump",
+  "category": "nuclearcraft:machines",
+  "sortnum": 2,
+  "pages": [
+    {
+      "anchor": "intro",
+      "type": "text",
+      "text": "ポンプは環境から液体や気体を集めるのに使います。動作には適切な触媒とエネルギーが必要です。"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "原位置浸出",
+  "icon": "nuclearcraft:leacher",
+  "category": "nuclearcraft:machines",
+  "sortnum": 2,
+  "pages": [
+    {
+      "anchor": "intro",
+      "type": "blocks/1",
+      "block": "nuclearcraft:leacher",
+      "text": "これは、採掘せずに鉱石から資源を得る完璧な方法です。この方法では地中に酸を注入し、酸が鉱物を溶かし、浸出器が溶液を汲み上げます。"
+    },
+    {
+      "anchor": "modes",
+      "type": "blocks/1",
+      "block": "nuclearcraft:analyzer",
+      "text": "浸出器は2つのモードで動作します。1つ目のモードは解析済みマップが必要です。このモードでは地中から実際の資源を汲み上げます。2つ目のモードは鉱脈情報を含む研究論文が必要です。アナライザーでチャンクを解析し、チャンクに鉱脈が含まれていればこの情報を研究論文に記載します。この方法では地中深くから資源を得ます。浸出器は鉱脈のある正確なチャンクに置く必要があります。"
+    },
+    {
+      "anchor": "placement",
+      "type": "blocks/2",
+      "block1": "nuclearcraft:leacher",
+      "block2": "nuclearcraft:pump",
+      "text": "浸出器ブロックを置くと、ポンプの配置場所が強調表示されます。すべてのブロックを置いたら、データ源を入れ、酸とエネルギーを供給します。浸出が始まります。"
+    }
+  ]
+}

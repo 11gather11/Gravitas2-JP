@@ -1,0 +1,7 @@
+{
+  "name": "粒子チェンバー",
+  "description": "粒子を叩きつける",
+  "icon": "nuclearcraft:target_chamber_controller",
+  "parent": "nuclearcraft:multiblocks",
+  "sortnum": 0
+}

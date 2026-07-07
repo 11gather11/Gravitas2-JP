@@ -1,0 +1,6 @@
+{
+  "name": "アイテム",
+  "description": "$(l)商売道具。",
+  "icon": "nuclearcraft:geiger_counter",
+  "sortnum": 1
+}

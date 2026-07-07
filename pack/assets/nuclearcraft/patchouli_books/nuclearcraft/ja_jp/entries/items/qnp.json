@@ -1,0 +1,15 @@
+{
+  "name": "QNP",
+  "icon": "nuclearcraft:qnp",
+  "category": "nuclearcraft:items",
+  "sortnum": 0,
+  "pages": [
+    {
+      "anchor": "qnp",
+      "type": "items/1",
+      "header": "QNP",
+      "item": "nuclearcraft:qnp",
+      "text": "$(item)QNP$()は高度なマルチツールで、任意のブロックを採掘でき、3x3・3x3x3・5x5・鉱脈・単一ブロックなど異なるモードを持ちます。エネルギーが必要です。"
+    }
+  ]
+}

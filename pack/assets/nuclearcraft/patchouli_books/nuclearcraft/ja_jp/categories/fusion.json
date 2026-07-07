@@ -1,0 +1,7 @@
+{
+  "name": "核融合",
+  "description": "$(l)楽しみと究極の栄光のために原子を融合する。",
+  "icon": "nuclearcraft:fusion_core",
+  "parent": "nuclearcraft:multiblocks",
+  "sortnum": 1
+}

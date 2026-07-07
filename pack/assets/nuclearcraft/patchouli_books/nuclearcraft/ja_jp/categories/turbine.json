@@ -1,0 +1,7 @@
+{
+  "name": "タービン",
+  "description": "$(l)蒸気で回るタービン＝エネルギー。",
+  "icon": "nuclearcraft:turbine_controller",
+  "parent": "nuclearcraft:multiblocks",
+  "sortnum": 0
+}

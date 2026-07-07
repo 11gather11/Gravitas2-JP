@@ -1,0 +1,7 @@
+{
+  "name": "加速器",
+  "description": "粒子を加速する",
+  "icon": "nuclearcraft:linear_accelerator_controller",
+  "parent": "nuclearcraft:multiblocks",
+  "sortnum": 0
+}

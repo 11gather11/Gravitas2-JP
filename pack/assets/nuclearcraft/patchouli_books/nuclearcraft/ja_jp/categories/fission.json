@@ -1,0 +1,7 @@
+{
+  "name": "核分裂",
+  "description": "$(l)楽しみと利益のために原子を分裂させる。",
+  "icon": "nuclearcraft:fission_reactor_controller",
+  "parent": "nuclearcraft:multiblocks",
+  "sortnum": 0
+}

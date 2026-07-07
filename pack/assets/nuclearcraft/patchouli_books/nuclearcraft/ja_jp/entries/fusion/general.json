@@ -1,0 +1,164 @@
+{
+  "name": "一般情報",
+  "icon": "nuclearcraft:fusion_core",
+  "category": "nuclearcraft:fusion",
+  "sortnum": 0,
+  "pages": [
+    {
+      "anchor": "intro",
+      "type": "text",
+      "text": "$(thing)核融合炉$()は粒子を融合させて相当量のエネルギーを生みます。また、炉の機能ブロックを冷やすために供給する必要のある冷却材を沸騰させることもできます。"
+    },
+    {
+      "anchor": "reactor_design",
+      "type": "text",
+      "text": "大きな炉のプラズマはより高い温度に達せます。そして反応チェンバーが大きいほど、より多くの燃料を保持しより多くのエネルギーを生めます。"
+    },
+    {
+      "anchor": "casing",
+      "type": "blocks/2",
+      "header": "Reactor Casing",
+      "block1": "nuclearcraft:fusion_reactor_casing",
+      "block2": "nuclearcraft:fusion_reactor_casing_glass",
+      "text": "炉ケーシングブロックは、$(item)核融合コア$()の周りにトロイダル構造（反応チェンバー）を建てるのに使います。"
+    },
+    {
+      "anchor": "toroidal_section",
+      "header": "Toroidal Section",
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "mapping": {
+          "C": "nuclearcraft:fusion_reactor_casing",
+          "G": "nuclearcraft:fusion_reactor_casing_glass"
+        },
+        "pattern": [
+          [
+            "   ",
+            "C G",
+            "   "
+          ],
+          [
+            "C G",
+            " 0 ",
+            "C G"
+          ],
+          [
+            "   ",
+            "C G",
+            "   "
+          ]
+        ],
+        "symmetrical": true,
+        "visualize": false
+      },
+      "text": "任意のケーシングブロックを使うか、それらを組み合わせてトロイダル部を建てられます。部の中心は空である必要があります。"
+    },
+    {
+      "anchor": "controller",
+      "type": "blocks/1",
+      "header": "Reactor Core",
+      "block": "nuclearcraft:fusion_core",
+      "text": "コントローラーがないと、炉のマルチブロックは形成されません。そのGUIは、関連部品のステータスの平均値など、炉の情報を表示します。"
+    },
+    {
+      "anchor": "connector",
+      "type": "blocks/1",
+      "header": "Fusion Connectors",
+      "block": "nuclearcraft:fusion_reactor_connector",
+      "text": "$(item)核融合コネクター$()は、核融合コアとトロイダル反応チェンバーをつなぐのに使います。燃料・冷却材・エネルギーを転送します。"
+    },
+    {
+      "anchor": "function_blocks",
+      "type": "patchouli:text",
+      "header": "Functional Blocks",
+      "text": "$(thing)核融合炉チェンバー$()には2種類の機能ブロックが必要です: 電磁石とRF増幅器です。これらのブロックは動作にいくらかのエネルギーを必要とし、冷却材で冷やす必要があります。トロイダル反応チェンバー部の角に置く必要があります。"
+    },
+    {
+      "anchor": "electormagnets",
+      "type": "blocks/2",
+      "header": "Electromagnets",
+      "block1": "nuclearcraft:basic_electromagnet,nuclearcraft:bscco_electromagnet,nuclearcraft:magnesium_diboride_electromagnet,nuclearcraft:niobium_tin_electromagnet,nuclearcraft:niobium_titanium_electromagnet",
+      "block2": "nuclearcraft:basic_electromagnet_slope,nuclearcraft:bscco_electromagnet_slope,nuclearcraft:magnesium_diboride_electromagnet_slope,nuclearcraft:niobium_tin_electromagnet_slope,nuclearcraft:niobium_titanium_electromagnet_slope",
+      "text": "$(item)電磁石$()は反応チェンバー内のプラズマを維持するのに使います。電磁場が大きいほどプラズマの安定性と断面積が良くなります。またプラズマの熱損失も減ります。"
+    },
+    {
+      "anchor": "rf_amplifiers",
+      "type": "blocks/1",
+      "header": "RF Amplifiers",
+      "block": "nuclearcraft:basic_rf_amplifier,nuclearcraft:bscco_rf_amplifier,nuclearcraft:magnesium_diboride_rf_amplifier,nuclearcraft:niobium_tin_rf_amplifier,nuclearcraft:niobium_titanium_rf_amplifier",
+      "text": "$(item)RF増幅器$()は、（電子レンジのような）無線周波数波でプラズマのエネルギーを高めるのに使います。言い換えれば、プラズマを加熱します。"
+    },
+    {
+      "anchor": "simple_reactor",
+      "header": "Simple Reactor",
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "mapping": {
+          "W": "nuclearcraft:fusion_reactor_casing",
+          "G": "nuclearcraft:fusion_reactor_casing_glass",
+          "C": "nuclearcraft:fusion_core",
+          "N": "nuclearcraft:fusion_reactor_connector",
+          "E": "nuclearcraft:basic_electromagnet",
+          "M": "nuclearcraft:basic_rf_amplifier",
+          "P": "nuclearcraft:fusion_reactor_core_proxy"
+        },
+        "pattern": [
+          [
+            "           ",
+            " GGGGGGGGG ",
+            " GEEEEEEEG ",
+            " GE     EG ",
+            " GE PPP EG ",
+            " GE PPP EG ",
+            " GE PPP EG ",
+            " GE     EG ",
+            " GEEEEEEEG ",
+            " GGGGGGGGG ",
+            "           "
+          ],
+          [
+            " GGGGGGGGG ",
+            "G         G",
+            "G WWWWWWW G",
+            "G W  N  W G",
+            "G W PPP W G",
+            "G WNPPPNW G",
+            "G W PPP W G",
+            "G W  N  W G",
+            "G WWWWWWW G",
+            "G         G",
+            " GGGGGGGGG "
+          ],
+          [
+            " MMMMMMMMM ",
+            "MGGGGGGGGGM",
+            "MG       GM",
+            "MG       GM",
+            "MG  PPP  GM",
+            "MG  PCP  GM",
+            "MG  PPP  GM",
+            "MG       GM",
+            "MG       GM",
+            "MGGGGGGGGGM",
+            " MMMMMMMMM "
+          ],
+          [
+            "           ",
+            "           ",
+            "           ",
+            "           ",
+            "           ",
+            "     0     ",
+            "           ",
+            "           ",
+            "           ",
+            "           ",
+            "           "
+          ]
+        ],
+        "symmetrical": true
+      },
+      "text": "これはシンプルな炉の設計です。低温反応から始めるのに適しています。"
+    }
+  ]
+}

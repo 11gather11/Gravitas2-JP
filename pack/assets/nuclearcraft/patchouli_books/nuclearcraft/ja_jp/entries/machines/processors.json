@@ -1,0 +1,139 @@
+{
+  "name": "加工機械",
+  "icon": "nuclearcraft:manufactory",
+  "category": "nuclearcraft:machines",
+  "sortnum": 0,
+  "pages": [
+    {
+      "anchor": "intro",
+      "type": "text",
+      "text": "これらの機械は、通常エネルギーを使って素材を加工し、ある種類から別の種類へ変換します。"
+    },
+    {
+      "anchor": "manufactory",
+      "type": "blocks/1",
+      "header": "Manufactory",
+      "block": "nuclearcraft:manufactory",
+      "text": "$(item)製造機$()は多くの用途を持つ機械で、主に素材の加工に使われます。"
+    },
+    {
+      "anchor": "separator",
+      "type": "blocks/1",
+      "header": "Isotope Separator",
+      "block": "nuclearcraft:isotope_separator",
+      "text": "$(item)分離器$()は素材を構成要素に分離します。"
+    },
+    {
+      "anchor": "decay_hastener",
+      "type": "blocks/1",
+      "header": "Decay Hastener",
+      "block": "nuclearcraft:decay_hastener",
+      "text": "$(item)崩壊促進機$()は放射性物質を強制的に崩壊させ、別の同位体や物質を生成します。崩壊の過程で放射線が放出されます。"
+    },
+    {
+      "anchor": "fuel_reprocessor",
+      "type": "blocks/1",
+      "header": "Fuel Reprocessor",
+      "block": "nuclearcraft:fuel_reprocessor",
+      "text": "$(item)燃料再処理機$()は使用済み燃料から物質を抽出し、使用済み燃料から有用な物質を分離できます。"
+    },
+    {
+      "anchor": "alloy_furnace",
+      "type": "blocks/1",
+      "header": "Alloy Smelter",
+      "block": "nuclearcraft:alloy_smelter",
+      "text": "$(item)合金製錬炉は卑金属を合金に組み合わせます。"
+    },
+    {
+      "anchor": "fluid_infuser",
+      "type": "blocks/1",
+      "header": "Fluid Infuser",
+      "block": "nuclearcraft:fluid_infuser",
+      "text": "$(item)流体注入機$()は素材に液体を加えます。"
+    },
+    {
+      "anchor": "melter",
+      "type": "blocks/1",
+      "header": "Melter",
+      "block": "nuclearcraft:melter",
+      "text": "$(item)溶解炉$()は素材を液体の形に溶かします。"
+    },
+    {
+      "anchor": "supercooler",
+      "type": "blocks/1",
+      "header": "Supercooler",
+      "block": "nuclearcraft:supercooler",
+      "text": "$(item)過冷却機$()は液体の温度を下げます。"
+    },
+    {
+      "anchor": "electrolyzer",
+      "type": "blocks/1",
+      "header": "Electrolyzer",
+      "block": "nuclearcraft:electrolyzer",
+      "text": "$(item)電気分解機$()は液体を構成要素に分けます。"
+    },
+    {
+      "anchor": "assembler",
+      "type": "blocks/1",
+      "header": "Assembler",
+      "block": "nuclearcraft:assembler",
+      "text": "$(item)組立機$()は部品を複雑な製品に組み合わせます。"
+    },
+    {
+      "anchor": "ingot_former",
+      "type": "blocks/1",
+      "header": "Ingot Former",
+      "block": "nuclearcraft:ingot_former",
+      "text": "$(item)インゴット成形機$()は溶けた素材をインゴットや宝石に成形します。"
+    },
+    {
+      "anchor": "pressurizer",
+      "type": "blocks/1",
+      "header": "Pressurizer",
+      "block": "nuclearcraft:pressurizer",
+      "text": "$(item)加圧機$()は素材を巨大な圧力の下で加工します。"
+    },
+    {
+      "anchor": "chemical_reactor",
+      "type": "blocks/1",
+      "header": "Chemical Reactor",
+      "block": "nuclearcraft:chemical_reactor",
+      "text": "$(item)化学反応炉$()は液体間の反応を収め、化学反応を起こせます。"
+    },
+    {
+      "anchor": "crystallizer",
+      "type": "blocks/1",
+      "header": "Crystallizer",
+      "block": "nuclearcraft:crystallizer",
+      "text": "$(item)結晶化装置$()は液体から固体を析出させます。"
+    },
+    {
+      "anchor": "fluid_enricher",
+      "type": "blocks/1",
+      "header": "Fluid Enricher",
+      "block": "nuclearcraft:fluid_enricher",
+      "text": "$(item)流体濃縮機$()は液体に素材を加えます。"
+    },
+    {
+      "anchor": "fluid_extractor",
+      "type": "blocks/1",
+      "header": "Fluid Extractor",
+      "block": "nuclearcraft:extractor",
+      "text": "$(item)流体抽出機$()は素材から液体を抽出します。"
+    },
+    {
+      "anchor": "centrifuge",
+      "type": "blocks/1",
+      "header": "Centrifuge",
+      "block": "nuclearcraft:centrifuge",
+      "text": "$(item)遠心分離機$()は液体素材から同位体を分離します。"
+    },
+    {
+      "anchor": "rock_crusher",
+      "type": "blocks/1",
+      "header": "Rock Crusher",
+      "block": "nuclearcraft:rock_crusher",
+      "text": "$(item)岩石粉砕機$()は岩石を砕いて鉱物の粉を作ります。"
+    }
+  ]
+}
