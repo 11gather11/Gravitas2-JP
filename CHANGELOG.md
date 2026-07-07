@@ -6,6 +6,12 @@
 
 ## [Unreleased]
 
+## [0.16.1] - 2026-07-07
+
+### Fixed
+
+- **gregitas（KubeJS追加アイテム）の翻訳漏れを補完**（+34キー、計377）。ポリマー6種のマレットヘッド（`Polytetrafluoroethylene Mallet Head` → ポリテトラフルオロエチレンのマレットヘッド 等）、gregitas流体9種の流体名・液体ブロック・バケツ（`Crimson Resin Bucket` → 真紅の樹脂バケツ 等）、青銅めっきレンガを追加。
+
 ## [0.16.0] - 2026-07-07
 
 ### Added
@@ -204,7 +210,8 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.16.0...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.16.1...HEAD
+[0.16.1]: https://github.com/11gather11/Gravitas2-JP/compare/v0.16.0...v0.16.1
 [0.16.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.15.0...v0.16.0
 [0.15.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.14.0...v0.15.0
 [0.14.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.13.0...v0.14.0
