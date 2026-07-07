@@ -1,0 +1,12 @@
+{
+  "name": "カヴム・テネブレ",
+  "icon": "minecraft:deepslate_diamond_ore",
+  "sortnum": 5,
+  "category": "sgjourney:planets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ブラックホールに危険なほど近い軌道による潮汐力で押し潰された惑星。"
+    }
+  ]
+}

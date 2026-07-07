@@ -1,0 +1,21 @@
+{
+  "name": "クラシックスターゲート",
+  "icon": "sgjourney:classic_stargate",
+  "sortnum": 7,
+  "category": "sgjourney:stargates",
+  "pages": [
+    {
+      "title": "クラシックスターゲート",
+      "type": "patchouli:image",
+      "images": [
+        "sgjourney:textures/gui/patchouli/classic_stargate.png"
+      ],
+      "text": "39個のシンボルを持つ第0世代のスターゲート。"
+    },
+    {
+      "title": "特性",
+      "type": "patchouli:text",
+      "text": "このスターゲートは手動でダイヤルできます。"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "アビドス",
+  "icon": "minecraft:sand",
+  "sortnum": 1,
+  "category": "sgjourney:planets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ラーの領域にある砂漠の惑星。"
+    }
+  ]
+}

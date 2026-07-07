@@ -1,0 +1,21 @@
+{
+  "name": "ミルキーウェイスターゲート",
+  "icon": "sgjourney:milky_way_stargate",
+  "sortnum": 2,
+  "category": "sgjourney:stargates",
+  "pages": [
+    {
+      "title": "ミルキーウェイスターゲート",
+      "type": "patchouli:image",
+      "images": [
+        "sgjourney:textures/gui/patchouli/milky_way_stargate.png"
+      ],
+      "text": "39個のシンボルを持つ第2世代のスターゲート。"
+    },
+    {
+      "title": "特性",
+      "type": "patchouli:text",
+      "text": "このスターゲートは手動でダイヤルできます。"
+    }
+  ]
+}

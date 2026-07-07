@@ -1,0 +1,21 @@
+{
+  "name": "ユニバーススターゲート",
+  "icon": "sgjourney:universe_stargate",
+  "sortnum": 1,
+  "category": "sgjourney:stargates",
+  "pages": [
+    {
+      "title": "ユニバーススターゲート",
+      "type": "patchouli:image",
+      "images": [
+        "sgjourney:textures/gui/patchouli/universe_stargate.png"
+      ],
+      "text": "36個のシンボルを持つ第1世代のスターゲート。"
+    },
+    {
+      "title": "特性",
+      "type": "patchouli:text",
+      "text": "ダイヤル中はスターゲート全体が常に回転します。このスターゲートは手動でダイヤルできます。"
+    }
+  ]
+}

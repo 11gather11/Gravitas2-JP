@@ -1,0 +1,12 @@
+{
+  "name": "チューラック",
+  "icon": "sgjourney:matok",
+  "sortnum": 2,
+  "category": "sgjourney:planets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "アポフィスの領域にある森林の惑星。"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "スターゲートの種類",
+  "icon": "sgjourney:stargate_variant_crystal",
+  "sortnum": 9,
+  "category": "sgjourney:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "TODO"
+    }
+  ]
+}

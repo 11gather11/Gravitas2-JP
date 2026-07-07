@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "このブロックは、目の前のブロックやタイルエンティティのデータを読み取れます。$(p)詳しい説明は $(9)$(l:https://docs.intelligence-modding.de/peripherals/block_reader/)公式Wikiページ$(/l)$() を参照してください！"
+      "text": "このブロックは、前方のブロックやタイルエンティティのデータを読み取れます。$(p)完全なドキュメントは$(9)$(l:https://docs.intelligence-modding.de/peripherals/block_reader/)公式wikiページ$(/l)$()を参照してください！"
     },
     {
       "type": "crafting",
@@ -25,7 +25,7 @@
           ]
         ]
       },
-      "text": "ブロックリーダーをコンピュータと対象ブロックに接続して使いましょう！"
+      "text": "ブロックリーダーをコンピューターと対象ブロックに接続して使いましょう！"
     }
   ]
 }

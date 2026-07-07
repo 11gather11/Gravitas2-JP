@@ -1,0 +1,12 @@
+{
+  "name": "レッドストーン",
+  "icon": "minecraft:redstone",
+  "sortnum": 0,
+  "category": "sgjourney:interfacing",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "TODO"
+    }
+  ]
+}

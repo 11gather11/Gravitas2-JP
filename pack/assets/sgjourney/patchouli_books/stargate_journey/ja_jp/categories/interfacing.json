@@ -1,0 +1,6 @@
+{
+  "name": "連携",
+  "description": "インターフェースにより、レッドストーンやコンピューターがあらゆる異星技術に接続できます。",
+  "sortnum": 5,
+  "icon": "sgjourney:basic_interface"
+}

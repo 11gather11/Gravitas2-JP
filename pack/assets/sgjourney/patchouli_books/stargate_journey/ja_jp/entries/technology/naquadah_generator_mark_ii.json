@@ -1,0 +1,12 @@
+{
+  "name": "ナクアダ発電機 Mk.II",
+  "icon": "sgjourney:naquadah_generator_mark_ii",
+  "sortnum": 1,
+  "category": "sgjourney:technology",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "TODO"
+    }
+  ]
+}

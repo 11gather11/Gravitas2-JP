@@ -1,0 +1,12 @@
+{
+  "name": "リマ",
+  "icon": "minecraft:coarse_dirt",
+  "sortnum": 4,
+  "category": "sgjourney:planets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "一見死んだ惑星だが、地表の割れ目の中に生命が隠れている。アポフィスの領域の一部。"
+    }
+  ]
+}

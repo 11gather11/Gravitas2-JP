@@ -1,0 +1,27 @@
+{
+  "name": "DHD",
+  "icon": "sgjourney:milky_way_dhd",
+  "sortnum": 4,
+  "category": "sgjourney:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "DHDは Dial Home Device（ダイヤルホームデバイス）の頭字語です。スターゲートに遠隔で接続して制御し、無線で電力を供給できる装置です。"
+    },
+    {
+      "title": "ダイヤル",
+      "type": "patchouli:text",
+      "text": "TODO"
+    },
+    {
+      "title": "エネルギー",
+      "type": "patchouli:text",
+      "text": "TODO"
+    },
+    {
+      "title": "クリスタル技術",
+      "type": "patchouli:text",
+      "text": "TODO"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "MEブリッジは Applied Energistics 2 とやり取りできます。アイテムの取り出し、アイテムのクラフト、全アイテムの一覧取得などができます。MEブリッジはチャンネルを1つ使います。$(p)詳しい説明は $(9)$(l:https://docs.intelligence-modding.de/peripherals/me_bridge/)公式Wikiページ$(/l)$() を参照してください！"
+      "text": "MEブリッジは Applied Energistics 2 と関われます。アイテムの取り出し、クラフト、全アイテムの一覧取得などができます。MEブリッジは1チャンネルを使います。$(p)完全なドキュメントは$(9)$(l:https://docs.intelligence-modding.de/peripherals/me_bridge/)公式wikiページ$(/l)$()を参照してください！"
     },
     {
       "type": "crafting",
@@ -24,7 +24,7 @@
           ]
         ]
       },
-      "text": "MEブリッジをコンピュータに接続して使いましょう！"
+      "text": "MEブリッジをコンピューターに接続して使いましょう！"
     }
   ]
 }

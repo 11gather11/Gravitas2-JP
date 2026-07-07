@@ -7,7 +7,7 @@
       "type": "spotlight",
       "title": "弱いオートマタコア",
       "item": "advancedperipherals:weak_automata_core",
-      "text": "弱いオートマタコアはタートルのアップグレードで、タートルを強力なオートマタに変えられます！"
+      "text": "弱いオートマタコアは、タートルを強力なオートマタに変えるタートルのアップグレードです！"
     },
     {
       "type": "crafting",
@@ -15,13 +15,13 @@
     },
     {
       "type": "link",
-      "text": "タートルにいくつかの能力を与えます。$(li)道具でブロックを掘る$(li)アイテムまたは素手でブロックをクリックする$(li)周囲のアイテムを吸い込む（全部または特定のもの）$(li)周囲のアイテムを検知する$(li)視線上のブロックやタートルを検知する$(li)インベントリ内のRFアイテムでタートルを充電する",
+      "text": "タートルにいくつかの能力を提供します。$(li)道具でブロックを掘る$(li)アイテムや素手でブロックをクリックする$(li)周囲のアイテムを吸い込む（すべてまたは特定）$(li)周囲のアイテムを検知する$(li)視線上のブロックやタートルを検知する$(li)インベントリ内のRFアイテムでタートルを充電する",
       "url": "https://docs.intelligence-modding.de/metaphysics/weak_automata/",
       "link_text": "API documentation"
     },
     {
       "type": "text",
-      "text": "しかし弱いコアは形而上学研究の始まりにすぎません！ 空の構造体はMobの魂の欠片を受け入れる準備ができています。様々なMobを魂に与えて、上位の派生を得る必要があるようです。$(li)$(l:metaphysics/end_automata_core)エンドオートマタコア$(li)$(l:metaphysics/husbandry_automata_core)畜産オートマタコア"
+      "text": "しかし弱いコアは形而上学研究の始まりにすぎません！ 空の構造体はMobの魂の断片を受け入れる準備ができています。様々なMobを魂に与えて高度な変種を得る必要があるようです。$(li)$(l:metaphysics/end_automata_core)エンドオートマタコア$(li)$(l:metaphysics/husbandry_automata_core)畜産オートマタコア"
     }
   ]
 }

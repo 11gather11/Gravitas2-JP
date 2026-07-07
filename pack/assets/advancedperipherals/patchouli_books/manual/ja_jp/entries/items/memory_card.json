@@ -1,11 +1,11 @@
 {
-  "name": "メモリカード",
+  "name": "メモリーカード",
   "icon": "advancedperipherals:memory_card",
   "category": "advancedperipherals:items",
   "pages": [
     {
       "type": "text",
-      "text": "$(9)$(l:items/ar_goggles)ARゴーグル$(/l)$() は $(9)$(l:peripherals/inventory_manager)インベントリマネージャー$(/l)$() と組み合わせて、プレイヤーのインベントリとやり取りするのに使えます。$(p)メモリカードを手に持って右クリックすると、自分に割り当てられます。$(p)詳しい説明は $(9)$(l:https://docs.intelligence-modding.de/items/ar_goggles/)公式Wikiページ$(/l)$() を参照してください！"
+      "text": "$(9)$(l:items/ar_goggles)ARゴーグル$(/l)$()は$(9)$(l:peripherals/inventory_manager)インベントリマネージャー$(/l)$()と組み合わせて、プレイヤーのインベントリと通信できます。$(p)メモリーカードを手に持って右クリックすると自分に割り当てられます。$(p)完全なドキュメントは$(9)$(l:https://docs.intelligence-modding.de/items/ar_goggles/)公式wikiページ$(/l)$()を参照してください！"
     },
     {
       "type": "crafting",

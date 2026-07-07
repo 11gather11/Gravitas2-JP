@@ -1,0 +1,17 @@
+{
+  "name": "ペガサスDHD",
+  "icon": "sgjourney:pegasus_dhd",
+  "sortnum": 5,
+  "category": "sgjourney:stargates",
+  "pages": [
+    {
+      "title": "ペガサスDHD",
+      "type": "patchouli:crafting",
+      "recipe": "sgjourney:pegasus_dhd"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "ペガサスDHDは高度なクリスタルを使えますが、通常のクリスタルは使えません。"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "トーランスターゲート",
+  "icon": "sgjourney:tollan_stargate",
+  "sortnum": 6,
+  "category": "sgjourney:stargates",
+  "pages": [
+    {
+      "title": "トーランスターゲート",
+      "type": "patchouli:image",
+      "images": [
+        "sgjourney:textures/gui/patchouli/tollan_stargate.png"
+      ],
+      "text": "シンボルが見えない第2世代のスターゲート。"
+    },
+    {
+      "title": "特性",
+      "type": "patchouli:text",
+      "text": "このスターゲートはリング内に収まらないため虹彩を持てません。手動でダイヤルできません。リングにシンボルは見えませんが、ゲート自体は39個のシンボルをダイヤルできます。"
+    }
+  ]
+}

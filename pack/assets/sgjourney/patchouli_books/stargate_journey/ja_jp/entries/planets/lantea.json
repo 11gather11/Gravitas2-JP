@@ -1,0 +1,12 @@
+{
+  "name": "ランティア",
+  "icon": "sgjourney:pegasus_stargate",
+  "sortnum": 6,
+  "category": "sgjourney:planets",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "アトランティスの都市が古代に眠る海洋の惑星。"
+    }
+  ]
+}

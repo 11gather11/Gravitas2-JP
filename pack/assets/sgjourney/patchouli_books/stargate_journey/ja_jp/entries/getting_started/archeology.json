@@ -1,0 +1,24 @@
+{
+  "name": "考古学",
+  "icon": "sgjourney:archeology_table",
+  "sortnum": 1,
+  "category": "sgjourney:getting_started",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "1. ゴアウルドの神殿を見つける。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "2. ゴアウルドの神殿の中に黄金の偶像が置かれた部屋があるので、それを取る。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "3. 黄金の偶像を使って考古学の台をクラフトする。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "4. 考古学の台を村人の近くに置くと、その村人が考古学者になる。"
+    }
+  ]
+}

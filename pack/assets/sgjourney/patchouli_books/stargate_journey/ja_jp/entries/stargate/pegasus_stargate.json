@@ -1,0 +1,21 @@
+{
+  "name": "ペガサススターゲート",
+  "icon": "sgjourney:pegasus_stargate",
+  "sortnum": 4,
+  "category": "sgjourney:stargates",
+  "pages": [
+    {
+      "title": "ペガサススターゲート",
+      "type": "patchouli:image",
+      "images": [
+        "sgjourney:textures/gui/patchouli/pegasus_stargate.png"
+      ],
+      "text": "36個のシンボルを持つ第3世代のスターゲート。"
+    },
+    {
+      "title": "特性",
+      "type": "patchouli:text",
+      "text": "このスターゲートは手動でダイヤルできません。リングには36個のシンボルしか表示されませんが、ゲート自体は48個のシンボルをダイヤルできます。"
+    }
+  ]
+}

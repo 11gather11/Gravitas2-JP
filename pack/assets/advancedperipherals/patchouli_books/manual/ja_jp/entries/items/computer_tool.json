@@ -1,11 +1,11 @@
 {
-  "name": "コンピュータ工具",
+  "name": "コンピューターツール",
   "icon": "advancedperipherals:computer_tool",
   "category": "advancedperipherals:items",
   "pages": [
     {
       "type": "text",
-      "text": "コンピュータ工具は、当ModのブロックのGUIを開くための工具です。現状コンピュータ工具は役に立たず、ただの素敵なアイテムです。$(p)詳しい説明は $(9)$(l:https://docs.intelligence-modding.de/items/computer_tool/)公式Wikiページ$(/l)$() を参照してください！"
+      "text": "コンピューターツールは、当ModのブロックからGUIを開く道具です。今のところコンピューターツールは役に立たず、ただの素晴らしいアイテムです。$(p)完全なドキュメントは$(9)$(l:https://docs.intelligence-modding.de/items/computer_tool/)公式wikiページ$(/l)$()を参照してください！"
     },
     {
       "type": "crafting",

@@ -1,0 +1,13 @@
+{
+  "name": "スターゲートネットワーク",
+  "icon": "sgjourney:universe_stargate_chevron",
+  "sortnum": 0,
+  "category": "sgjourney:stargates",
+  "pages": [
+    {
+      "title": "優先スターゲート",
+      "type": "patchouli:text",
+      "text": "TODO"
+    }
+  ]
+}
