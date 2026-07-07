@@ -17,7 +17,7 @@
 
 モッドパック内の Mod を走査した結果です（`en_us` を持つ名前空間 218 個）。数値は英語キー数の目安。
 
-- ✅ **このパックで翻訳**：61／📦 **Mod同梱で対応済み**：33／🧩 **パック側 kubejs で対応済み**：3／📖 **同梱翻訳が不完全（翻訳候補）**：28／❌ **未対応（翻訳候補）**：55（ほかにライブラリ・未使用など 38 は対象外）
+- ✅ **このパックで翻訳**：76／📦 **Mod同梱で対応済み**：33／🧩 **パック側 kubejs で対応済み**：3／📖 **同梱翻訳が不完全（翻訳候補）**：25／❌ **未対応（翻訳候補）**：44（ほかにライブラリ・未使用など 37 は対象外）
 
 ### ✅ このパックで翻訳
 
@@ -30,10 +30,13 @@
 | `integrateddynamics` | Integrated Dynamics 本体（本・アイテム・オペレーター・アスペクト・実績） | 1,754 |
 | `railways` | Steam n Rails（鉄道拡張。同梱ja欠落376=レール/煙突/台車を補完） | 1,293 |
 | `tombstone` | Corail Tombstone（墓・死亡管理。アイテム・実績・メッセージ・コンペンディウム） | 1,112 |
+| `railcraft` | Railcraft Reborn（鉄道Mod。同梱ja欠落153=レール/信号/機関車を補完） | 1,025 |
 | `scguns` | Scorched Guns（銃Mod。銃/弾薬/防具・実績・エンチャント・タレット・GUI） | 971 |
 | `everycomp` | Every Compat（他Mod家具の互換ブロック名。同梱ja欠落961を補完） | 962 |
 | `tfcastikorcarts` | TFC Astikor Carts（木材×荷車。補給/動物カート・鋤・車輪） | 928 |
+| `createbigcannons` | Create Big Cannons（大砲Mod。同梱ja欠落352=信管・砲弾・Ponderを補完） | 744 |
 | `powergrid` | Power Grid（電子回路シミュレーション。同梱ja欠落413を補完） | 663 |
+| `sgjourney` | Stargate Journey（同梱ja欠落64=DHD/インターフェース補完） | 661 |
 | `ftbquests` | FTB Quests（クエストシステムのUI・エディタ・タスク・報酬） | 572 |
 | `enderio` | Ender IO（機械・導管・合金。同梱jaが実質英語のため553を翻訳） | 553 |
 | `integratedtunnels` | Integrated Tunnels（転送） | 487 |
@@ -51,12 +54,16 @@
 | `gcyr` | Gregicality Rocketry（宇宙。惑星岩・レゴリス。同梱ja欠落補完） | 183 |
 | `integratedterminals` | Integrated Terminals（ストレージ端末） | 176 |
 | `projectred_fabrication` | Project Red: Fabrication（IC設計・製造） | 174 |
+| `bits_n_bobs` | Bits n Bobs（Create装飾。岩石タイル・ニキシー管・歯車チェーン） | 174 |
 | `projectred_illumination` | Project Red: Illumination（16色ランプ・照明） | 162 |
+| `hostilenetworks` | Hostile Neural Networks（Mob学習シミュ。トリビア詩含む） | 160 |
 | `create_new_age` | Create: New Age（電力・原子炉・磁石発電） | 158 |
 | `gregitas_core` | Gravitas² Core Mod（GregTech統合。素材・真空/圧力配管） | 129 |
+| `fluxnetworks` | Flux Networks（無線送電網） | 123 |
 | `alekiships` | aleki's Nifty Ships（帆船Mod。ボート/スループ・区画・大砲・実績） | 120 |
 | `buildinggadgets2` | Building Gadgets 2（建築補助ツール・GUI） | 111 |
 | `integratedcrafting` | Integrated Crafting（自動クラフト） | 110 |
+| `simpleplanes` | Simple Planes（飛行機・ヘリ） | 108 |
 | `ftblibrary` | FTB Library（FTB系共通UI・GUI部品） | 99 |
 | `patchouli` | Patchouli 本ビューアUI（全Patchouli本共通） | 90 |
 | `laserio` | LaserIO（アイテム/液体/エネルギー転送・カード） | 90 |
@@ -65,26 +72,34 @@
 | `create_tweaked_controllers` | Create: Tweaked Controllers（ゲームパッド対応コントローラー） | 85 |
 | `mininggadgets` | （重複） | 85 |
 | `projectred_transmission` | Project Red: Transmission（配線・ケーブル） | 71 |
+| `petrolsparts` | Petrol's Parts（Create運動部品・Ponder） | 69 |
+| `tfc_textile` | TFC Textile（獣皮防具・繊維） | 69 |
 | `tfccaffeinated` | TFC Caffeinated（TFC。コーヒー・茶・飲料） | 61 |
+| `survivorsdelight` | Survivor's Delight（TFC。戸棚・フライパン） | 56 |
 | `projectred_core` | Project Red: Core（回路部品・イルマー染料。同梱ja欠落補完） | 54 |
 | `betterp2p` | Better P2P（AE2 P2P管理カード） | 47 |
 | `advancedtfctech` | Advanced TFC Tech（TFC。脱穀機・製粉所・力織機） | 43 |
 | `itemfilters` | Item Filters（アイテムフィルター各種） | 41 |
 | `tfceureka` | TFC Eureka Compat（TFC木材の操舵輪） | 41 |
 | `vs_eureka` | VS Eureka（VS飛空艇。操舵輪・気球・エンジン） | 40 |
+| `tfcthermaldeposits` | TFC Thermal Deposits（火山鉱物） | 39 |
 | `projectred_integration` | Project Red: Integration（論理ゲート） | 35 |
 | `ae2wtlib` | AE2 Wireless Terminals（ワイヤレス端末） | 35 |
+| `siegemachines` | Medieval Siege Machines（攻城兵器） | 34 |
+| `createmoredrillheads` | Create: More Drill Heads（ドリルヘッド） | 34 |
 | `cccbridge` | CC:C Bridge（ComputerCraft×Create連携） | 32 |
 | `drivebywire` | Drive By Wire（VS2船のケーブルネットワーク） | 29 |
 | `create_factory_logistics` | Create: Factory Logistics（物流。瓶詰め・ネットワークリンク・液体） | 27 |
 | `wirelessredstone` | Wireless Redstone（無線レッドストーン） | 24 |
 | `merequester` | ME Requester（AE2自動リクエスト） | 23 |
+| `cb_microblock` | CB MicroBlocks（マイクロブロック） | 17 |
 | `ae2things` | AE2 Things（ディスクドライブ） | 12 |
 | `castirongrill` | TFC Cast Iron Grill（鋳鉄グリル） | 6 |
 | `hangglider` | Hang Glider（ハンググライダー） | 5 |
 | `eyesoficeandfire` | Eyes of Ice and Fire（ドラゴンの目） | 5 |
 | `tfccanes` | TFC Canes（TFC。杖） | 4 |
-| **合計** | 61名前空間 ＋ Patchouli本26ファイル | **25,676** |
+| `headlight` | Headlight（ヘッドライト） | 3 |
+| **合計** | 76名前空間 ＋ Patchouli本26ファイル | **28,992** |
 
 ### 🧩 パック側 kubejs で対応済み
 
@@ -138,26 +153,23 @@
 
 </details>
 
-### 📖 同梱翻訳が不完全・翻訳候補（28）
+### 📖 同梱翻訳が不完全・翻訳候補（25）
 
 `ja_jp` を同梱しているものの、Mod 更新で追加された要素が未翻訳だったり、英語のまま放置されているもの。NuclearCraft と同様に **欠落分だけをリソースパックの lang 上書きで補完**できます（lang はキー単位でマージされる）。
 
 - **欠落**：`en_us` にあるが `ja_jp` に無いキー（Mod 更新で増えた新要素など）
 - **英語のまま**：`ja_jp` に有るが値が英語のキー（※固有名詞が含まれ得るため目安）
 
-<details><summary>一覧を開く（28）</summary>
+<details><summary>一覧を開く（25）</summary>
 
 | 名前空間 | Mod | 欠落 | 英語のまま | en総数 |
 |------|------|-------:|-------:|-------:|
 | `xaerominimap` | Xaeros_Minimap | 417 | 5 | 611 |
-| `createbigcannons` | createbigcannons | 336 | 16 | 744 |
-| `railcraft` | railcraft-reborn | 151 | 2 | 1,025 |
 | `ae2` | appliedenergistics2 | 140 | 10 | 999 |
 | `enchdesc` | EnchantmentDescriptions | 128 | 0 | 169 |
 | `repurposed_structures` | repurposed_structures | 101 | 3 | 161 |
 | `sophisticatedcore` | sophisticatedcore | 61 | 16 | 276 |
 | `recruits` | recruits | 59 | 11 | 519 |
-| `sgjourney` | Stargate Journey | 58 | 6 | 661 |
 | `jade` | Jade | 34 | 12 | 279 |
 | `inventoryprofilesnext` | InventoryProfilesNext | 32 | 6 | 519 |
 | `comforts` | comforts | 35 | 2 | 77 |
@@ -180,11 +192,11 @@
 
 </details>
 
-### ❌ 未対応・翻訳候補（55）
+### ❌ 未対応・翻訳候補（44）
 
 プレイに関わる未翻訳 Mod（キー数の多い順）。
 
-<details><summary>一覧を開く（55）</summary>
+<details><summary>一覧を開く（44）</summary>
 
 | 名前空間 | Mod | キー数 |
 |------|------|-------:|
@@ -192,33 +204,23 @@
 | `xaeroworldmap` | XaerosWorldMap | 272 |
 | `integrateddynamicscompat` | IntegratedDynamics | 214 |
 | `tfcgenviewer` | tfcgenviewer | 177 |
-| `bits_n_bobs` | bits_n_bobs | 174 |
-| `hostilenetworks` | HostileNeuralNetworks | 160 |
 | `attributeslib` | ApothicAttributes | 130 |
-| `fluxnetworks` | FluxNetworks | 123 |
 | `workers` | workers | 114 |
 | `megacells` | megacells | 108 |
-| `simpleplanes` | simpleplanes | 108 |
 | `smallships` | smallships | 95 |
 | `sfcr` | sfcr | 88 |
 | `precisionprospecting` | precisionprospecting | 70 |
-| `petrolsparts` | petrolsparts | 69 |
-| `tfc_textile` | tfc_textile | 69 |
 | `freecam` | freecam | 65 |
 | `tfships` | tfships | 63 |
 | `extremesoundmuffler` | ExtremeSoundMuffler | 56 |
-| `survivorsdelight` | survivorsdelight | 56 |
 | `deathpunishment` | TFC_punishment_for_death | 53 |
 | `tfclunchbox` | tfclunchbox | 49 |
 | `ezvcsurvival` | Voiceless Survival | 44 |
 | `zume` | zume | 42 |
 | `fallingtrees` | fallingtrees | 40 |
-| `tfcthermaldeposits` | TFCVolcanoes | 39 |
 | `tfcambiental` | tfcambiental | 38 |
 | `tfcchannelcasting` | tfcchannelcasting | 38 |
 | `jadeaddons` | JadeAddons | 36 |
-| `siegemachines` | 1.20.1]-Siege-Machines | 34 |
-| `createmoredrillheads` | createmoredrillheads | 34 |
 | `workerstfc` | workerstfc | 33 |
 | `blazemap` | BlazeMap | 32 |
 | `trashcans` | trashcans | 32 |
@@ -238,7 +240,6 @@
 | `tfcea` | tfcea | 5 |
 | `findme` | findme | 4 |
 | `easynametags` | EasyNameTags | 3 |
-| `headlight` | Headlight | 3 |
 | `showcaseitem` | showcaseitem | 2 |
 | `auroras` | Auroras | 1 |
 | `justenoughprofessions` | JustEnoughProfessions | 1 |
@@ -246,11 +247,11 @@
 
 </details>
 
-### ⚪ 対象外（38）
+### ⚪ 対象外（37）
 
 ライブラリ・軽量化・API・設定・未使用など、翻訳しても表示に影響しない Mod。
 
-<details><summary>一覧を開く（38）</summary>
+<details><summary>一覧を開く（37）</summary>
 
 | 名前空間 | Mod | キー数 |
 |------|------|-------:|
@@ -272,7 +273,6 @@
 | `fastload` | Fastload-Reforged | 21 |
 | `colorwheel` | colorwheel | 21 |
 | `codechickenlib` | CodeChickenLib | 18 |
-| `cb_microblock` | CBMultipart | 17 |
 | `smoothboot` | smoothboot(reloaded) | 14 |
 | `commoncapabilities` | CommonCapabilities | 10 |
 | `measurements` | Measurements | 8 |

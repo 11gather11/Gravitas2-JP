@@ -6,6 +6,18 @@
 
 ## [Unreleased]
 
+## [0.15.0] - 2026-07-07
+
+### Added
+
+- **Mod 15種を翻訳**（計1,829キー）。うち3つは Mod 同梱 ja の欠落補完。
+  - **createbigcannons（Create Big Cannons）**（352・補完）：大砲Mod。信管・砲弾・機関砲・鋳造・Ponder建築ガイド86・効果音字幕（`_強調_`保持）。
+  - **hostilenetworks（Hostile Neural Networks）**（159）：Mob学習シミュ。GUI・各Mobのトリビア詩を翻訳。
+  - **bits_n_bobs（174）**：Create装飾。岩石タイル・色椅子・ニキシー管・歯車チェーンを合成。
+  - **railcraft（Railcraft Reborn）**（153・補完）：鉄道Mod。レール・信号・機関車・検知器の説明。
+  - **fluxnetworks（123）／simpleplanes（108）／petrolsparts（69）／tfc_textile（69）／survivorsdelight（56）／sgjourney（64・補完）／tfcthermaldeposits（39）／createmoredrillheads（34）／siegemachines（34）／cb_microblock（17）／headlight（3）**。
+  - `%s`/`%1$s`/`%%`・`_強調_`・改行を保持し検証（未訳0）。
+
 ## [0.14.0] - 2026-07-07
 
 ### Added
@@ -177,7 +189,8 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.14.0...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.15.0...HEAD
+[0.15.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.14.0...v0.15.0
 [0.14.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.13.0...v0.14.0
 [0.13.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.12.0...v0.13.0
 [0.12.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.11.0...v0.12.0
