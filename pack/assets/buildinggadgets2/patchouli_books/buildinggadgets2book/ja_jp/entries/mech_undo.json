@@ -1,0 +1,16 @@
+{
+  "name": "元に戻す",
+  "sortnum": 1,
+  "category": "buildinggadgets2:mechanics",
+  "icon": "buildinggadgets2:textures/book/icons/undo.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "元に戻すは、ガジェットが最後に行った作業を取り消します。最後に建てたブロックを取り除いたり、最後に交換したブロックを元に戻したりします。$(br2)元に戻して交換する場合、必要なアイテムがまだインベントリにあることを確認してください！$(br2)元に戻すは、ガジェットが行った最後の10回のアクションを記憶します。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "元に戻すはホットキーまたはガジェットの設定メニューからアクセスできます。$(br2)カット＆ペーストガジェットには元に戻す機能がありません！"
+    }
+  ]
+}

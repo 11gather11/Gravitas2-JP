@@ -1,0 +1,35 @@
+{
+  "name": "液体処理",
+  "sortnum": 1,
+  "category": "buildinggadgets2:mechanics",
+  "icon": "minecraft:water_bucket",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ガジェットは液体と関われます！ Shift右クリックで液体を選ぶには、$(l:buildinggadgets2:mech_raytrace_fluids)液体のレイトレース$(/l)が有効になっていることを確認してください。$(br2)世界に液体を置くには、適切な液体の入ったバケツが必要です。$(br2)あるいは、タンクを追加するMod（Mekanismなど）を使え、液体はタンクから取り出され/挿入されます。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "液体処理",
+      "images": [
+        "buildinggadgets2:textures/book/images/fluidhandling1.png",
+        "buildinggadgets2:textures/book/images/fluidhandling2.png"
+      ],
+      "border": true,
+      "text": "上の画像を切り替えて様々なオプションを見てください"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "コピー＆ペーストガジェットももちろん液体を扱えます！$(br2)液体を元に戻したり交換したりする際、ガジェットは液体を置く場所（空のバケツやタンクなど）を探しますが、見つからなければ液体を消滅させます。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "液体処理",
+      "images": [
+        "buildinggadgets2:textures/book/images/fluidhandling3.png"
+      ],
+      "border": true,
+      "text": "コピー＆ペーストの液体"
+    }
+  ]
+}

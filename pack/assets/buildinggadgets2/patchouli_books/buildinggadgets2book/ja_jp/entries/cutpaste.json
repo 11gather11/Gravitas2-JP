@@ -1,0 +1,42 @@
+{
+  "name": "カット＆ペーストガジェット",
+  "sortnum": 4,
+  "category": "buildinggadgets2:gadgets",
+  "icon": "buildinggadgets2:gadget_cut_paste{energy:50000000}",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "カット＆ペーストガジェットは構造物の移動を簡単にし、$(l:buildinggadgets2:copypaste)コピー＆ペーストガジェット$(/l)と同じように機能します！ まず、設定メニューで「カット」モードになっていることを確認します。$(br2)構造物の一角を右クリックし、対角をShift右クリックします。正しく行えば、赤い輪郭が構造物を囲みます。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "カット",
+      "images": [
+        "buildinggadgets2:textures/book/images/cut.png"
+      ],
+      "border": true,
+      "text": "構造物をカットする"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "設定メニューの「カット」ボタンをクリックするまで、構造物は取り除かれません。$(br2)ガジェットを「ペースト」モードに切り替えると、コピーした構造物の半透明のプレビューが見えます。$(br2)構造物を世界に配置するには、右クリックするだけです！ 先ほど取り除いたブロックを使うので、アイテムは不要です。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "ペーストのプレビュー",
+      "images": [
+        "buildinggadgets2:textures/book/images/paste.png"
+      ],
+      "border": true,
+      "text": "ペーストをプレビューする"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "ガジェットには一度に1つの構造物しか保存できません。世界に配置すると、ガジェットに保存された情報は消去されます。$(br2)構造物をペーストする際は注意してください。チャンスは一度きりなので、$(l:buildinggadgets2:exchangemode)交換モード$(/l)がお勧めです！$(br2)データが既にある状態で新しい範囲をカットしようとすると、確認を求められます。実行すると、最初のデータは永遠に失われます！"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "チェストの中身やブロックの設定を含む、すべてのブロックエンティティのデータが構造物とともに移動します。$(br2)$(l:buildinggadgets2:copypaste)コピー＆ペーストガジェット$(/l)と同様に、適切な設定メニューのオプションでカットやペーストの位置を調整できます。詳細はその章を参照してください！"
+    }
+  ]
+}

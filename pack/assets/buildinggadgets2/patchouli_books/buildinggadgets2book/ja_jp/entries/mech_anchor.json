@@ -1,0 +1,21 @@
+{
+  "name": "アンカー",
+  "sortnum": 1,
+  "category": "buildinggadgets2:mechanics",
+  "icon": "buildinggadgets2:textures/book/icons/anchor.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "アンカーは見ているブロックを「固定」できるので、自由に移動したり見回したりできます。これにはホットキーがあり、設定メニューからもアクセスできます。$(br2)アンカーされている間は、いつでも右クリックして構造物を建てられます。$(br2)注意: 範囲の変更は、アンカーを外して置き直すまで反映されない場合があります。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "アンカー",
+      "images": [
+        "buildinggadgets2:textures/book/images/anchor1.png"
+      ],
+      "border": true,
+      "text": "レンダーをアンカー！"
+    }
+  ]
+}

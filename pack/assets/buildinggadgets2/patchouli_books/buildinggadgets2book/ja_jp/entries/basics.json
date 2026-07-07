@@ -1,0 +1,16 @@
+{
+  "name": "基本",
+  "sortnum": 0,
+  "category": "buildinggadgets2:gadgets",
+  "icon": "buildinggadgets2:template",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "このModのすべてのガジェットは、ほとんどの機能に Forge Energy（FE）を必要とします。$(br2)多くのModがアイテムをForge Energyで充電する対応を追加していますが、どれも持っていなくても、Charging Gadgets があります！ お近くのModリポジトリで入手できます！"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "設定メニューは「設定メニュー」キー（既定は「g」）を長押しすると開けます。$(br2)各ガジェットには異なる設定があるので、詳細は$(l:buildinggadgets2:mechanics)仕組み$(/l)の章を確認してください！"
+    }
+  ]
+}

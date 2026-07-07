@@ -1,0 +1,24 @@
+{
+  "name": "水平の列",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/horizontal_row.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "水平の列は、見ている方向に基づいてプレイヤーから離れる方向にブロックを建てます。橋を架けるのに便利です！$(br2)「上に配置」を切り替えると配置がどう変わるか見られます。$(br2)これは交換器でも使え、見ている方向の「左右」を交換できます。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "水平の列",
+      "images": [
+        "buildinggadgets2:textures/book/images/horzrow1.png",
+        "buildinggadgets2:textures/book/images/horzrow3.png",
+        "buildinggadgets2:textures/book/images/horzrow2.png",
+        "buildinggadgets2:textures/book/images/horzrow4.png"
+      ],
+      "border": true,
+      "text": "上の画像を切り替えて様々なオプションを見てください"
+    }
+  ]
+}

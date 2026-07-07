@@ -1,0 +1,23 @@
+{
+  "name": "垂直の壁",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/vertical_wall.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "垂直の壁は、見ているブロックの上面か下面から上か下へ壁を建てます。$(br2)ブロックの側面を見ている場合は、その周りに建てます。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "垂直の壁",
+      "images": [
+        "buildinggadgets2:textures/book/images/vertwall2.png",
+        "buildinggadgets2:textures/book/images/vertwall4.png",
+        "buildinggadgets2:textures/book/images/vertwall3.png"
+      ],
+      "border": true,
+      "text": "上の画像を切り替えて様々なオプションを見てください"
+    }
+  ]
+}

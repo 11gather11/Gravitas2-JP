@@ -1,0 +1,21 @@
+{
+  "name": "自分まで建築",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/build_to_me.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "自分まで建築モードは、見ているブロックの面からプレイヤーまでブロックの列を建てます。見ているブロックの面に応じて、水平にも垂直にもなります。$(br2)このモードでは範囲設定は無視されます。$(br2)「上に配置」を切り替えると、足元ではなくプレイヤーの頭まで建てます。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "自分まで建築",
+      "images": [
+        "buildinggadgets2:textures/book/images/ghost_render.png"
+      ],
+      "border": true,
+      "text": "プレイヤーまで建築"
+    }
+  ]
+}

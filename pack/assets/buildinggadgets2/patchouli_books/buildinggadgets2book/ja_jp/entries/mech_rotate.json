@@ -1,0 +1,23 @@
+{
+  "name": "回転",
+  "sortnum": 1,
+  "category": "buildinggadgets2:mechanics",
+  "icon": "buildinggadgets2:textures/book/icons/rotate.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "回転は、コピー＆ペーストやカット＆ペーストを開始点を中心に回転できるようにします。$(br2)試して、レンダーがどうなるか見て理解を深めるか、右の画像を順に見てください。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "回転",
+      "images": [
+        "buildinggadgets2:textures/book/images/rotate1.png",
+        "buildinggadgets2:textures/book/images/rotate2.png",
+        "buildinggadgets2:textures/book/images/rotate3.png"
+      ],
+      "border": true,
+      "text": "家を回転！"
+    }
+  ]
+}

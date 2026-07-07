@@ -1,0 +1,33 @@
+{
+  "name": "交換ガジェット",
+  "sortnum": 2,
+  "category": "buildinggadgets2:gadgets",
+  "icon": "buildinggadgets2:gadget_exchanging{energy:500000}",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "交換ガジェットはあるブロックを別のブロックに交換できます！ ただし、空気ブロックは置換できません。それには$(l:buildinggadgets2:buildinggadget)建築ガジェット$(/l)を使ってください！$(br2)まず、ガジェットにエネルギーがあることを確認します。$(br2)次に、世界のブロックをShift右クリックして交換先のブロックを指定します。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "設定キーを長押しして$(l:buildinggadgets2:modes)交換モード$(/l)を選べます。各モードはこの本の該当項目で説明されています。既定のモードは$(l:buildinggadgets2:mode_surface)表面$(/l)です。$(br2)世界のブロックを見ると、既存のブロックの上に配置されるブロックの半透明の画像が見えます。これらのブロックを配置するのに必要なアイテムやエネルギーが足りない場合、赤いオーバーレイが付きます。右クリックすると表示通りにブロックを交換します。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "交換のプレビュー",
+      "images": [
+        "buildinggadgets2:textures/book/images/ghost_render_exchange.png"
+      ],
+      "border": true,
+      "text": "交換される内容のプレビューを見る"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "右クリックすると交換が始まります。世界に配置するためにインベントリからアイテムが取られ、必要なアイテムがないブロックはスキップされます。$(br2)取り除かれたブロックのアイテムはあなたに返却されます。$(br2)注意: この道具にはシルクタッチをエンチャントできます。それがないと、草は土を返します。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "交換ガジェットで$(l:buildinggadgets2:undo)元に戻す$(/l)ことができますが、必要なアイテムを持っている必要があります。$(br2)例えば、草を石レンガに交換した場合、この交換を元に戻すには草がインベントリにある必要があります。必要ならシルクタッチの適用を忘れずに！"
+    }
+  ]
+}

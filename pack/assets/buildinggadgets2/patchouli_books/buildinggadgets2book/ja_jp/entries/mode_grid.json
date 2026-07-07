@@ -1,0 +1,22 @@
+{
+  "name": "グリッド",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/grid.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "グリッドモードはブロックをグリッド状に配置します！ 松明やグロウストーンなどに便利です。範囲が増えるとブロック同士が離れていき、やがて領域が大きくなるだけになります。$(br2)これはブロックをグリッド状に交換できる交換器モードでもあります。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "グリッドモード",
+      "images": [
+        "buildinggadgets2:textures/book/images/mode_grid.png",
+        "buildinggadgets2:textures/book/images/mode_grid2.png"
+      ],
+      "border": true,
+      "text": "上の画像を切り替えて様々なオプションを見てください"
+    }
+  ]
+}

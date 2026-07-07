@@ -1,0 +1,37 @@
+{
+  "name": "表面",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/surface.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "表面モードは、見ているブロックの並びを延長します。例は右の画像を参照してください。$(br2)ファジーモードでは、ガジェットが任意のブロックを対象にするか、見ているブロックと同じブロックのみを対象にするかを選べます。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "表面ファジー",
+      "images": [
+        "buildinggadgets2:textures/book/images/surface5.png",
+        "buildinggadgets2:textures/book/images/surface1.png",
+        "buildinggadgets2:textures/book/images/surface2.png"
+      ],
+      "border": true,
+      "text": "上の画像を切り替えて様々なオプションを見てください"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "このモードは交換器でも使え、ファジーモードも同様に機能します。$(br2)さらに、連結モードは見ているブロックにつながっているブロックのみを交換します。説明は右の画像を参照してください。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "表面連結",
+      "images": [
+        "buildinggadgets2:textures/book/images/surface3.png",
+        "buildinggadgets2:textures/book/images/surface4.png"
+      ],
+      "border": true,
+      "text": "上の画像を切り替えて様々なオプションを見てください"
+    }
+  ]
+}

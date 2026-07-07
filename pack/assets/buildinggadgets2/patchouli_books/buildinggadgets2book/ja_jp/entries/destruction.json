@@ -1,0 +1,26 @@
+{
+  "name": "破壊ガジェット",
+  "sortnum": 5,
+  "category": "buildinggadgets2:gadgets",
+  "icon": "buildinggadgets2:gadget_destruction{energy:1000000}",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "破壊ガジェットは広い範囲の除去をとても簡単にします。除去されたブロックは$(bold)消滅します！$(clear)。$(br2)まず、設定メニューを開いて範囲を調整します。この範囲は見ているブロック（とブロックの面）を基準にします。$(br2)ブロックの上面を見ている場合、「上」はプレイヤーの画面基準になります。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "破壊ガジェット",
+      "images": [
+        "buildinggadgets2:textures/book/images/destruction1.png",
+        "buildinggadgets2:textures/book/images/destruction2.png"
+      ],
+      "border": true,
+      "text": "範囲を破壊。矢印をクリックして様々な画像を見てください！"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "設定に満足したら、ブロックを右クリックして強調表示されたすべてのブロックを消滅させます。世界から取り除かれます。$(br2)間違えた場合はこのアクションを元に戻せます。ガジェットは消滅させたブロックを世界に戻すだけなので、元に戻すのにインベントリからアイテムは取られません。"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "水平の壁",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/horizontal_wall.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "水平の壁はいくつかの異なる動作をします。上に配置を有効にすると、見ているブロックの上に領域を建てるか、側面を見ている場合は自分の方へ延ばします。$(br2)上に配置を無効にすると、見ているブロックの周りに建てます。$(br2)様々なオプションは右の画像を見てください。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "水平の壁",
+      "images": [
+        "buildinggadgets2:textures/book/images/horzwall1.png",
+        "buildinggadgets2:textures/book/images/horzwall3.png",
+        "buildinggadgets2:textures/book/images/horzwall2.png"
+      ],
+      "border": true,
+      "text": "上の画像を切り替えて様々なオプションを見てください"
+    }
+  ]
+}

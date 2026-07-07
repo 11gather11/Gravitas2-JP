@@ -1,0 +1,22 @@
+{
+  "name": "上に配置",
+  "sortnum": 1,
+  "category": "buildinggadgets2:mechanics",
+  "icon": "buildinggadgets2:textures/book/icons/place_on_top.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "上に配置は各モードで少し異なる動作をし、一部のモードではまったく効果がありません。$(br2)一般に、ブロックの周りに配置する代わりに、その上に配置します。試してレンダーがどうなるか見てください！$(br2)例は右の2枚の画像を見てください。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "上に配置",
+      "images": [
+        "buildinggadgets2:textures/book/images/placeontop1.png",
+        "buildinggadgets2:textures/book/images/placeontop2.png"
+      ],
+      "border": true,
+      "text": "上の画像を切り替えて様々なオプションを見てください"
+    }
+  ]
+}

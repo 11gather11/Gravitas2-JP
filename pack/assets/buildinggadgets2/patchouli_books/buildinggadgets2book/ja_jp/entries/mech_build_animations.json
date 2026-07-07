@@ -1,0 +1,12 @@
+{
+  "name": "建築アニメーション",
+  "sortnum": 1,
+  "category": "buildinggadgets2:mechanics",
+  "icon": "buildinggadgets2:textures/book/icons/raytrace_fluid.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "各ガジェットには建築アニメーションを割り当てられ、既定は「成長」です。すべて試して好みのものを見つけてください！$(br2)アニメーションを変えてもガジェットの機能には影響せず、ブロックの建築アニメーションの見た目が変わるだけです。"
+    }
+  ]
+}

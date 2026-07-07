@@ -1,0 +1,22 @@
+{
+  "name": "階段",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/stairs.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "階段は、見ているブロックより上にいるか下にいるかに応じて、上へ離れる方向か上へ近づく方向に建てます。$(br2)正直、かなり間抜けで分かりにくく、書き直しが必要かもしれません。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "階段",
+      "images": [
+        "buildinggadgets2:textures/book/images/stairs1.png",
+        "buildinggadgets2:textures/book/images/stairs2.png"
+      ],
+      "border": true,
+      "text": "上の画像を切り替えて様々なオプションを見てください"
+    }
+  ]
+}

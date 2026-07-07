@@ -1,0 +1,34 @@
+{
+  "name": "基本",
+  "sortnum": 0,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:template",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "建築ガジェットと交換ガジェットにはどちらも「範囲」設定があり、影響を受けるブロックの範囲を指定します。各モードで扱いが少し異なりますが、一般に領域を表します。$(br2)例えば、水平の列モードで範囲3は合計3ブロック、見ているブロックの両側に1ブロックずつになります。偶数を選ぶと丸められます。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "範囲3",
+      "images": [
+        "buildinggadgets2:textures/book/images/horzrow4.png"
+      ],
+      "border": true,
+      "text": "範囲3"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "壁の場合、範囲3は3x3の壁を建てます。偶数は壁の高さを少し変えます。$(br2)プレビューで試して、望む結果を得てください！"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "範囲3",
+      "images": [
+        "buildinggadgets2:textures/book/images/vertwall1.png"
+      ],
+      "border": true,
+      "text": "範囲3"
+    }
+  ]
+}

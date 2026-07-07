@@ -1,0 +1,21 @@
+{
+  "name": "液体のレイトレース",
+  "sortnum": 1,
+  "category": "buildinggadgets2:mechanics",
+  "icon": "buildinggadgets2:textures/book/icons/raytrace_fluid.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "液体のレイトレースは、ガジェットが液体と関われるようにします。有効にすると、交換器は液体を交換でき、ビルダーは液体の上に建てられます。$(br2)無効にすると、これらのガジェットは液体を無視し、その後ろのブロックに建てます。$(br2)詳細は$(l:buildinggadgets2:mech_fluid_handling)液体処理$(/l)の章を参照してください。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "液体のレイトレース",
+      "images": [
+        "buildinggadgets2:textures/book/images/raytracefluids.png"
+      ],
+      "border": true,
+      "text": "液体に作用！"
+    }
+  ]
+}

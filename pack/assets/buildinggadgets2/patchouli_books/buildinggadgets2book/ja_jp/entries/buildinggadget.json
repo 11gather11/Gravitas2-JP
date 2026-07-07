@@ -1,0 +1,29 @@
+{
+  "name": "建築ガジェット",
+  "sortnum": 1,
+  "category": "buildinggadgets2:gadgets",
+  "icon": "buildinggadgets2:gadget_building{energy:500000}",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "建築ガジェットは、多数のブロックを一度に建てるのを極めて簡単にします！$(br2)まず、ガジェットにエネルギーがあることを確認します。$(br2)次に、世界のブロックをShift右クリックして建築に使うブロックを指定します。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "設定キーを長押しして$(l:buildinggadgets2:modes)建築モード$(/l)を選べます。各モードはこの本の該当項目で説明されています。既定のモードは$(l:buildinggadgets2:mode_build_to_me)自分まで建築$(/l)です。$(br2)世界のブロックを見ると、配置されるブロックの半透明の画像が見えます。これらのブロックを配置するのに必要なアイテムやエネルギーが足りない場合、赤いオーバーレイが付きます。右クリックすると表示通りにブロックを配置します。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "建築のプレビュー",
+      "images": [
+        "buildinggadgets2:textures/book/images/ghost_render.png"
+      ],
+      "border": true,
+      "text": "建てられる内容のプレビューを見る"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "右クリックすると建築が始まります。世界に配置するためにインベントリからアイテムが取られ、必要なアイテムがないブロックはスキップされます。$(br2)間違えた場合は$(l:buildinggadgets2:undo)元に戻す$(/l)ことができるのを忘れずに！"
+    }
+  ]
+}

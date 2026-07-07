@@ -1,0 +1,34 @@
+{
+  "name": "インベントリ紐付け",
+  "sortnum": 1,
+  "category": "buildinggadgets2:mechanics",
+  "icon": "buildinggadgets2:textures/book/icons/bind_inventory.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "インベントリに紐付けると、そのインベントリと連携してアイテムを出し入れできます。まず、ガジェットの設定メニューで「インベントリ紐付け」モードを有効にします。次に、チェストや他のインベントリをShift右クリックします。$(br2)インベントリの周りに青い箱が現れれば成功です。インベントリでないブロック（草など）をShift右クリックすると解除します。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "インベントリ紐付け",
+      "images": [
+        "buildinggadgets2:textures/book/images/bindinv.png"
+      ],
+      "border": true,
+      "text": "チェストに紐付け！"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "そのシステムのワイヤレスアクセスポイントに接続して、Applied Energistics 2 システムに紐付けることもできます。$(br2)ガジェットの範囲は無制限になるので、範囲アップグレードの心配は不要です！"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "インベントリ紐付け",
+      "images": [
+        "buildinggadgets2:textures/book/images/bindinv_ae.png"
+      ],
+      "border": true,
+      "text": "AE2に紐付け！"
+    }
+  ]
+}

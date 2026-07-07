@@ -1,0 +1,23 @@
+{
+  "name": "垂直の柱",
+  "sortnum": 1,
+  "category": "buildinggadgets2:modes",
+  "icon": "buildinggadgets2:textures/book/mode/vertical_column.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "垂直の柱モードは建築ガジェットと交換ガジェットの両方で使えます。$(br2)ブロックの上面か下面を見ていれば上か下に建て、側面を見ていれば周囲に上下両方へ建てます。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "垂直の柱",
+      "images": [
+        "buildinggadgets2:textures/book/images/vertcolumn1.png",
+        "buildinggadgets2:textures/book/images/vertcolumn3.png",
+        "buildinggadgets2:textures/book/images/vertcolumn2.png"
+      ],
+      "border": true,
+      "text": "上の画像を切り替えて様々なオプションを見てください"
+    }
+  ]
+}

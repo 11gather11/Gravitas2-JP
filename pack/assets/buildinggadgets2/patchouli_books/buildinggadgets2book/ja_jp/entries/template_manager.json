@@ -1,0 +1,60 @@
+{
+  "name": "テンプレートマネージャー",
+  "sortnum": 1,
+  "category": "buildinggadgets2:templates",
+  "icon": "buildinggadgets2:template_manager",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "テンプレートマネージャーは、$(l:buildinggadgets2:copypaste)コピー＆ペーストガジェット$(/l)からお気に入りの構造物を保存できます！$(br2)このブロックで、構造物を世界のアイテムに保存したり、世界の外で共有したりもできます！$(br2)始めるには、上のスロットにコピー＆ペーストガジェットを、下に紙を置きます。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "テンプレートマネージャー",
+      "images": [
+        "buildinggadgets2:textures/book/images/templatemanager1.png"
+      ],
+      "border": true,
+      "text": "ステップ1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "「保存」をクリックすると紙がテンプレートに変わります。同時に、構造物のレンダーが画面に現れます。$(br2)マウスボタンでレンダーを移動・回転したり、スクロールホイールでズームしたりできます。$(br2)テンプレートから構造物をガジェットに戻すには、「読込」ボタンをクリックします。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "インベントリ紐付け",
+      "images": [
+        "buildinggadgets2:textures/book/images/templatemanager2.png"
+      ],
+      "border": true,
+      "text": "凝ったレンダーは凝っている"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "「レンダー」ボタンをクリックすると素材モードに切り替わり、材料一覧と同じように、この構造物に必要な素材の一覧を表示します。$(br2)素材ボタンをクリックするとレンダーモードに戻ります。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "材料一覧",
+      "images": [
+        "buildinggadgets2:textures/book/images/templatemanager3.png"
+      ],
+      "border": true,
+      "text": "たくさんのアイテム"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "テンプレートには名前を付けられます。名前はテンプレートアイテムに表示されます。$(br2)「コピー」をクリックするとJSON文字列が作られ、コンピューターのクリップボードに入ります。これを Minecraft の外で友達と共有できます。相手が同じ文字列をクリップボードにコピーし、このGUIで「ペースト」ボタンをクリックすると、あなたの構造物が相手に複製されます！$(br2)ペーストをクリックする際は下のスロットに紙があることを確認してください。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "命名",
+      "images": [
+        "buildinggadgets2:textures/book/images/templatemanager4.png"
+      ],
+      "border": true,
+      "text": "本当に素敵な家ですけどね。"
+    }
+  ]
+}
