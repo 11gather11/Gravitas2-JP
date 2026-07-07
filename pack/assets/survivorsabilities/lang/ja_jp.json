@@ -1,4 +1,6 @@
 {
+  "attribute.name.survivorsabilities.appetite": "食欲",
+  "effect.survivorsabilities.appetite": "食欲",
   "attribute.name.survivorsabilities.hunger_tolerance": "空腹耐性",
   "attribute.name.survivorsabilities.max_load": "最大積載量",
   "attribute.name.survivorsabilities.resilience": "自己治癒能力",

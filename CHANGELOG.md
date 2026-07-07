@@ -6,6 +6,16 @@
 
 ## [Unreleased]
 
+## [0.18.1] - 2026-07-07
+
+### Fixed
+
+- **survivorsabilities の `appetite`（食欲）属性を補完**。Mod側が en_us にキーを登録し忘れており生キーが表示されていたため、`attribute.name.survivorsabilities.appetite` と効果名をリソースパックで追加。
+
+### Note
+
+- ApothicAttributes の属性画面の「Hide Unchanged」ボタンは、Mod内でハードコードされたリテラル文字列（翻訳キーなし）のため、リソースパックでは翻訳できない。Mod本体の修正が必要。
+
 ## [0.18.0] - 2026-07-07
 
 ### Added
@@ -235,7 +245,8 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.18.0...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.18.1...HEAD
+[0.18.1]: https://github.com/11gather11/Gravitas2-JP/compare/v0.18.0...v0.18.1
 [0.18.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.17.0...v0.18.0
 [0.17.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.16.1...v0.17.0
 [0.16.1]: https://github.com/11gather11/Gravitas2-JP/compare/v0.16.0...v0.16.1
