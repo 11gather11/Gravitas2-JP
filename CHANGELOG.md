@@ -6,6 +6,20 @@
 
 ## [Unreleased]
 
+## [0.13.0] - 2026-07-07
+
+### Added
+
+- **Mod 8種を翻訳**（計1,670キー）。うち2つは Mod 同梱 ja の欠落補完。
+  - **everycomp（Every Compat）**（961・欠落補完）：他Mod家具の互換ブロック名。`block_type` 832件を語彙辞書で合成（`%s`保持）、他Mod木材名・中空丸太・GUI・ツールチップを翻訳。
+  - **firmaciv（Firma: Civilization）**（238）：TFC。手漕ぎ船・スループ・丸木舟・カヌー部品・航海器具・屋根（木材合成）。
+  - **potionsmaster（Potions Master）**（237）：鉱石探知・構造物高速移動ポーション。粉・効果を素材/構造物辞書で合成。
+  - **mininggadgets（Mining Gadgets）**（85）：採掘ガジェット・アップグレード・GUI。
+  - **tfceureka（41）**：TFC木材の操舵輪。**itemfilters（41）**：アイテムフィルター各種。
+  - **gcyr（Gregicality Rocketry）**（42・欠落補完）：惑星岩・レゴリス・宇宙ステーション。
+  - **eyesoficeandfire（5）**：ドラゴンの目。
+  - `%s`/`%d`/`%1$s`・改行・`▶`等を保持し、キー一致とプレースホルダ整合を検証（未訳0）。
+
 ## [0.12.0] - 2026-07-07
 
 ### Added
@@ -150,7 +164,8 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.12.0...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.13.0...HEAD
+[0.13.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.12.0...v0.13.0
 [0.12.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.11.0...v0.12.0
 [0.11.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.10.0...v0.11.0
 [0.10.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.9.0...v0.10.0

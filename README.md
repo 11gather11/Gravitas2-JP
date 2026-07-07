@@ -17,7 +17,7 @@
 
 モッドパック内の Mod を走査した結果です（`en_us` を持つ名前空間 218 個）。数値は英語キー数の目安。
 
-- ✅ **このパックで翻訳**：38／📦 **Mod同梱で対応済み**：34／🧩 **パック側 kubejs で対応済み**：3／📖 **同梱翻訳が不完全（翻訳候補）**：32／❌ **未対応（翻訳候補）**：72（ほかにライブラリ・未使用など 39 は対象外）
+- ✅ **このパックで翻訳**：46／📦 **Mod同梱で対応済み**：33／🧩 **パック側 kubejs で対応済み**：3／📖 **同梱翻訳が不完全（翻訳候補）**：31／❌ **未対応（翻訳候補）**：67（ほかにライブラリ・未使用など 38 は対象外）
 
 ### ✅ このパックで翻訳
 
@@ -30,6 +30,7 @@
 | `integrateddynamics` | Integrated Dynamics 本体（本・アイテム・オペレーター・アスペクト・実績） | 1,754 |
 | `tombstone` | Corail Tombstone（墓・死亡管理。アイテム・実績・メッセージ・コンペンディウム） | 1,112 |
 | `scguns` | Scorched Guns（銃Mod。銃/弾薬/防具・実績・エンチャント・タレット・GUI） | 971 |
+| `everycomp` | Every Compat（他Mod家具の互換ブロック名。同梱ja欠落961を補完） | 962 |
 | `tfcastikorcarts` | TFC Astikor Carts（木材×荷車。補給/動物カート・鋤・車輪） | 928 |
 | `ftbquests` | FTB Quests（クエストシステムのUI・エディタ・タスク・報酬） | 572 |
 | `integratedtunnels` | Integrated Tunnels（転送） | 487 |
@@ -41,6 +42,9 @@
 | `createdieselgenerators` | Create: Diesel Generators（同梱ja欠落＝燃料・機械・Ponderを補完） | 286 |
 | `ftbchunks` | FTB Chunks（チャンク取得・地図・ミニマップ・ウェイポイント） | 282 |
 | `beneath` | Beneath（ネザー拡張。TFC統合。木材・鉱石・キノコ・儀式） | 268 |
+| `firmaciv` | Firma: Civilization（TFC。手漕ぎ船・カヌー・航海器具・屋根） | 239 |
+| `potionsmaster` | Potions Master（鉱石探知・構造物高速移動ポーション。粉・効果） | 237 |
+| `gcyr` | Gregicality Rocketry（宇宙。惑星岩・レゴリス。同梱ja欠落補完） | 183 |
 | `integratedterminals` | Integrated Terminals（ストレージ端末） | 176 |
 | `projectred_fabrication` | Project Red: Fabrication（IC設計・製造） | 174 |
 | `projectred_illumination` | Project Red: Illumination（16色ランプ・照明） | 162 |
@@ -53,15 +57,19 @@
 | `ftbteams` | FTB Teams（チーム・パーティ管理） | 89 |
 | `advancedperipherals` | Advanced Peripherals（アイテム・Patchouli本） | 88 |
 | `create_tweaked_controllers` | Create: Tweaked Controllers（ゲームパッド対応コントローラー） | 85 |
+| `mininggadgets` | Mining Gadgets（採掘ガジェット・アップグレード・GUI） | 85 |
 | `projectred_transmission` | Project Red: Transmission（配線・ケーブル） | 71 |
 | `tfccaffeinated` | TFC Caffeinated（TFC。コーヒー・茶・飲料） | 61 |
 | `projectred_core` | Project Red: Core（回路部品・イルマー染料。同梱ja欠落補完） | 54 |
+| `itemfilters` | Item Filters（アイテムフィルター各種） | 41 |
+| `tfceureka` | TFC Eureka Compat（TFC木材の操舵輪） | 41 |
 | `projectred_integration` | Project Red: Integration（論理ゲート） | 35 |
 | `cccbridge` | CC:C Bridge（ComputerCraft×Create連携） | 32 |
 | `drivebywire` | Drive By Wire（VS2船のケーブルネットワーク） | 29 |
 | `create_factory_logistics` | Create: Factory Logistics（物流。瓶詰め・ネットワークリンク・液体） | 27 |
+| `eyesoficeandfire` | Eyes of Ice and Fire（ドラゴンの目） | 5 |
 | `tfccanes` | TFC Canes（TFC。杖） | 4 |
-| **合計** | 38名前空間 ＋ Patchouli本26ファイル | **20,665** |
+| **合計** | 46名前空間 ＋ Patchouli本26ファイル | **22,458** |
 
 ### 🧩 パック側 kubejs で対応済み
 
@@ -71,11 +79,11 @@
 | `gtceu` | gtceu | 5,921 |
 | `create` | create | 3,646 |
 
-### 📦 Mod同梱で対応済み（34）
+### 📦 Mod同梱で対応済み（33）
 
 各 Mod が自前で `ja_jp` を同梱しており、そのまま日本語表示されます。
 
-<details><summary>一覧を開く（34）</summary>
+<details><summary>一覧を開く（33）</summary>
 
 | 名前空間 | Mod | キー数 |
 |------|------|-------:|
@@ -83,7 +91,6 @@
 | `iceandfire` | iceandfire | 1,322 |
 | `apotheosis` | Apotheosis | 1,014 |
 | `firmalife` | Firmalife | 1,013 |
-| `everycomp` | everycomp | 962 |
 | `alltheores` | alltheores | 333 |
 | `farmersdelight` | FarmersDelight | 323 |
 | `allthemodium` | allthemodium | 282 |
@@ -116,14 +123,14 @@
 
 </details>
 
-### 📖 同梱翻訳が不完全・翻訳候補（32）
+### 📖 同梱翻訳が不完全・翻訳候補（31）
 
 `ja_jp` を同梱しているものの、Mod 更新で追加された要素が未翻訳だったり、英語のまま放置されているもの。NuclearCraft と同様に **欠落分だけをリソースパックの lang 上書きで補完**できます（lang はキー単位でマージされる）。
 
 - **欠落**：`en_us` にあるが `ja_jp` に無いキー（Mod 更新で増えた新要素など）
 - **英語のまま**：`ja_jp` に有るが値が英語のキー（※固有名詞が含まれ得るため目安）
 
-<details><summary>一覧を開く（32）</summary>
+<details><summary>一覧を開く（31）</summary>
 
 | 名前空間 | Mod | 欠落 | 英語のまま | en総数 |
 |------|------|-------:|-------:|-------:|
@@ -140,7 +147,6 @@
 | `recruits` | recruits | 59 | 11 | 519 |
 | `sgjourney` | Stargate Journey | 58 | 6 | 661 |
 | `jade` | Jade | 34 | 12 | 279 |
-| `gcyr` | gcyr | 42 | 1 | 183 |
 | `inventoryprofilesnext` | InventoryProfilesNext | 32 | 6 | 519 |
 | `comforts` | comforts | 35 | 2 | 77 |
 | `create_connected` | create_connected | 28 | 4 | 307 |
@@ -162,19 +168,17 @@
 
 </details>
 
-### ❌ 未対応・翻訳候補（72）
+### ❌ 未対応・翻訳候補（67）
 
 プレイに関わる未翻訳 Mod（キー数の多い順）。
 
-<details><summary>一覧を開く（72）</summary>
+<details><summary>一覧を開く（67）</summary>
 
 | 名前空間 | Mod | キー数 |
 |------|------|-------:|
 | `thoriumreactors` | thoriumreactors | 369 |
 | `xaeroworldmap` | XaerosWorldMap | 272 |
 | `sfm` | Super Factory Manager (SFM) | 255 |
-| `firmaciv` | FirmaCivilization | 239 |
-| `potionsmaster` | potionsmaster | 237 |
 | `integrateddynamicscompat` | IntegratedDynamics | 214 |
 | `tfcgenviewer` | tfcgenviewer | 177 |
 | `bits_n_bobs` | bits_n_bobs | 174 |
@@ -188,7 +192,6 @@
 | `smallships` | smallships | 95 |
 | `laserio` | laserio | 90 |
 | `sfcr` | sfcr | 88 |
-| `mininggadgets` | mininggadgets | 85 |
 | `precisionprospecting` | precisionprospecting | 70 |
 | `petrolsparts` | petrolsparts | 69 |
 | `tfc_textile` | tfc_textile | 69 |
@@ -202,7 +205,6 @@
 | `ezvcsurvival` | Voiceless Survival | 44 |
 | `advancedtfctech` | AdvancedTFCTech | 43 |
 | `zume` | zume | 42 |
-| `tfceureka` | tfceureka | 41 |
 | `vs_eureka` | eureka-1201 | 40 |
 | `fallingtrees` | fallingtrees | 40 |
 | `tfcthermaldeposits` | TFCVolcanoes | 39 |
@@ -232,7 +234,6 @@
 | `hangglider` | HangGlider | 5 |
 | `create_hp_ts` | create_hp_ts | 5 |
 | `createimmersiveunnecessaryshaft` | createimmersiveunnecessaryshaft | 5 |
-| `eyesoficeandfire` | eyesoficeandfire | 5 |
 | `tfc_support_indicator` | tfc_support_indicator | 5 |
 | `tfcea` | tfcea | 5 |
 | `findme` | findme | 4 |
@@ -245,11 +246,11 @@
 
 </details>
 
-### ⚪ 対象外（39）
+### ⚪ 対象外（38）
 
 ライブラリ・軽量化・API・設定・未使用など、翻訳しても表示に影響しない Mod。
 
-<details><summary>一覧を開く（39）</summary>
+<details><summary>一覧を開く（38）</summary>
 
 | 名前空間 | Mod | キー数 |
 |------|------|-------:|
@@ -261,7 +262,6 @@
 | `titanium` | titanium | 48 |
 | `creativecore` | CreativeCore | 44 |
 | `cyclopscore` | CyclopsCore | 42 |
-| `itemfilters` | item-filters | 41 |
 | `configuration` | configuration | 40 |
 | `guideme` | guideme | 36 |
 | `balm` | balm | 35 |
