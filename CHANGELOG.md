@@ -6,6 +6,19 @@
 
 ## [Unreleased]
 
+## [0.18.0] - 2026-07-07
+
+### Added
+
+- **未対応（翻訳候補）だった Mod 37種を一括翻訳**（計1,845キー）。これにより「未対応（翻訳候補）」が **37 → 0** になりました（残る37は軽量化/ライブラリ/未使用EMIで対象外）。
+  - **xaeroworldmap（Xaero's World Map）**（272）：ワールドマップ全UI・洞窟モード・PNG書き出し・領地・ディメンション切替。
+  - **integrateddynamicscompat（213）**：Integrated Dynamics の互換アスペクト/演算子（RF/Tesla/EU/Thaumcraft/Refined Storage/Charset）。エネルギー系は合成。
+  - **tfcgenviewer（177）**：TFCワールド生成プレビュー・岩石エディター（岩石名はTFC準拠）。
+  - **attributeslib（Apothic Attributes）**（130）：属性・効果・ダメージ源メッセージ。
+  - **workers（114）／smallships（95）／sfcr（88）／precisionprospecting（69）／freecam（65）／tfships（63）**（船・工具は木材/金属で合成）。
+  - **extremesoundmuffler（56）／deathpunishment（53）／ezvcsurvival（44）／zume（42）／fallingtrees（40）／tfcambiental（38）／tfcchannelcasting（37）／jadeaddons（36）／trashcans（32）／blazemap（32）** ほか小規模17種。
+  - `%s`/`%d`/`%1$s`/`%%`・§カラーコード・改行を保持し検証（未訳0）。
+
 ## [0.17.0] - 2026-07-07
 
 ### Added
@@ -222,7 +235,8 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.17.0...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.18.0...HEAD
+[0.18.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.17.0...v0.18.0
 [0.17.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.16.1...v0.17.0
 [0.16.1]: https://github.com/11gather11/Gravitas2-JP/compare/v0.16.0...v0.16.1
 [0.16.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.15.0...v0.16.0

@@ -1,0 +1,7 @@
+{
+  "config.jade.plugin_tfc_support_indicator.support_indicator": "TFC 支持インジケーター",
+  "tfc_support_indicator.self_supported": "支持あり",
+  "tfc_support_indicator.self_unsupported": "支持なし",
+  "tfc_support_indicator.wont_trigger_collapse": "崩落を引き起こさない",
+  "tfc_support_indicator.might_trigger_collapse": "崩落を引き起こす可能性あり"
+}

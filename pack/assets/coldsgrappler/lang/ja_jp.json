@@ -1,0 +1,10 @@
+{
+  "item.coldsgrappler.grappler_item": "グラップラー",
+  "item.coldsgrappler.extra_rope_item": "追加ロープ",
+  "item.coldsgrappler.rope_light_item": "ロープライト",
+  "block.coldsgrappler.grappler_block": "グラップラーのアンカーブロック",
+  "block.coldsgrappler.grappler_rope": "グラップラーのロープブロック",
+  "tooltip.coldgrappler.grappleruse": "使用: ロープを投げる",
+  "tooltip.coldgrappler.extend": "今いるロープの長さを延ばす",
+  "tooltip.coldgrappler.lamp": "ロープに光を追加する"
+}

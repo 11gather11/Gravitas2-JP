@@ -1,0 +1,17 @@
+{
+  "cartography.map.rainfall": "降水量",
+  "cartography.map.temperature": "気温",
+  "cartography.map.ecosystem": "生態系",
+  "cartography.map.geology": "地質",
+  "cartography.layer.rainfall": "降水量",
+  "cartography.layer.rainfall_iso": "降水量の等値線",
+  "cartography.layer.temperature": "気温",
+  "cartography.layer.temperature_iso": "気温の等値線",
+  "cartography.layer.ecosystem": "生態系",
+  "cartography.layer.ecosystem.crops": "野生の作物",
+  "cartography.layer.ecosystem.fruit": "果樹",
+  "cartography.layer.ecosystem.forest": "森林",
+  "cartography.layer.geology": "地質",
+  "cartography.layer.geology.rocks": "岩石の種類",
+  "cartography.layer.geology.ores": "鉱石塊"
+}

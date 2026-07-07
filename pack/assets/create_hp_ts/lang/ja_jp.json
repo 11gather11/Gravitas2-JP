@@ -1,0 +1,7 @@
+{
+  "tooltip.create_hp_ts.horse_crank.detached": "労働動物を切り離しました",
+  "tooltip.create_hp_ts.horse_crank.attached": "労働動物を取り付けました",
+  "tooltip.create_hp_ts.horse_crank.capacity": "クランクは既に最大容量に達しています",
+  "tooltip.create_hp_ts.horse_crank.type": "そのMobは現在のタイプに含まれていません",
+  "tooltip.create_hp_ts.horse_crank.mismatch": "異なるタイプの労働動物は取り付けられません"
+}

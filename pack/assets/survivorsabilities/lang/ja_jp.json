@@ -1,0 +1,9 @@
+{
+  "attribute.name.survivorsabilities.hunger_tolerance": "空腹耐性",
+  "attribute.name.survivorsabilities.max_load": "最大積載量",
+  "attribute.name.survivorsabilities.resilience": "自己治癒能力",
+  "effect.survivorsabilities.workhorse": "働き者",
+  "effect.survivorsabilities.neptune_vision": "ネプチューンの視界",
+  "effect.survivorsabilities.pluto_vision": "プルートの視界",
+  "effect.survivorsabilities.artemis_vision": "アルテミスの視界"
+}

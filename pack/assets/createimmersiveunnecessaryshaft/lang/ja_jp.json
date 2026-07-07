@@ -1,0 +1,7 @@
+{
+  "block.createimmersiveunnecessaryshaft.treated_shaft": "処理木材のシャフト",
+  "createimmersiveunnecessaryshaft.ponder.shaft.header": "処理木材のシャフトでCreateとImmersive Engineering間の回転力を中継する",
+  "createimmersiveunnecessaryshaft.ponder.shaft.text_1": "処理木材のシャフトは回転を直線状に中継します。",
+  "createimmersiveunnecessaryshaft.ponder.shaft.text_2": "ダイナモなど、Immersive EngineeringとCreateの機械同士を接続するのに使えます。",
+  "createimmersiveunnecessaryshaft.ponder.shaft.text_3": "ダイナモが接続されると、ネットワークを過負荷にしない範囲で可能な限り応力を消費します。"
+}

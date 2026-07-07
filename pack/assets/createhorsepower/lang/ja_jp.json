@@ -1,0 +1,23 @@
+{
+  "block.createhorsepower.horse_crank": "馬用クランク",
+  "item.createhorsepower.horse_crank": "馬用クランク",
+  "entity.createhorsepower.chp_leash_knot": "(CHP) リードの結び目",
+  "tooltip.createhorsepower.horse_crank.detached": "労働動物を切り離しました",
+  "tooltip.createhorsepower.horse_crank.attached": "労働動物を取り付けました",
+  "tooltip.createhorsepower.horse_crank.maximumMobs": "取り付けられるMobは1体のみです",
+  "tooltip.createhorsepower.horse_crank.notValidWorker": "そのMobは有効な労働動物ではありません",
+  "tooltip.createhorsepower.horse_crank.alreadyHasWorker": "クランクには既に労働動物がいます",
+  "createhorsepower.ponder.horse_crank.header": "馬用クランクを使う",
+  "createhorsepower.ponder.horse_crank.text_1": "これは馬用クランクです",
+  "createhorsepower.ponder.horse_crank.text_2": "馬用クランクを使うには、まず下に有効なブロックが必要です",
+  "createhorsepower.ponder.horse_crank.text_3": "素材によっては他より優れている場合があります",
+  "createhorsepower.ponder.horse_crank.text_4": "有効な労働動物が取り付けられると、クランクは応力を生み出します",
+  "createhorsepower.ponder.horse_crank.text_5": "設定にある任意のMobを取り付けて労働動物にできます",
+  "createhorsepower.ponder.horse_crank.text_6": "側面から歯車で回転を取り出せます…",
+  "createhorsepower.ponder.horse_crank.text_7": "…または下からシャフトで…",
+  "createhorsepower.ponder.horse_crank.text_8": "…ただし上からは取り出せません",
+  "createhorsepower.ponder.tag.path_types": "道ブロック",
+  "createhorsepower.ponder.tag.path_types.description": "労働動物が歩けるブロック",
+  "createhorsepower.ponder.tag.viable_workers": "有効な労働動物",
+  "createhorsepower.ponder.tag.viable_workers.description": "馬用クランクを回せる動物"
+}

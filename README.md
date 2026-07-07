@@ -17,7 +17,7 @@
 
 モッドパック内の Mod を走査した結果です（`en_us` を持つ名前空間 218 個）。数値は英語キー数の目安。
 
-- ✅ **このパックで翻訳**：109／📦 **Mod同梱で対応済み**：32／🧩 **パック側 kubejs で対応済み**：3／📖 **同梱翻訳が不完全（翻訳候補）**：0／❌ **未対応（翻訳候補）**：37（ほかにライブラリ・未使用など 37 は対象外）
+- ✅ **このパックで翻訳**：146／📦 **Mod同梱で対応済み**：32／🧩 **パック側 kubejs で対応済み**：3／📖 **同梱翻訳が不完全（翻訳候補）**：0／❌ **未対応（翻訳候補）**：0（ほかにライブラリ・未使用など 37 は対象外）
 
 ### ✅ このパックで翻訳
 
@@ -55,13 +55,16 @@
 | `ftbchunks` | FTB Chunks（チャンク取得・地図・ミニマップ・ウェイポイント） | 282 |
 | `jade` | Jade（設置物情報HUDの補完） | 280 |
 | `sophisticatedcore` | Sophisticated Core（バックパック基盤UI補完） | 276 |
+| `xaeroworldmap` | Xaero's World Map（ワールドマップUI全般） | 272 |
 | `beneath` | Beneath（ネザー拡張。TFC統合。木材・鉱石・キノコ・儀式） | 268 |
 | `sfm` | Super Factory Manager（自動化プログラムMod。GUI/ログ/コンパイラ） | 255 |
 | `firmaciv` | Firma: Civilization（TFC。手漕ぎ船・カヌー・航海器具・屋根） | 239 |
 | `potionsmaster` | Potions Master（鉱石探知・構造物高速移動ポーション。粉・効果） | 237 |
 | `voicechat` | Simple Voice Chat（ボイスチャットUI補完） | 228 |
+| `integrateddynamicscompat` | Integrated Dynamics Compat（RF/Tesla/EU/Thaumcraft等の互換アスペクト） | 214 |
 | `enchdesc` | Enchantment Descriptions（エンチャント説明。他Mod分を補完） | 183 |
 | `gcyr` | Gregicality Rocketry（宇宙。惑星岩・レゴリス。同梱ja欠落補完） | 183 |
+| `tfcgenviewer` | TFC Gen Viewer（TFCワールド生成プレビュー・岩石エディター） | 177 |
 | `integratedterminals` | Integrated Terminals（ストレージ端末） | 176 |
 | `projectred_fabrication` | Project Red: Fabrication（IC設計・製造） | 174 |
 | `bits_n_bobs` | Bits n Bobs（Create装飾。岩石タイル・ニキシー管・歯車チェーン） | 174 |
@@ -71,68 +74,102 @@
 | `hostilenetworks` | Hostile Neural Networks（Mob学習シミュ。トリビア詩含む） | 160 |
 | `create_new_age` | Create: New Age（電力・原子炉・磁石発電） | 158 |
 | `modernfix` | ModernFix（最適化オプション補完） | 137 |
+| `attributeslib` | Apothic Attributes（属性・効果・ダメージ源） | 130 |
 | `nochatreports` | No Chat Reports（署名設定補完） | 129 |
 | `gregitas_core` | Gravitas² Core Mod（GregTech統合。素材・真空/圧力配管） | 129 |
 | `fluxnetworks` | Flux Networks（無線送電網） | 123 |
 | `alekiships` | aleki's Nifty Ships（帆船Mod。ボート/スループ・区画・大砲・実績） | 120 |
+| `workers` | Workers（雇用可能な労働者。鉱夫・農民・商人等） | 114 |
 | `buildinggadgets2` | Building Gadgets 2（建築補助ツール・GUI） | 111 |
 | `integratedcrafting` | Integrated Crafting（自動クラフト） | 110 |
 | `megacells` | MEGA Cells（AE2大容量ストレージ拡張） | 108 |
 | `simpleplanes` | Simple Planes（飛行機・ヘリ） | 108 |
 | `ftblibrary` | FTB Library（FTB系共通UI・GUI部品） | 99 |
+| `smallships` | Small Ships（帆船。コグ/ガレー/ドラッカー等×木材） | 95 |
 | `patchouli` | Patchouli 本ビューアUI（全Patchouli本共通） | 90 |
 | `laserio` | LaserIO（アイテム/液体/エネルギー転送・カード） | 90 |
 | `ftbteams` | FTB Teams（チーム・パーティ管理） | 89 |
 | `advancedperipherals` | Advanced Peripherals（アイテム・Patchouli本） | 88 |
+| `sfcr` | SuperFancyClouds（美麗な雲の設定） | 88 |
 | `create_tweaked_controllers` | Create: Tweaked Controllers（ゲームパッド対応コントローラー） | 85 |
 | `mininggadgets` | （重複） | 85 |
 | `comforts` | Comforts（寝袋・ハンモックの補完） | 77 |
 | `iris` | Oculus/Iris（シェーダーUI補完） | 72 |
 | `projectred_transmission` | Project Red: Transmission（配線・ケーブル） | 71 |
+| `precisionprospecting` | Precision Prospecting（TFC探鉱ハンマー/ドリル×金属） | 70 |
 | `petrolsparts` | Petrol's Parts（Create運動部品・Ponder） | 69 |
 | `tfc_textile` | TFC Textile（獣皮防具・繊維） | 69 |
+| `freecam` | Freecam（自由視点カメラ設定） | 65 |
+| `tfships` | TFC Ships（TFC木材の帆船） | 63 |
 | `tfccaffeinated` | TFC Caffeinated（TFC。コーヒー・茶・飲料） | 61 |
+| `extremesoundmuffler` | Extreme Sound Muffler（消音UI） | 56 |
 | `survivorsdelight` | Survivor's Delight（TFC。戸棚・フライパン） | 56 |
 | `simpleradio` | Simple Radio（無線機UI補完） | 55 |
 | `trackwork` | Trackwork（VS2車輪の補完） | 55 |
 | `valkyrienskies` | Valkyrien Skies（物理船コマンド補完） | 55 |
 | `projectred_core` | Project Red: Core（回路部品・イルマー染料。同梱ja欠落補完） | 54 |
+| `deathpunishment` | Death Punishment（デスペナルティ設定） | 53 |
 | `cloth-config2` | Cloth Config（設定UI補完） | 49 |
 | `tfclunchbox` | TFC Lunchbox（保冷・電動ランチボックス） | 49 |
 | `curios` | Curios（装飾品スロットの補完） | 48 |
 | `betterp2p` | Better P2P（AE2 P2P管理カード） | 47 |
+| `ezvcsurvival` | Voiceless Survival（音声反応設定） | 44 |
 | `advancedtfctech` | Advanced TFC Tech（TFC。脱穀機・製粉所・力織機） | 43 |
+| `zume` | Zume（ズーム設定） | 42 |
 | `itemfilters` | Item Filters（アイテムフィルター各種） | 41 |
 | `tfceureka` | TFC Eureka Compat（TFC木材の操舵輪） | 41 |
 | `vs_eureka` | VS Eureka（VS飛空艇。操舵輪・気球・エンジン） | 40 |
+| `fallingtrees` | Falling Trees（木の一括伐採設定） | 40 |
 | `tfcthermaldeposits` | TFC Thermal Deposits（火山鉱物） | 39 |
+| `tfcambiental` | TFC Ambiental（体温・防寒防暑装備） | 38 |
+| `tfcchannelcasting` | TFC Channel Casting（チョコ鋳造） | 38 |
+| `jadeaddons` | Jade Addons（Jade拡張の表示情報） | 36 |
 | `projectred_integration` | Project Red: Integration（論理ゲート） | 35 |
 | `ae2wtlib` | AE2 Wireless Terminals（ワイヤレス端末） | 35 |
 | `siegemachines` | Medieval Siege Machines（攻城兵器） | 34 |
 | `createmoredrillheads` | Create: More Drill Heads（ドリルヘッド） | 34 |
 | `sodiumdynamiclights` | Dynamic Lights（動的光源の補完） | 34 |
 | `workerstfc` | WorkersTFC（TFC村人の職業・アイテム） | 33 |
+| `blazemap` | Blaze Map（地図UI） | 32 |
 | `cccbridge` | CC:C Bridge（ComputerCraft×Create連携） | 32 |
+| `trashcans` | Trash Cans（ゴミ箱） | 32 |
 | `drivebywire` | Drive By Wire（VS2船のケーブルネットワーク） | 29 |
 | `create_factory_logistics` | Create: Factory Logistics（物流。瓶詰め・ネットワークリンク・液体） | 27 |
+| `woodencog` | Wooden Cog（TFC木製動力） | 27 |
 | `ae2netanalyser` | AE2 Network Analyzer（MEネットワーク可視化） | 24 |
 | `wirelessredstone` | Wireless Redstone（無線レッドストーン） | 24 |
 | `merequester` | ME Requester（AE2自動リクエスト） | 23 |
+| `tfcseedsoftime` | TFC Seeds of Time（種袋） | 23 |
 | `wirelesschargers` | Wireless Chargers（無線充電器） | 23 |
+| `createhorsepower` | Create Horsepower（馬用クランク） | 21 |
 | `ae2ct` | AE2 Crafting Tree（クラフトツリーUI補完） | 19 |
 | `cb_microblock` | CB MicroBlocks（マイクロブロック） | 17 |
 | `tfcgroomer` | TFC Groomer（繁殖制御の補完） | 16 |
+| `cartography` | Cartography（TFC地図レイヤー） | 15 |
 | `ae2things` | AE2 Things（ディスクドライブ） | 12 |
 | `controlling` | Controlling（キー検索の補完） | 12 |
+| `integratedterminalscompat` | Integrated Terminals Compat（端末×JEI/EMI/REI同期） | 12 |
+| `jade_vs` | Jade VS（船の質量表示） | 10 |
 | `moonlight` | Moonlight（木材名の補完） | 9 |
+| `coldsgrappler` | Cold's Grappler（グラップリングフック） | 8 |
+| `survivorsabilities` | Survivor's Abilities（属性・視界効果） | 7 |
 | `castirongrill` | TFC Cast Iron Grill（鋳鉄グリル） | 6 |
 | `hangglider` | Hang Glider（ハンググライダー） | 5 |
+| `create_hp_ts` | Create HP TS（馬力・複数労働動物） | 5 |
+| `createimmersiveunnecessaryshaft` | Create×IE 木製シャフト | 5 |
 | `eyesoficeandfire` | Eyes of Ice and Fire（ドラゴンの目） | 5 |
+| `tfc_support_indicator` | TFC Support Indicator（支持判定） | 5 |
 | `tfcea` | TFC Electrical Appliances（TFC冷蔵庫） | 5 |
+| `findme` | Find Me（近隣インベントリ検索） | 4 |
 | `tfccanes` | TFC Canes（TFC。杖） | 4 |
 | `aeinfinitybooster` | AE Infinity Booster（タブ名の補完） | 3 |
+| `easynametags` | Easy Name Tags（名札命名） | 3 |
 | `headlight` | Headlight（ヘッドライト） | 3 |
-| **合計** | 109名前空間 ＋ Patchouli本26ファイル | **34,628** |
+| `showcaseitem` | Showcase Item（アイテム共有） | 2 |
+| `auroras` | Auroras（オーロラ設定） | 1 |
+| `justenoughprofessions` | Just Enough Professions（職業表示） | 1 |
+| `waves` | Waves（波の字幕） | 1 |
+| **合計** | 146名前空間 ＋ Patchouli本26ファイル | **36,477** |
 
 ### 🧩 パック側 kubejs で対応済み
 
@@ -199,51 +236,14 @@
 
 </details>
 
-### ❌ 未対応・翻訳候補（37）
+### ❌ 未対応・翻訳候補（0）
 
 プレイに関わる未翻訳 Mod（キー数の多い順）。
 
-<details><summary>一覧を開く（37）</summary>
+<details><summary>一覧を開く（0）</summary>
 
 | 名前空間 | Mod | キー数 |
 |------|------|-------:|
-| `xaeroworldmap` | XaerosWorldMap | 272 |
-| `integrateddynamicscompat` | IntegratedDynamics | 214 |
-| `tfcgenviewer` | tfcgenviewer | 177 |
-| `attributeslib` | ApothicAttributes | 130 |
-| `workers` | workers | 114 |
-| `smallships` | smallships | 95 |
-| `sfcr` | sfcr | 88 |
-| `precisionprospecting` | precisionprospecting | 70 |
-| `freecam` | freecam | 65 |
-| `tfships` | tfships | 63 |
-| `extremesoundmuffler` | ExtremeSoundMuffler | 56 |
-| `deathpunishment` | TFC_punishment_for_death | 53 |
-| `ezvcsurvival` | Voiceless Survival | 44 |
-| `zume` | zume | 42 |
-| `fallingtrees` | fallingtrees | 40 |
-| `tfcambiental` | tfcambiental | 38 |
-| `tfcchannelcasting` | tfcchannelcasting | 38 |
-| `jadeaddons` | JadeAddons | 36 |
-| `blazemap` | BlazeMap | 32 |
-| `trashcans` | trashcans | 32 |
-| `woodencog` | woodencog | 27 |
-| `tfcseedsoftime` | tfcseedsoftime | 23 |
-| `createhorsepower` | createhorsepower | 21 |
-| `cartography` | Cartography | 15 |
-| `integratedterminalscompat` | IntegratedTerminals | 12 |
-| `jade_vs` | Jade-VS | 10 |
-| `coldsgrappler` | ColdGrapplerAndRopes(Forge1.20.1)vs1.0.0 | 8 |
-| `survivorsabilities` | survivorsabilities | 7 |
-| `create_hp_ts` | create_hp_ts | 5 |
-| `createimmersiveunnecessaryshaft` | createimmersiveunnecessaryshaft | 5 |
-| `tfc_support_indicator` | tfc_support_indicator | 5 |
-| `findme` | findme | 4 |
-| `easynametags` | EasyNameTags | 3 |
-| `showcaseitem` | showcaseitem | 2 |
-| `auroras` | Auroras | 1 |
-| `justenoughprofessions` | JustEnoughProfessions | 1 |
-| `waves` | Waves | 1 |
 
 </details>
 
