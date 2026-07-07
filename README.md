@@ -17,7 +17,7 @@
 
 モッドパック内の Mod を走査した結果です（`en_us` を持つ名前空間 218 個）。数値は英語キー数の目安。
 
-- ✅ **このパックで翻訳**：37／📦 **Mod同梱で対応済み**：34／🧩 **パック側 kubejs で対応済み**：3／📖 **同梱翻訳が不完全（翻訳候補）**：32／❌ **未対応（翻訳候補）**：73（ほかにライブラリ・未使用など 39 は対象外）
+- ✅ **このパックで翻訳**：38／📦 **Mod同梱で対応済み**：34／🧩 **パック側 kubejs で対応済み**：3／📖 **同梱翻訳が不完全（翻訳候補）**：32／❌ **未対応（翻訳候補）**：72（ほかにライブラリ・未使用など 39 は対象外）
 
 ### ✅ このパックで翻訳
 
@@ -59,8 +59,9 @@
 | `projectred_integration` | Project Red: Integration（論理ゲート） | 35 |
 | `cccbridge` | CC:C Bridge（ComputerCraft×Create連携） | 32 |
 | `drivebywire` | Drive By Wire（VS2船のケーブルネットワーク） | 29 |
+| `create_factory_logistics` | Create: Factory Logistics（物流。瓶詰め・ネットワークリンク・液体） | 27 |
 | `tfccanes` | TFC Canes（TFC。杖） | 4 |
-| **合計** | 37名前空間 ＋ Patchouli本26ファイル | **20,638** |
+| **合計** | 38名前空間 ＋ Patchouli本26ファイル | **20,665** |
 
 ### 🧩 パック側 kubejs で対応済み
 
@@ -161,11 +162,11 @@
 
 </details>
 
-### ❌ 未対応・翻訳候補（73）
+### ❌ 未対応・翻訳候補（72）
 
 プレイに関わる未翻訳 Mod（キー数の多い順）。
 
-<details><summary>一覧を開く（73）</summary>
+<details><summary>一覧を開く（72）</summary>
 
 | 名前空間 | Mod | キー数 |
 |------|------|-------:|
@@ -214,7 +215,6 @@
 | `workerstfc` | workerstfc | 33 |
 | `blazemap` | BlazeMap | 32 |
 | `trashcans` | trashcans | 32 |
-| `create_factory_logistics` | create_factory_logistics | 27 |
 | `woodencog` | woodencog | 27 |
 | `ae2netanalyser` | AE2NetworkAnalyzer | 24 |
 | `wirelessredstone` | wirelessredstone | 24 |
