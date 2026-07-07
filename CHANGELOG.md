@@ -6,6 +6,19 @@
 
 ## [Unreleased]
 
+## [0.14.0] - 2026-07-07
+
+### Added
+
+- **Mod 15種を翻訳**（計2,721キー）。うち3つは Mod 同梱 ja の欠落・英語のまま部分を補完。
+  - **enderio（Ender IO）**（553）：同梱 ja が実質英語コピーだったため全面翻訳。機械・導管・合金・キャパシタ・エンチャント・GUI（色ガラス/石英は合成）。
+  - **powergrid（Power Grid）**（413・補完）：電子回路シミュレーション。部品・計器・回路設計GUI・Ponder（電子回路チュートリアル160）。
+  - **railways（Steam 'n' Rails）**（376・補完）：鉄道拡張。木材×レール・煙突（材質×形状）・台車・ロコメタルを合成。
+  - **sfm（Super Factory Manager）**（255）：自動化プログラムMod。GUI・ログ・コンパイラメッセージ。
+  - **gregitas_core（Gravitas² Core）**（129）：GregTech統合コア。素材・真空/圧力配管・岩石鉱石。
+  - **laserio（90）／vs_eureka（40）／advancedtfctech（42）／betterp2p（47）／ae2wtlib（35）／merequester（23）／wirelessredstone（24）／ae2things（12）／castirongrill（6）／hangglider（5）**。
+  - `%s`/`%d`/`%1$s`/`%.2f`・§コード・`_強調_`・改行を保持し検証（未訳0）。
+
 ## [0.13.0] - 2026-07-07
 
 ### Added
@@ -164,7 +177,8 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.13.0...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.14.0...HEAD
+[0.14.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.13.0...v0.14.0
 [0.13.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.12.0...v0.13.0
 [0.12.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.11.0...v0.12.0
 [0.11.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.10.0...v0.11.0
