@@ -1,0 +1,10 @@
+{
+  "itemGroup.epp": "Extended AE2",
+  "block.expatternprovider.fishbig": "フィッシュビッグ",
+  "block.expatternprovider.assembler_matrix_glass": "アセンブラーマトリックスガラス",
+  "gui.expatternprovider.tag_storage_bus.desc.01": "& = AND    | = OR",
+  "gui.expatternprovider.tag_storage_bus.desc.02": "^ = XOR",
+  "gui.expatternprovider.tag_storage_bus.desc.03": "() で優先    * でワイルドカード",
+  "gui.expatternprovider.tank_amount": "%s mb / %s mb",
+  "key.epp.category": "Extended AE"
+}

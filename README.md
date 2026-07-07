@@ -17,7 +17,7 @@
 
 モッドパック内の Mod を走査した結果です（`en_us` を持つ名前空間 218 個）。数値は英語キー数の目安。
 
-- ✅ **このパックで翻訳**：76／📦 **Mod同梱で対応済み**：33／🧩 **パック側 kubejs で対応済み**：3／📖 **同梱翻訳が不完全（翻訳候補）**：25／❌ **未対応（翻訳候補）**：44（ほかにライブラリ・未使用など 37 は対象外）
+- ✅ **このパックで翻訳**：84／📦 **Mod同梱で対応済み**：32／🧩 **パック側 kubejs で対応済み**：3／📖 **同梱翻訳が不完全（翻訳候補）**：25／❌ **未対応（翻訳候補）**：37（ほかにライブラリ・未使用など 37 は対象外）
 
 ### ✅ このパックで翻訳
 
@@ -44,6 +44,7 @@
 | `tfc_ie_addon` | TFC-IE Crossover（TFC×IE。鉱石・金属加工・鉱物） | 461 |
 | `vs_clockwork` | VS: Clockwork（Create×Valkyrien Skies。飛空艇・ガス・気球） | 458 |
 | `createdeco` | Create Deco（装飾。同梱ja欠落＝ファサード・塀・角レンガを補完） | 418 |
+| `thoriumreactors` | Thorium Reactors（トリウム原子炉。多ブロック原子炉・タービン・熱交換器） | 369 |
 | `framedblocks` | FramedBlocks（カモフラージュ装飾。幾何形状ブロック・設定・ツールチップ） | 346 |
 | `createdieselgenerators` | Create: Diesel Generators（同梱ja欠落＝燃料・機械・Ponderを補完） | 286 |
 | `ftbchunks` | FTB Chunks（チャンク取得・地図・ミニマップ・ウェイポイント） | 282 |
@@ -55,6 +56,7 @@
 | `integratedterminals` | Integrated Terminals（ストレージ端末） | 176 |
 | `projectred_fabrication` | Project Red: Fabrication（IC設計・製造） | 174 |
 | `bits_n_bobs` | Bits n Bobs（Create装飾。岩石タイル・ニキシー管・歯車チェーン） | 174 |
+| `expatternprovider` | ExtendedAE（AE2拡張。同梱ja欠落8を補完） | 172 |
 | `projectred_illumination` | Project Red: Illumination（16色ランプ・照明） | 162 |
 | `hostilenetworks` | Hostile Neural Networks（Mob学習シミュ。トリビア詩含む） | 160 |
 | `create_new_age` | Create: New Age（電力・原子炉・磁石発電） | 158 |
@@ -63,6 +65,7 @@
 | `alekiships` | aleki's Nifty Ships（帆船Mod。ボート/スループ・区画・大砲・実績） | 120 |
 | `buildinggadgets2` | Building Gadgets 2（建築補助ツール・GUI） | 111 |
 | `integratedcrafting` | Integrated Crafting（自動クラフト） | 110 |
+| `megacells` | MEGA Cells（AE2大容量ストレージ拡張） | 108 |
 | `simpleplanes` | Simple Planes（飛行機・ヘリ） | 108 |
 | `ftblibrary` | FTB Library（FTB系共通UI・GUI部品） | 99 |
 | `patchouli` | Patchouli 本ビューアUI（全Patchouli本共通） | 90 |
@@ -77,6 +80,7 @@
 | `tfccaffeinated` | TFC Caffeinated（TFC。コーヒー・茶・飲料） | 61 |
 | `survivorsdelight` | Survivor's Delight（TFC。戸棚・フライパン） | 56 |
 | `projectred_core` | Project Red: Core（回路部品・イルマー染料。同梱ja欠落補完） | 54 |
+| `tfclunchbox` | TFC Lunchbox（保冷・電動ランチボックス） | 49 |
 | `betterp2p` | Better P2P（AE2 P2P管理カード） | 47 |
 | `advancedtfctech` | Advanced TFC Tech（TFC。脱穀機・製粉所・力織機） | 43 |
 | `itemfilters` | Item Filters（アイテムフィルター各種） | 41 |
@@ -87,19 +91,23 @@
 | `ae2wtlib` | AE2 Wireless Terminals（ワイヤレス端末） | 35 |
 | `siegemachines` | Medieval Siege Machines（攻城兵器） | 34 |
 | `createmoredrillheads` | Create: More Drill Heads（ドリルヘッド） | 34 |
+| `workerstfc` | WorkersTFC（TFC村人の職業・アイテム） | 33 |
 | `cccbridge` | CC:C Bridge（ComputerCraft×Create連携） | 32 |
 | `drivebywire` | Drive By Wire（VS2船のケーブルネットワーク） | 29 |
 | `create_factory_logistics` | Create: Factory Logistics（物流。瓶詰め・ネットワークリンク・液体） | 27 |
+| `ae2netanalyser` | AE2 Network Analyzer（MEネットワーク可視化） | 24 |
 | `wirelessredstone` | Wireless Redstone（無線レッドストーン） | 24 |
 | `merequester` | ME Requester（AE2自動リクエスト） | 23 |
+| `wirelesschargers` | Wireless Chargers（無線充電器） | 23 |
 | `cb_microblock` | CB MicroBlocks（マイクロブロック） | 17 |
 | `ae2things` | AE2 Things（ディスクドライブ） | 12 |
 | `castirongrill` | TFC Cast Iron Grill（鋳鉄グリル） | 6 |
 | `hangglider` | Hang Glider（ハンググライダー） | 5 |
 | `eyesoficeandfire` | Eyes of Ice and Fire（ドラゴンの目） | 5 |
+| `tfcea` | TFC Electrical Appliances（TFC冷蔵庫） | 5 |
 | `tfccanes` | TFC Canes（TFC。杖） | 4 |
 | `headlight` | Headlight（ヘッドライト） | 3 |
-| **合計** | 76名前空間 ＋ Patchouli本26ファイル | **28,992** |
+| **合計** | 84名前空間 ＋ Patchouli本26ファイル | **29,775** |
 
 ### 🧩 パック側 kubejs で対応済み
 
@@ -109,11 +117,11 @@
 | `gtceu` | gtceu | 5,921 |
 | `create` | create | 3,646 |
 
-### 📦 Mod同梱で対応済み（33）
+### 📦 Mod同梱で対応済み（32）
 
 各 Mod が自前で `ja_jp` を同梱しており、そのまま日本語表示されます。
 
-<details><summary>一覧を開く（33）</summary>
+<details><summary>一覧を開く（32）</summary>
 
 | 名前空間 | Mod | キー数 |
 |------|------|-------:|
@@ -128,7 +136,6 @@
 | `computercraft` | cc-tweaked | 233 |
 | `sophisticatedbackpacks` | sophisticatedbackpacks | 228 |
 | `waystones` | waystones | 199 |
-| `expatternprovider` | ExtendedAE | 172 |
 | `advanced_ae` | AdvancedAE | 167 |
 | `storagedrawers` | StorageDrawers | 133 |
 | `jei` | jei | 132 |
@@ -192,21 +199,19 @@
 
 </details>
 
-### ❌ 未対応・翻訳候補（44）
+### ❌ 未対応・翻訳候補（37）
 
 プレイに関わる未翻訳 Mod（キー数の多い順）。
 
-<details><summary>一覧を開く（44）</summary>
+<details><summary>一覧を開く（37）</summary>
 
 | 名前空間 | Mod | キー数 |
 |------|------|-------:|
-| `thoriumreactors` | thoriumreactors | 369 |
 | `xaeroworldmap` | XaerosWorldMap | 272 |
 | `integrateddynamicscompat` | IntegratedDynamics | 214 |
 | `tfcgenviewer` | tfcgenviewer | 177 |
 | `attributeslib` | ApothicAttributes | 130 |
 | `workers` | workers | 114 |
-| `megacells` | megacells | 108 |
 | `smallships` | smallships | 95 |
 | `sfcr` | sfcr | 88 |
 | `precisionprospecting` | precisionprospecting | 70 |
@@ -214,20 +219,16 @@
 | `tfships` | tfships | 63 |
 | `extremesoundmuffler` | ExtremeSoundMuffler | 56 |
 | `deathpunishment` | TFC_punishment_for_death | 53 |
-| `tfclunchbox` | tfclunchbox | 49 |
 | `ezvcsurvival` | Voiceless Survival | 44 |
 | `zume` | zume | 42 |
 | `fallingtrees` | fallingtrees | 40 |
 | `tfcambiental` | tfcambiental | 38 |
 | `tfcchannelcasting` | tfcchannelcasting | 38 |
 | `jadeaddons` | JadeAddons | 36 |
-| `workerstfc` | workerstfc | 33 |
 | `blazemap` | BlazeMap | 32 |
 | `trashcans` | trashcans | 32 |
 | `woodencog` | woodencog | 27 |
-| `ae2netanalyser` | AE2NetworkAnalyzer | 24 |
 | `tfcseedsoftime` | tfcseedsoftime | 23 |
-| `wirelesschargers` | wirelesschargers | 23 |
 | `createhorsepower` | createhorsepower | 21 |
 | `cartography` | Cartography | 15 |
 | `integratedterminalscompat` | IntegratedTerminals | 12 |
@@ -237,7 +238,6 @@
 | `create_hp_ts` | create_hp_ts | 5 |
 | `createimmersiveunnecessaryshaft` | createimmersiveunnecessaryshaft | 5 |
 | `tfc_support_indicator` | tfc_support_indicator | 5 |
-| `tfcea` | tfcea | 5 |
 | `findme` | findme | 4 |
 | `easynametags` | EasyNameTags | 3 |
 | `showcaseitem` | showcaseitem | 2 |

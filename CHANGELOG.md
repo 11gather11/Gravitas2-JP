@@ -6,6 +6,21 @@
 
 ## [Unreleased]
 
+## [0.16.0] - 2026-07-07
+
+### Added
+
+- **Mod・KubeJSコンテンツ 9種を翻訳**（計972キー）。うち1つは同梱 ja の欠落補完、1つはパック独自の KubeJS 追加アイテム。
+  - **thoriumreactors（Thorium Reactors）**（369）：多ブロック式トリウム原子炉Mod。原子炉/タービン/熱交換器の構造ブロック・機械（濃縮機・結晶化装置・遠心分離機ほか）・制御GUI（原子炉概要インターフェース・緊急停止・バルブ操作）・金属/鉱石/流体を翻訳（金属系は合成）。
+  - **gregitas（Gravitas² の KubeJS 追加アイテム）**（343）：クリエイティブ「KubeJS」タブに並ぶGregTech風のカスタム工具部品。金属17種×工具パーツ16種（肉切り刃・のこぎりの刃・ハンマーのヘッド等）、穀物マッシュ・木材の船体セグメント・各種素材を `assets/gregitas` の lang 上書きで合成翻訳。
+  - **megacells（MEGA Cells）**（108）：AE2大容量ストレージ拡張。サイズ×セル種（アイテム/液体/化学物質/マナ/ソース）を合成、クラフト機構・圧縮を翻訳。
+  - **workerstfc（WorkersTFC）**（33）：TFC村人の職業・アイテム。**tfclunchbox（49）**：保冷/電動ランチボックス。**ae2netanalyser（24）**：MEネットワーク可視化。**wirelesschargers（23）**：無線充電器。**expatternprovider（ExtendedAE, 8・補完）**。**tfcea（5）**：TFC冷蔵庫。
+  - `%s`/`%d`/`%1$d`/`%%`・§コードを保持し検証（未訳0）。
+
+### Note
+
+- 依頼にあった「gravitas」は v0.1.0 で翻訳済みの FTB Quests 名前空間で、残る英語表記は Mod名・ブランド名・ASCIIアート（Create / GregTech / NuclearCraft / `uwu` 等）のため意図的に原語のまま。クリエイティブ「KubeJS」タブの未訳アイテムは上記 **gregitas** で対応。
+
 ## [0.15.0] - 2026-07-07
 
 ### Added
@@ -189,7 +204,8 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.15.0...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.16.0...HEAD
+[0.16.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.15.0...v0.16.0
 [0.15.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.14.0...v0.15.0
 [0.14.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.13.0...v0.14.0
 [0.13.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.12.0...v0.13.0
