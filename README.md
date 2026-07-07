@@ -17,7 +17,7 @@
 
 モッドパック内の Mod を走査した結果です（`en_us` を持つ名前空間 218 個）。数値は英語キー数の目安。
 
-- ✅ **このパックで翻訳**：84／📦 **Mod同梱で対応済み**：32／🧩 **パック側 kubejs で対応済み**：3／📖 **同梱翻訳が不完全（翻訳候補）**：25／❌ **未対応（翻訳候補）**：37（ほかにライブラリ・未使用など 37 は対象外）
+- ✅ **このパックで翻訳**：109／📦 **Mod同梱で対応済み**：32／🧩 **パック側 kubejs で対応済み**：3／📖 **同梱翻訳が不完全（翻訳候補）**：0／❌ **未対応（翻訳候補）**：37（ほかにライブラリ・未使用など 37 は対象外）
 
 ### ✅ このパックで翻訳
 
@@ -31,14 +31,18 @@
 | `railways` | Steam n Rails（鉄道拡張。同梱ja欠落376=レール/煙突/台車を補完） | 1,293 |
 | `tombstone` | Corail Tombstone（墓・死亡管理。アイテム・実績・メッセージ・コンペンディウム） | 1,112 |
 | `railcraft` | Railcraft Reborn（鉄道Mod。同梱ja欠落153=レール/信号/機関車を補完） | 1,025 |
+| `ae2` | Applied Energistics 2（ME倉庫。同梱ja欠落を補完） | 999 |
 | `scguns` | Scorched Guns（銃Mod。銃/弾薬/防具・実績・エンチャント・タレット・GUI） | 971 |
 | `everycomp` | Every Compat（他Mod家具の互換ブロック名。同梱ja欠落961を補完） | 962 |
 | `tfcastikorcarts` | TFC Astikor Carts（木材×荷車。補給/動物カート・鋤・車輪） | 928 |
 | `createbigcannons` | Create Big Cannons（大砲Mod。同梱ja欠落352=信管・砲弾・Ponderを補完） | 744 |
 | `powergrid` | Power Grid（電子回路シミュレーション。同梱ja欠落413を補完） | 663 |
 | `sgjourney` | Stargate Journey（同梱ja欠落64=DHD/インターフェース補完） | 661 |
+| `xaerominimap` | Xaero's Minimap（ミニマップ。同梱ja欠落を補完） | 611 |
 | `ftbquests` | FTB Quests（クエストシステムのUI・エディタ・タスク・報酬） | 572 |
 | `enderio` | Ender IO（機械・導管・合金。同梱jaが実質英語のため553を翻訳） | 553 |
+| `inventoryprofilesnext` | Inventory Profiles Next（整理Modの補完） | 519 |
+| `recruits` | Recruits（傭兵。派閥/攻城UI補完） | 519 |
 | `integratedtunnels` | Integrated Tunnels（転送） | 487 |
 | `vintage` | Create: Vintage（Createアドオン。金属加工品・機械・Ponder・JEI） | 481 |
 | `tfc_ie_addon` | TFC-IE Crossover（TFC×IE。鉱石・金属加工・鉱物） | 461 |
@@ -46,20 +50,28 @@
 | `createdeco` | Create Deco（装飾。同梱ja欠落＝ファサード・塀・角レンガを補完） | 418 |
 | `thoriumreactors` | Thorium Reactors（トリウム原子炉。多ブロック原子炉・タービン・熱交換器） | 369 |
 | `framedblocks` | FramedBlocks（カモフラージュ装飾。幾何形状ブロック・設定・ツールチップ） | 346 |
+| `create_connected` | Create: Connected（Create拡張の補完） | 307 |
 | `createdieselgenerators` | Create: Diesel Generators（同梱ja欠落＝燃料・機械・Ponderを補完） | 286 |
 | `ftbchunks` | FTB Chunks（チャンク取得・地図・ミニマップ・ウェイポイント） | 282 |
+| `jade` | Jade（設置物情報HUDの補完） | 280 |
+| `sophisticatedcore` | Sophisticated Core（バックパック基盤UI補完） | 276 |
 | `beneath` | Beneath（ネザー拡張。TFC統合。木材・鉱石・キノコ・儀式） | 268 |
 | `sfm` | Super Factory Manager（自動化プログラムMod。GUI/ログ/コンパイラ） | 255 |
 | `firmaciv` | Firma: Civilization（TFC。手漕ぎ船・カヌー・航海器具・屋根） | 239 |
 | `potionsmaster` | Potions Master（鉱石探知・構造物高速移動ポーション。粉・効果） | 237 |
+| `voicechat` | Simple Voice Chat（ボイスチャットUI補完） | 228 |
+| `enchdesc` | Enchantment Descriptions（エンチャント説明。他Mod分を補完） | 183 |
 | `gcyr` | Gregicality Rocketry（宇宙。惑星岩・レゴリス。同梱ja欠落補完） | 183 |
 | `integratedterminals` | Integrated Terminals（ストレージ端末） | 176 |
 | `projectred_fabrication` | Project Red: Fabrication（IC設計・製造） | 174 |
 | `bits_n_bobs` | Bits n Bobs（Create装飾。岩石タイル・ニキシー管・歯車チェーン） | 174 |
 | `expatternprovider` | ExtendedAE（AE2拡張。同梱ja欠落8を補完） | 172 |
 | `projectred_illumination` | Project Red: Illumination（16色ランプ・照明） | 162 |
+| `repurposed_structures` | Repurposed Structures（構造物名を補完） | 161 |
 | `hostilenetworks` | Hostile Neural Networks（Mob学習シミュ。トリビア詩含む） | 160 |
 | `create_new_age` | Create: New Age（電力・原子炉・磁石発電） | 158 |
+| `modernfix` | ModernFix（最適化オプション補完） | 137 |
+| `nochatreports` | No Chat Reports（署名設定補完） | 129 |
 | `gregitas_core` | Gravitas² Core Mod（GregTech統合。素材・真空/圧力配管） | 129 |
 | `fluxnetworks` | Flux Networks（無線送電網） | 123 |
 | `alekiships` | aleki's Nifty Ships（帆船Mod。ボート/スループ・区画・大砲・実績） | 120 |
@@ -74,13 +86,20 @@
 | `advancedperipherals` | Advanced Peripherals（アイテム・Patchouli本） | 88 |
 | `create_tweaked_controllers` | Create: Tweaked Controllers（ゲームパッド対応コントローラー） | 85 |
 | `mininggadgets` | （重複） | 85 |
+| `comforts` | Comforts（寝袋・ハンモックの補完） | 77 |
+| `iris` | Oculus/Iris（シェーダーUI補完） | 72 |
 | `projectred_transmission` | Project Red: Transmission（配線・ケーブル） | 71 |
 | `petrolsparts` | Petrol's Parts（Create運動部品・Ponder） | 69 |
 | `tfc_textile` | TFC Textile（獣皮防具・繊維） | 69 |
 | `tfccaffeinated` | TFC Caffeinated（TFC。コーヒー・茶・飲料） | 61 |
 | `survivorsdelight` | Survivor's Delight（TFC。戸棚・フライパン） | 56 |
+| `simpleradio` | Simple Radio（無線機UI補完） | 55 |
+| `trackwork` | Trackwork（VS2車輪の補完） | 55 |
+| `valkyrienskies` | Valkyrien Skies（物理船コマンド補完） | 55 |
 | `projectred_core` | Project Red: Core（回路部品・イルマー染料。同梱ja欠落補完） | 54 |
+| `cloth-config2` | Cloth Config（設定UI補完） | 49 |
 | `tfclunchbox` | TFC Lunchbox（保冷・電動ランチボックス） | 49 |
+| `curios` | Curios（装飾品スロットの補完） | 48 |
 | `betterp2p` | Better P2P（AE2 P2P管理カード） | 47 |
 | `advancedtfctech` | Advanced TFC Tech（TFC。脱穀機・製粉所・力織機） | 43 |
 | `itemfilters` | Item Filters（アイテムフィルター各種） | 41 |
@@ -91,6 +110,7 @@
 | `ae2wtlib` | AE2 Wireless Terminals（ワイヤレス端末） | 35 |
 | `siegemachines` | Medieval Siege Machines（攻城兵器） | 34 |
 | `createmoredrillheads` | Create: More Drill Heads（ドリルヘッド） | 34 |
+| `sodiumdynamiclights` | Dynamic Lights（動的光源の補完） | 34 |
 | `workerstfc` | WorkersTFC（TFC村人の職業・アイテム） | 33 |
 | `cccbridge` | CC:C Bridge（ComputerCraft×Create連携） | 32 |
 | `drivebywire` | Drive By Wire（VS2船のケーブルネットワーク） | 29 |
@@ -99,15 +119,20 @@
 | `wirelessredstone` | Wireless Redstone（無線レッドストーン） | 24 |
 | `merequester` | ME Requester（AE2自動リクエスト） | 23 |
 | `wirelesschargers` | Wireless Chargers（無線充電器） | 23 |
+| `ae2ct` | AE2 Crafting Tree（クラフトツリーUI補完） | 19 |
 | `cb_microblock` | CB MicroBlocks（マイクロブロック） | 17 |
+| `tfcgroomer` | TFC Groomer（繁殖制御の補完） | 16 |
 | `ae2things` | AE2 Things（ディスクドライブ） | 12 |
+| `controlling` | Controlling（キー検索の補完） | 12 |
+| `moonlight` | Moonlight（木材名の補完） | 9 |
 | `castirongrill` | TFC Cast Iron Grill（鋳鉄グリル） | 6 |
 | `hangglider` | Hang Glider（ハンググライダー） | 5 |
 | `eyesoficeandfire` | Eyes of Ice and Fire（ドラゴンの目） | 5 |
 | `tfcea` | TFC Electrical Appliances（TFC冷蔵庫） | 5 |
 | `tfccanes` | TFC Canes（TFC。杖） | 4 |
+| `aeinfinitybooster` | AE Infinity Booster（タブ名の補完） | 3 |
 | `headlight` | Headlight（ヘッドライト） | 3 |
-| **合計** | 84名前空間 ＋ Patchouli本26ファイル | **29,775** |
+| **合計** | 109名前空間 ＋ Patchouli本26ファイル | **34,628** |
 
 ### 🧩 パック側 kubejs で対応済み
 
@@ -160,42 +185,17 @@
 
 </details>
 
-### 📖 同梱翻訳が不完全・翻訳候補（25）
+### 📖 同梱翻訳が不完全・翻訳候補（0）
 
 `ja_jp` を同梱しているものの、Mod 更新で追加された要素が未翻訳だったり、英語のまま放置されているもの。NuclearCraft と同様に **欠落分だけをリソースパックの lang 上書きで補完**できます（lang はキー単位でマージされる）。
 
 - **欠落**：`en_us` にあるが `ja_jp` に無いキー（Mod 更新で増えた新要素など）
 - **英語のまま**：`ja_jp` に有るが値が英語のキー（※固有名詞が含まれ得るため目安）
 
-<details><summary>一覧を開く（25）</summary>
+<details><summary>一覧を開く（0）</summary>
 
 | 名前空間 | Mod | 欠落 | 英語のまま | en総数 |
 |------|------|-------:|-------:|-------:|
-| `xaerominimap` | Xaeros_Minimap | 417 | 5 | 611 |
-| `ae2` | appliedenergistics2 | 140 | 10 | 999 |
-| `enchdesc` | EnchantmentDescriptions | 128 | 0 | 169 |
-| `repurposed_structures` | repurposed_structures | 101 | 3 | 161 |
-| `sophisticatedcore` | sophisticatedcore | 61 | 16 | 276 |
-| `recruits` | recruits | 59 | 11 | 519 |
-| `jade` | Jade | 34 | 12 | 279 |
-| `inventoryprofilesnext` | InventoryProfilesNext | 32 | 6 | 519 |
-| `comforts` | comforts | 35 | 2 | 77 |
-| `create_connected` | create_connected | 28 | 4 | 307 |
-| `trackwork` | trackwork | 22 | 2 | 55 |
-| `voicechat` | voicechat | 23 | 1 | 228 |
-| `valkyrienskies` | valkyrienskies-120 | 21 | 1 | 55 |
-| `nochatreports` | NoChatReports | 16 | 5 | 129 |
-| `curios` | curios | 16 | 0 | 48 |
-| `modernfix` | modernfix | 15 | 1 | 137 |
-| `sodiumdynamiclights` | sodiumdynamiclights | 15 | 0 | 34 |
-| `cloth-config2` | cloth-config | 4 | 8 | 49 |
-| `iris` | oculus | 10 | 2 | 72 |
-| `simpleradio` | simpleradio | 8 | 3 | 55 |
-| `tfcgroomer` | tfcgroomer | 5 | 0 | 16 |
-| `ae2ct` | ae2ct | 4 | 0 | 19 |
-| `controlling` | Controlling | 3 | 0 | 12 |
-| `moonlight` | moonlight | 3 | 0 | 9 |
-| `aeinfinitybooster` | AEInfinityBooster | 0 | 1 | 3 |
 
 </details>
 

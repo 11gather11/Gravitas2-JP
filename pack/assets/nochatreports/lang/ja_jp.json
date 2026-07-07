@@ -1,0 +1,23 @@
+{
+  "key.nochatreports.ctrl": "Ctrl",
+  "key.nochatreports.cmd": "Cmd",
+  "gui.nochatreports.safety_status.insecure_signing": "チャット署名を有効にしています。これによりあなたの全メッセージが、チャット通報であなたに不利な証拠として使われる可能性があります。",
+  "algorithm.nochatreports.aes_cfb8_base64.name": "AES/CFB8+Base64R",
+  "algorithm.nochatreports.aes_gcm_base64.name": "AES/GCM+Base64R",
+  "algorithm.nochatreports.aes_ecb_base64.name": "AES/ECB+Base64R",
+  "algorithm.nochatreports.caesar.name": "シーザー暗号",
+  "gui.nochatreports.signing_required.contents": "このサーバーは全てのチャットメッセージへの署名を要求します。つまりメッセージが Mojang に通報される可能性があり、全マルチプレイサーバーからのBANにつながる恐れがあります。これはおそらくサーバー所有者が server.properties の「enforce-secure-profile」を有効のままにしていることを意味します（1.19.1以降の既定）。\n\n「署名を許可」をクリックするとこのセッションでメッセージ署名が有効になります。チャット画面の安全性ステータスボタンからこのサーバーの署名モードを選択することもできます。",
+  "chat.nochatreports.disabled.signing_requested": "サーバーが署名なしメッセージの配信を拒否しました。署名モードを変更するか、プロンプト画面からチャット署名を有効にできます。",
+  "configuration.NoChatReports.config": "No Chat Reports",
+  "configuration.NoChatReports.category.client": "クライアント",
+  "option.NoChatReports.defaultSigningMode": "既定の署名モード",
+  "option.NoChatReports.defaultSigningMode.tooltip": "チャット署名を強制または許可するサーバーの署名モードの既定を設定します。",
+  "option.NoChatReports.showEncryptionIndicators": "暗号化インジケーターを表示",
+  "option.NoChatReports.showEncryptionIndicators.tooltip": "暗号化メッセージのインジケーター（メッセージ左の紫色のバーと、ホバー時に右に表示される §5§l(§r§5ȯ§5§l)§r）の表示を切り替えます。",
+  "option.NoChatReports.hideInsecureMessageIndicators": "未検証メッセージのインジケーターを隠す",
+  "option.NoChatReports.hideSigningRequestMessage": "署名要求メッセージを隠す",
+  "option.NoChatReports.hideSigningRequestMessage.tooltip": "サーバーがクライアントにメッセージ署名を要求したときに表示されるチャットメッセージを隠します。",
+  "configuration.NoChatReports.category.lan": "LAN",
+  "option.NoChatReports.demandOnClientMessage": "クライアントキック時のメッセージ",
+  "option.NoChatReports.demandOnClientMessage.tooltip": "No Chat Reports を導入せずにサーバーに参加しようとしたクライアントに表示されるメッセージです。"
+}

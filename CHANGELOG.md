@@ -6,6 +6,18 @@
 
 ## [Unreleased]
 
+## [0.17.0] - 2026-07-07
+
+### Added
+
+- **同梱翻訳が不完全だった Mod 25種の欠落・英語のまま部分を一括補完**（計1,293キー）。これにより「同梱翻訳が不完全（partial_jar）」が **25 → 0** になりました。
+  - **xaerominimap（Xaero's Minimap）**（422）：ミニマップ全設定UI・洞窟モード・エンティティレーダー・ウェイポイント・領地オーバーレイ・情報表示（`%1$s`・§・改行・方位N/E/S/W保持）。
+  - **ae2（Applied Energistics 2）**（150）：ME倉庫のUI・チャット・空間ストレージ・自動クラフト・パターン・ツールチップ。
+  - **enchdesc（Enchantment Descriptions）**（128）：他Mod由来のエンチャント説明文。
+  - **repurposed_structures（104）**：構造物名を〈バイオーム×構造種〉で合成。
+  - **sophisticatedcore（77）／recruits（70）／jade（46）／inventoryprofilesnext（38）／comforts（37）／create_connected（32）／trackwork（24）／voicechat（24）／valkyrienskies（22）／nochatreports（21）／curios（16）／modernfix（16）／sodiumdynamiclights（15）／cloth-config2（12）／iris（12）／simpleradio（11）／tfcgroomer（5）／ae2ct（4）／controlling（3）／moonlight（3）／aeinfinitybooster（1）**。
+  - `%s`/`%d`/`%1$s`/`%%`・§カラーコード・改行を保持し検証（未訳0）。
+
 ## [0.16.1] - 2026-07-07
 
 ### Fixed
@@ -210,7 +222,8 @@
 - **patchouli**：本ビューアのUI（全Patchouli本共通）を翻訳（90キー）。
 - `build.py`（ビルド＋JSON検証）、`README.md`、`LICENSE`（CC BY-NC-SA 4.0）、CI/自動リリース。
 
-[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.16.1...HEAD
+[Unreleased]: https://github.com/11gather11/Gravitas2-JP/compare/v0.17.0...HEAD
+[0.17.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.16.1...v0.17.0
 [0.16.1]: https://github.com/11gather11/Gravitas2-JP/compare/v0.16.0...v0.16.1
 [0.16.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.15.0...v0.16.0
 [0.15.0]: https://github.com/11gather11/Gravitas2-JP/compare/v0.14.0...v0.15.0

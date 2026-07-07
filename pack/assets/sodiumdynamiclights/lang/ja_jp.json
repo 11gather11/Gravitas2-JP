@@ -1,0 +1,17 @@
+{
+  "sodium.dynamiclights.options.page": "動的光源",
+  "sodium.dynamiclights.options.mode": "品質モード",
+  "sodium.dynamiclights.options.mode.desc": "動的光源の更新レートを設定します",
+  "sodium.dynamiclights.options.self": "手持ち照明",
+  "sodium.dynamiclights.options.self.desc": "一人称視点の動的照明を有効にします。独自の動的照明を持つシェーダーを使用している場合は無効にすることをお勧めします。",
+  "sodium.dynamiclights.options.entities": "動的エンティティ照明",
+  "sodium.dynamiclights.options.entities.desc": "有効にすると、エンティティ（Mobや落ちたアイテムなど）が動的照明を持ちます。",
+  "sodium.dynamiclights.options.blockentities": "動的ブロックエンティティ照明",
+  "sodium.dynamiclights.options.blockentities.desc": "有効にすると、ブロックエンティティが動的照明を持ちます。",
+  "sodium.dynamiclights.options.underwater": "水中で消灯",
+  "sodium.dynamiclights.options.underwater.desc": "水に敏感な光源チェックを有効にします。これにより一部のアイテムは水中では光を発しません。",
+  "sodium.dynamiclights.options.tnt": "TNT照明の品質",
+  "sodium.dynamiclights.options.tnt.desc": "TNT照明の更新レートを設定します。",
+  "sodium.dynamiclights.options.creeper": "クリーパー照明の品質",
+  "sodium.dynamiclights.options.creeper.desc": "クリーパー照明の更新レートを設定します。"
+}

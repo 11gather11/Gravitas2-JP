@@ -1,0 +1,18 @@
+{
+  "curios.cosmetic": "装飾",
+  "commands.curios.drop.success": "%s のスロット %s のアイテムをドロップしました",
+  "commands.curios.dropAll.success": "%s の全スロットのアイテムをドロップしました",
+  "commands.curios.replace.success": "%s のスロット %s を %s で置き換えました",
+  "argument.entity.options.curios.description": "エンティティのcuriosインベントリ",
+  "curios.identifier.bracelet": "ブレスレット",
+  "curios.modifiers.bracelet": "ブレスレットとして装備時:",
+  "curios.modifiers.slots.plus.0": "+%s %s スロット",
+  "curios.modifiers.slots.plus.1": "+%s%% %s スロット",
+  "curios.modifiers.slots.plus.2": "+%s%% %s スロット",
+  "curios.modifiers.slots.take.0": "-%s %s スロット",
+  "curios.modifiers.slots.take.1": "-%s%% %s スロット",
+  "curios.modifiers.slots.take.2": "-%s%% %s スロット",
+  "gui.curios.toggle": "表示の切替",
+  "gui.curios.toggle.cosmetics": "装飾の切替",
+  "gui.curios.page": "ページ %d / %d"
+}

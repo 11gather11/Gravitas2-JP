@@ -1,0 +1,18 @@
+{
+  "key.modernfix": "ModernFix",
+  "modernfix.redirector_installed": "ModernFix が Redirector の導入を検出しました。Redirector は多くの奇妙でデバッグ困難な問題を引き起こすことが知られており、削除を強く推奨します。",
+  "modernfix.option.mixin.perf.cache_profile_texture_url": "無意味なURLオブジェクトの生成を回避し、頭ブロックの描画を高速化します。",
+  "modernfix.option.mixin.bugfix.entity_pose_stack": "Forgeの問題 #9118 を修正します。Modが行列スタックをpushしてpopしないことでデバッグ不能な描画クラッシュを引き起こす問題です。",
+  "modernfix.option.mixin.bugfix.file_dialog_title": "ワールド生成設定のファイルダイアログのセキュリティ問題を修正します。",
+  "modernfix.option.mixin.bugfix.forge_vehicle_packets": "Forgeのパッチが原因のバグを修正します。チャンク境界で乗り物に乗っていると過剰な量のチャンクデータパケットがプレイヤーに送られる問題です。",
+  "modernfix.option.mixin.bugfix.mantle_model_cme": "Mantle のバグを修正します。Tinkers Construct のコンテンツ描画時にランダムな ConcurrentModificationException クラッシュを引き起こす問題です。",
+  "modernfix.option.mixin.bugfix.model_data_manager_cme": "Forge の ModelDataManager システムの設計上の欠陥を回避します。予期しない並行処理の問題を引き起こす可能性があります。",
+  "modernfix.option.mixin.bugfix.recipe_book_type_desync": "Modがカスタムのレシピ本エントリタイプを追加した場合に、Forgeクライアントがバニラサーバーに接続すると切断される問題を修正します。",
+  "modernfix.option.mixin.bugfix.unsafe_modded_shape_caches": "コンテンツModがブロック形状を計算する際に発生しうる様々な ConcurrentModificationException を修正します。",
+  "modernfix.option.mixin.feature.stalled_chunk_load_detection": "このオプションはチャンク読み込みのフリーズ原因の検出に役立つ場合があります。ただし有効のままにすると性能がわずかに低下する可能性があります。",
+  "modernfix.option.mixin.perf.fix_loop_spin_waiting": "Minecraft の組み込み待機関数が過剰なCPUリソースを消費する問題を修正します。",
+  "modernfix.option.mixin.perf.forge_cap_retrieval": "Forge でカスタムエンティティデータの取得をわずかに効率化する小さな最適化です。",
+  "modernfix.option.mixin.perf.forge_registry_lambda": "Forge の見落としを修正し、ホットなレジストリメソッドでの過剰なメモリ割り当てを解消します。",
+  "modernfix.option.mixin.bugfix.restore_old_dragon_movement": "MC-272431 を修正します。エンダードラゴンが1.13以前のようにポータルへ急降下できない問題を追跡したものです。これによりドラゴンは現代のプレイヤーが慣れた挙動とはかなり異なる飛び方をし、ワンサイクル撃破も無効化されるため、既定では有効になっていません。バニラコードの退行を特定してくれた Jukitsu に感謝します。",
+  "modernfix.option.mixin.bugfix.missing_block_entities": "Hypixel は一部のブロックエンティティデータが欠けたチャンクをクライアントに送るため、チェスト等が透明に見えます。これはクライアント側で必要なデータを生成することで問題を『修正』します。正しく動作するサーバーやシングルプレイでは効果がありません。"
+}

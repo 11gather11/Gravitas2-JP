@@ -1,0 +1,13 @@
+{
+  "item_group.simpleradio": "Simple Radio",
+  "block.simpleradio.insulator": "絶縁体",
+  "screen.simpleradio.frequencing.catalyst": "触媒",
+  "screen.simpleradio.frequencing.efficiency": "効率: %s%%",
+  "screen.simpleradio.frequencing.antenna_strength": "アンテナ強度:",
+  "screen.simpleradio.radiosmither.am": "AM",
+  "screen.simpleradio.radiosmither.fm": "FM",
+  "subtitles.simpleradio.short_circuit": "ワイヤーがショートする",
+  "subtitles.simpleradio.tilt_microphone": "マイクが傾く",
+  "subtitles.simpleradio.press_microphone": "マイクが切り替わる",
+  "subtitles.simpleradio.spin_insulator": "絶縁体が回る"
+}

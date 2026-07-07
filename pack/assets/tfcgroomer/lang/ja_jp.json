@@ -1,0 +1,7 @@
+{
+  "gui.tfcgroomer.enable_breeding": "繁殖を有効化",
+  "tfcgroomer.tooltip.toggleBreeding": "繁殖の切替",
+  "tfcgroomer.tooltip.breedDisabled": "繁殖 無効",
+  "tfcgroomer.tooltip.breedEnabled": "繁殖 有効",
+  "config.jade.plugin_tfcgroomer.grooming_station": "毛づくろい台"
+}
